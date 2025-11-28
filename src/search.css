@@ -24,7 +24,7 @@ body {
 
 .container {
   max-width: 800px;
-  height: 52vh;
+  height: 100vh;
   width: 100%;
   background: white;
   border-radius: 12px;
@@ -32,6 +32,9 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+.container:has(#searchInput:focus) {
+  height: 52vh;
 }
 
 .results-count {
