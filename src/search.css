@@ -17,14 +17,14 @@ body {
 #app {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: start;
   height: 100vh;
   padding: 0;
 }
 
 .container {
   max-width: 800px;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background: white;
   border-radius: 12px;
