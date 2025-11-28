@@ -154,5 +154,641 @@
   {
     "question": "Cho hai thực thể NHÂN VIÊN và NGƯỜI THÂN. Biết: mỗi NHÂN VIÊN có thể đóng bảo hiểm cho một số NGƯỜI THÂN nào đó khi họ là nhân viên của đơn vị? Vậy đâu là thực thể yếu?",
     "answer": "NGƯỜI THÂN"
+  },
+  {
+    "question": "Cho hình vẽ, cho biết hình vẽ thể hiện liên kết gì?",
+    "answer": "1 -n"
+  },
+  {
+    "question": "Cho hình vẽ, cho biết thuộc tính Color là thuộc tính gì?",
+    "answer": "Thuộc tính đa trị"
+  },
+  {
+    "question": "Cho hình vẽ, cho biết thuộc tính Vehicle_Id là thuộc tính gì?",
+    "answer": "Thuộc tính khóa"
+  },
+  {
+    "question": "Cho hình vẽ, hãy cho biết liên kết có bậc mấy?",
+    "answer": "1"
+  },
+  {
+    "question": "Cho hình vẽ, hãy chuyển thành lược đồ quan hệ",
+    "answer": "RawMaterial(Material_ID, Unit_of_Measure, Standarrd_Cost) Vendor(Vender_ID, Vendor_Name, Vendor_Address) Quote(Material_ID, Vender_ID, Unit_Price)"
+  },
+  {
+    "question": "Cho hình vẽ, hãy chuyển thành lược đồ quan hệ",
+    "answer": "Nhà(Số nhà, Số tầng) Phòng(Mã phòng, Tên phòng, Số nhà)"
+  },
+  {
+    "question": "Cho hình vẽ, hãy chuyển thành lược đồ quan hệ.",
+    "answer": "Nurse(Nurse_ID, Name, Date_of_Birth ) CareCenter(Center_Name, Location, Nurse_ID_in_charge, Date_Assigned)"
+  },
+  {
+    "question": "Cho hình vẽ, thực hiện chuyển sang lược đồ quan hệ",
+    "answer": "NhanVien(MaNV, HoTen, NgaySinh) SoThich _ NhanVien (MaNV, SoThich)"
+  },
+  {
+    "question": "Cho hình vẽ, thực hiện chuyển sang lược đồ quan hệ",
+    "answer": "SinhVien(MaSV, HoTen, Phai, NgaySinh, MaLop) Lớp(MaLop, TenLop, SiSo)"
+  },
+  {
+    "question": "Cho HoaDon (SoHD, MaSanPham, TenMatHang, SoLuong) và F = { MaSanPham → TenSanPham}. Quan hệ trên ở dạng chuẩn nào?",
+    "answer": "1NF"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E,G,H) và tập phụ thuộc hàm F ={B -> A; DA -> CE; D -> H; GH-> C; AC -> D}. Bao đóng của tập thuôc tính {AC}",
+    "answer": "{ACDEH}"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E,G,H) và tập phụ thuộc hàm F ={B -> A; DA -> CE; D -> H; GH-> C; AC -> D}. Khóa của Q là:",
+    "answer": "BCG"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E,G,H) và tập phụ thuộc hàm F ={B -> A; DA -> CE; D -> H; GH-> C; AC -> D}. Tất cả các khóa của Q là:",
+    "answer": "BCG, BDG, BGH"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E,G) và tập phụ thuộc hàm: F={AB -> C, C -> A, BC -> D, ACD -> B, D ->EG, BE -> C, CG -> BD, CE -> AG} Tìm bao đóng của các tập X={BD}",
+    "answer": "ABCDEG"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E) có r là quan hệ tương ứng. Hãy cho biết phụ thuộc hàm nào sai trên quan hệ r.r (A B C D )a1 b1 c1 d1a1 b3 c1 d1a2 b1 c4 d3a2 b1 c4 d3a3 b2 c5 d2",
+    "answer": "A->BCD"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E) có r là quan hệ tương ứng. r (A B C D E )a b c d ea b g d hh c n a fc d n b dCho biết phụ thuộc hàm nào đúng trên quan hệ r?",
+    "answer": "A->D"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D,E) và tập phụ thuộc hàm F={ A → BC, AB → D}. Cho biết kết quả bao đóng của (AB)+?",
+    "answer": "{ABCD}"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D) và tập phụ thuộc hàm F={ A → BC, AB → D}. Cho biết kết quả phủ tối thiệu của tập F là gì?",
+    "answer": "{ A → B, B → C, A → D }"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A,B,C,D) và tập phụ thuộc hàm F={AB->C; B->D; BC->A}. Quan hệ Q đạt dạng chuẩn?",
+    "answer": "Dạng chuẩn 1 (1NF)"
+  },
+  {
+    "question": "Cho lựơc đồ quan hệ Q(G,M,V,N,H,P) và tập phụ thuộc hàm:F={G->M, G->N, G->H, G->P, M->V, NHP->M}. Quan hệ trên đạt dạng chuẩn?",
+    "answer": "Dạng chuẩn 2 (2NF)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(A,B,C,D,E,G) với tập cỏc phụ thuộc hàm F ={AB-->C, C-->B, ABD-->E, G-->A, A-->B, B-->E, D-->A, D-->B}. Các phụ thuộc hàm nào sau đây là dư thừa đối với F?",
+    "answer": "D-->B"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(A,B,C,D,E,G) với tập cỏc phụ thuộc hàm F ={AB-->C, C-->B, ABD-->E, G-->A, A-->B, B-->E, D-->A, D-->B}. Các phụ thuộc hàm nào sau đây là dư thừa đối với F?",
+    "answer": "ABD-->E"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(A,B,C,D,E,G) với tập cỏc phụ thuộc hàm F ={AB-->C, C-->B, ABD-->E, G-->A, A-->B, B-->E, D-->A, D-->B}. Các phụ thuộc hàm nào sau đây là không dư thừa đối với F?",
+    "answer": "D-->A"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(A,B,C,D,E,G) với tập cỏc phụ thuộc hàm F ={AB-->C, C-->B, ABD-->E, G-->A, A-->B, B-->E, D-->A, D-->B}. Cỏc phụ thuộc hàm nxzào sau đõy là dư thừa đối với F?",
+    "answer": "ABD-->E và D-->B"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(A,B,C,D,E,G) với tập phụ thuộc hàm F ={AB-->C, C-->B, D-->E, G-->A, A-->B}. Phụ thuộc hàm AB-->C có dư thừa thuộc tính ở vế trái?",
+    "answer": "Không dư thừa"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(SoBD, MaMT, Hoten, Ngaysinh, Gioitinh, Diachi, TenMT, Ngaythi, Diem). Phép tách về 3NF có kết quả là?",
+    "answer": "Mon(MaMT, TenMT, Ngaythi) Thisinh(SoBD, Hoten, Ngaysinh, Gioitinh, Diachi) Ketqua(SoBD, MaMT, Diem)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ R(SoHD, MaSP, MaKH, TenKH, Diachi, TenSP, Gia, Soluongmua). Phép tách về 3NF có kết quả là?",
+    "answer": "R1(MaKH, TenKH, Diachi) R2(MaSP, TenSP, Gia) R3(SoHD, MaSP, MaKH, Soluongmua)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: =<U,F> U={A,B,C,D,E,G,H}F={H->C, H->B, H->A, H->G, H->D }. Các phụ thuộc hàm bị dư thừa trong tập F là:",
+    "answer": "Không có phụ thuộc hàm dư thừa"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: =<U,F> U={A,B,C,D,E,G,H} F={BH->CA, H->BG, GH->AD, DH->CG }. Các phụ thuộc hàm có thuộc tính dư thừa ở vế trái?",
+    "answer": "BH->CA; GH->AD; DH->CG"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: DUAN (MaDA, TenDA, DiaDiem, TGBatDau, MaDV) và DONVI (MaDV, TenDV, DienThoai). Chọn biểu thức đại số quan hệ thực hiện: Cho biết tên dự án và địa điểm thực hiện dự án do phòng Tài vụ thực hiện?",
+    "answer": "TENDA,DiaDiem( TenDV = 'TaiVu'(DUAN *DONVI))"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: DUAN( MaDA, TenDA, DiaDiem, TGBatDau, MaDV) và DONVI( MaDV, TenDV, DienThoai). Chọn biểu thức đại số quan hệ thực hiện: Cho biết tên dự án và địa điểm thực hiện dự án do phòng Tài vụ thực hiện",
+    "answer": "PI TENDA,Điaiem(6TenDv = 'TaiVu'(DUAN *DONVI))"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN MNV, , Ten, NS, GT, HSL, DC, MĐV) và PB (MaPB, TenPB, DiaChi, DienThoai). Cho biết biểu thức đại số quan hệ thực hiện: Cho danh sách họ tên, lương và tên phòng ban của nhân viên?",
+    "answer": "HONV, TENNV, HSL* 720000, TenPB (NHANVIEN * PB)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN ( MaNV, HoTen, NgaySinh, GioiTinh, HeSoLuong, DiaChi, MaĐV). Cho biết biểu thức đại số quan hệ thực hiện: Cho thông tin của nhân viên có địa chỉ Hà nội.",
+    "answer": "DIACHI = 'Hà nội'(NHANVIEN)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN ( MaNV, HoTen, NgaySinh, GioiTinh, HeSoLuong, DiaChi, MaĐV). Cho biết biểu thức đại số quan hệ thực hiện: Cho thông tin của nhân viên nữ có địa chỉ Hà nội.",
+    "answer": "σ GioiTinh = 'Nữ and DiaChi=Hà nội' (Nhanvien)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN ( MaNV, HoTen, NgaySinh, GioiTinh, HeSoLuong, DiaChi, MaĐV). Chọn biểu thức đại số quan hệ thực hiện: Cho biết thông tin gồm họ tên, giới tính, hệ số lương của các nhân viên có hệ số lương >5.",
+    "answer": "HoTen, GioiTinh, HeSoLuong ( Hesoluong>5 (NHANVIEN) )"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN ( MaNV, HoTen, NgaySinh, GioiTinh, HeSoLuong, DiaChi, MaĐV). Chọn biểu thức đại số quan hệ thực hiện: Đếm số nhân viên của từng đơn vị?",
+    "answer": "MAĐV COUNT(MANV) (NHANVIEN)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN( MNV, HoTen, Ten, NS, GT, HSL, DC, MĐV) và PB( MaPB, TenPB, DiaChi, DienThoai). Cho biết biểu thức đại số quan hệ thực hiện: Cho danh sách họ tên, lương và tên phòng ban của nhân viên",
+    "answer": "PiHoNV,TENNV, 720000,TenPB (NHANVIEN * PB)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NHANVIEN( MNV, HoTen, Ten, NS, GT, HSL, DC, MĐV). Cho biết biểu thức đại số quan hệ thực hiện: Cho danh sách họ tên và lương của nhân viên",
+    "answer": "HONV, TENNV, HSL* 720000 (NHANVIEN)"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: NV( MaNV, HoTen, GioiTinh, Tuoi, QueQuan). Chọn biết biểu thức đại số quan hệ thực hiện: Cho danh sách họ tên, quê quán của các nhân viên nữ có tuổi trên 20",
+    "answer": "Pi HoTen,QueQuan(σGioiTinh='Nu'^ Tuoi>20(NV))"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: SinhVien(MaSV, HoTen,Phai, NgaySinh, MaLop). Lop(MaLop, TenLop, Siso) Hỏi thuộc tính MaLop trong lược đồ quan hệ SinhVien đóng vai trò là thuộc tính?",
+    "answer": "Khóa ngoại"
+  },
+  {
+    "question": "Cho lược đồ quan hệ: SinhVien(MaSV, HoTen,Phai, NgaySinh) Hỏi thuộc tính MaSV trong lược đồ đóng vai trò là thuộc tính?",
+    "answer": "Khóa chính"
+  },
+  {
+    "question": "Cho lược đồ R(ABCD) và F = {A BC, B D, AB D}. Cho biết kết qủa của (BD)+?",
+    "answer": "(BD)+ =(BD)"
+  },
+  {
+    "question": "Cho lược đồ R(ABEGHI) và tập phụ thuộc hàm F= { ABE; EG; BEI} Đâu là lựa chọn đúng?",
+    "answer": "AB GI là thành viên của F"
+  },
+  {
+    "question": "Cho quan hệ CungCap(MNCC, TenNCC, DiaChi, TenSP, Gia) và PTH F={MNCC TenNCC, DiaChi; TenNCC,TenSP    Gia}. Phép tách nào là phép tách không mất mát thông tin",
+    "answer": "Congty(MCC, TenNCC, DiaChi) và MatHang(MNCC, TenSP, Gia)"
+  },
+  {
+    "question": "Cho quan hệ KETQUA(MaSV, MaMH, HoTen, Phai, MaLop, TenLop, DiemThi). Tách thànnh quan hệ dạng chuẩn 3NF kết quả là",
+    "answer": "SV(MaSV, HoTen, Phai, MaLop); Lop(MaLop, TenLop); KetQua(MaSV, MaMH, DiemThi)"
+  },
+  {
+    "question": "Cho quan hệ NHÂNVIÊN_DỰÁN( MãsốNV, MãsốDA, Sốgiờ, HọtênNV, TênDA, ĐịađiểmDA) và F = {MãsốNV, MãsốDA → Sốgiờ; MãsốNV → HọtênNV; MãsốDA →TênDA, ĐịađiểmDA}. Kết quả tách quan hệ về dạng chuẩn cao hơn là?",
+    "answer": "R1(MãsốNV, MãsốDA, Sốgiờ); R2(MãsốNV, HọtênNV); R3(MãsốDA, TênDA, ĐịađiểmDA)"
+  },
+  {
+    "question": "Cho quan hệ Q(A,B,C,D) và F = { AB->C, D->B, C->ABD}. Hỏi quan hệ ở dạng chuẩn nào?",
+    "answer": "3NF"
+  },
+  {
+    "question": "Cho quan hệ R gồm các thuộc tính: K# mã thuê bao, TB - tên thuê bao, SDT - số điện thoại, DC - địa chỉ. Chọn đáp án đúng các tên thuê bao có cùng tên là Nguyễn Nguyệt Hương bằng đại số quan hệ?",
+    "answer": "Pi TB(σ TB = 'NguyenNguyetHuong'(R) )"
+  },
+  {
+    "question": "Cho quan hệ R gồm các thuộc tính: K# mã thuê bao, TB - tên thuê bao, SDT - số điện thoại, DC - địa chỉ. Chọn đáp án đúng khi in các thuê bao có cùng tên là Nguyễn Nguyệt Hương bằng đại số quan hệ",
+    "answer": "σTB ='NGUYEN NGUYET HUONG'(R)"
+  },
+  {
+    "question": "Cho Quan hệ R(A1, A2, A3, A4, A5) và F = {A2->A4; A1A2->A3A4A5}. Kết quả của phép tách về dạng chuẩn 3NF là?",
+    "answer": "R1(A2, A4) và R2(A1, A2, A3, A5)"
+  },
+  {
+    "question": "Cho quan hệ R(ABCD) và 2 tập pth F= {A ->C, D->B, C->ABD}; G= {A->C, D->B, C->A, C->B, C->D}. Hỏi F và G có tương đương nhau",
+    "answer": "Có"
+  },
+  {
+    "question": "Cho quan hệ R(ABCD) và 2 tập pth F= {A->C, D->B, C->ABD}; G= {A->C, D->B, C->AD}. Hỏi F và G có tương đương nhau",
+    "answer": "Có"
+  },
+  {
+    "question": "Cho quan hệ R(ABCD) và 2 tập pth F= {A->C, D->B, C->ABD}; G= {A->C, D->B, C->D}. Hỏi F và G có tương đương nhau",
+    "answer": "Không"
+  },
+  {
+    "question": "Cho quan hệ R={ABCD} và Cho F = {A BC, B D, AB D}. Cho biết kết quả của tập phụ thuộc hàm không dư thừa",
+    "answer": "{ ABC, BD }"
+  },
+  {
+    "question": "Cho quan hệ R=ABCD và F= {A->C, D->B, C->ABD}. Có phụ thuộc hàm có vế trái dư thừa không",
+    "answer": "Không"
+  },
+  {
+    "question": "Cho quan hệ R=ABCD và F= {A->C, D->B, C->ABD}. Dạng chuẩn cao nhất là gì?",
+    "answer": "2NF"
+  },
+  {
+    "question": "Cho quan hệ R=ABCD và F= {A->C, D->B, C->ABD}. Kết quả tách về 3NF là?",
+    "answer": "R1(A, C) và R2(D, B)"
+  },
+  {
+    "question": "Cho quan hệ R=ABCD và F= {A->C, D->B, C->ABD}. Tập F có phụ thuộc hàm dư thừa là",
+    "answer": "Không có phụ thuộc hàm dư thừa"
+  },
+  {
+    "question": "Cho quan hệ R=ABCD và F= {A C, D B, C ABD}. Tập F có phụ thuộc hàm dư thừa là",
+    "answer": "Không có phụ thuộc hàm dư thừa"
+  },
+  {
+    "question": "Cho R = (A, B, C, D, E, G) và tập phụ thuộc hàm F = {AB C, C A, BC D, ACD B, D EG, BE C, CG BD, CE AG}. Tính: (BD)+",
+    "answer": "(BD)+ = {ABCDEG}"
+  },
+  {
+    "question": "Cho R(ABCDE) và tập phụ thuộc hàm F = { AB->C, D->E, E->B } Cho biết bao đóng của tập thuộc tính CD+",
+    "answer": "CDEB"
+  },
+  {
+    "question": "Cho R2 (Số hoá đơn, Số sản phẩm, Tên sản phẩm, Lượng yêu cầu) và F = { Số sản phẩm    Tên sản phẩm}. Kết quả tách về dạng cao hơn là?",
+    "answer": "R3(Số hoá đơn, Số sản phẩm, Lượng yêu cầu); R4(Số sản phẩm, Tên sản phẩm)"
+  },
+  {
+    "question": "Cho R2 (Số hoá đơn, Số sản phẩm, Tên sản phẩm, Lượng yêu cầu) và F = { Số sản phẩm    Tên sản phẩm}. Quan hệ có ở dạng 2NF không?",
+    "answer": "Không"
+  },
+  {
+    "question": "Cho sơ đồ ER của thực thể khách hàng với các thuộc tính của thực thể hình bên. Hãy chuyển thành lược đồ quan hệ.",
+    "answer": "Khách Hàng(Mã Kh, Tên Kh, số nhà, Đường, Phường, Quận, Thành Phố)"
+  },
+  {
+    "question": "Cho tập F={AB; BC; AD}. Đâu là phát biểu đúng?",
+    "answer": "Thuộc tính D phụ thuộc trực tiếp vào thuộc tính A"
+  },
+  {
+    "question": "Cho tập phụ thuộc hàm F = {A → B, B → C, A → D, B → D }. Chọn một khẳng định đúng từ tập phụ thuộc hàm đã có",
+    "answer": "Khi đó B→CD thuộc F+"
+  },
+  {
+    "question": "Cho tập phụ thuộc hàm F={AB --> C, D --> EG, C--> A, BC -->D, CG --> BD, CE --> AG}. Bao đóng của CD là:",
+    "answer": "ABCDEG"
+  },
+  {
+    "question": "Cho tập phụ thuộc hàm F={AB->D, D->C} của lược đồ quan hệ S(A, B, C, D). Phụ thuộc hàm A->C có thể được suy diễn ra từ F nhờ vào?",
+    "answer": "Tất cả đều sai."
+  },
+  {
+    "question": "Cho tập phụ thuộc hàm F={AB->D, D->C} của lược đồ quan hệ S(A, B, C, D). Phụ thuộc hàm AB->C có thể được suy diễn ra từ F nhờ vào?",
+    "answer": "Luật bắc cầu"
+  },
+  {
+    "question": "Cho tập phụ thuộc hàm: F={G H, G I, H G, H I, I G, I H}. Phủ tối thiểu của F là?",
+    "answer": "{GH, HI, IG}"
+  },
+  {
+    "question": "Cho tập pth F={A ->B, A ->C, B ->A, B ->C, C ->A, C-> B}. Phủ tối thiểu của F là",
+    "answer": "{A->B, B->A, B->C, C->B}"
+  },
+  {
+    "question": "Cho tập pth F={A B, A C, B A, B C, C A, C B}. Phủ tối thiểu của F là",
+    "answer": "{AB, BC, CA}"
+  },
+  {
+    "question": "Cho thực thể NHANVIEN như hình minh hoạ, kết quả chuyển thành những bảng quan hệ nào?",
+    "answer": "NHANVIEN(MaNV, TenNV, NS, GT, Luong) Và NV_DT(MaNV, SDT)"
+  },
+  {
+    "question": "Chọn biểu thức đại số quan hệ cho phát biểu sau: Lấy thông tin ở cột A1, A2 từ hai quan hệ R1 và R2 thỏa mãn điều kiện A1 = 'VietNam'.",
+    "answer": "pi A1,A2 ( σ A1=  'VIETNAM'(R1*R2))"
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng khi nói về tập phụ thuộc hàm F và G tương đương:",
+    "answer": "Các phụ thuộc của F được suy dẫn logic từ G và các phụ thuộc của G."
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các phụ thuộc hàm gia tăng:",
+    "answer": "Có thể mở rộng vế trái hoặc cả hai vế phụ thuộc hàm cùng một thuộc tính."
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về tập phụ thuộc hàm tối thiểu:",
+    "answer": "Tập phụ thuộc hàm tối thiểu thỏa mãn: vế phải của pth chỉ gồm một thuộc tính; vế trái không có thuộc tính dư thừa và không có pth dư thừa"
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về tập tương đương:",
+    "answer": "Các phụ thuộc của F được suy dẫn logic từ G và các phụ thuộc của G"
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về thuộc tính dư thừa",
+    "answer": "A1A2 --> B, A1 dư thừa khi A2 --> B phụ thuộc đầy đủ"
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất với F={X-->Z, XY-->WP, XY--> ZWQ, XZ --> R}",
+    "answer": "Vế trái của XY --> WP không có chứa thuộc tính dư thừa."
+  },
+  {
+    "question": "Chọn một khẳng định nào sau đây là đúng:",
+    "answer": "Nếu F = {A → B, B → C, A→ D, B→ D }.khi đó A→ C thuộc F+"
+  },
+  {
+    "question": "Chọn phát biểu đúng trong các phát biểu sau?",
+    "answer": "Lược đồ đã đạt chuẩn 3NF thì cũng đạt chuẩn 2NF"
+  },
+  {
+    "question": "Cơ sở dữ liệu là gì?",
+    "answer": "là tập hợp dữ liệu có cấu trúc được lưu trữ trên các thiết bị trữ tin nhằm thỏa mãn đồng thời cho nhiều người sử dụng khác nhau với các mục đích khác nhau"
+  },
+  {
+    "question": "Dị thường thông tin là nguyên nhân:",
+    "answer": "Gây cản trở cho việc cập nhật, bổ sung thông tin"
+  },
+  {
+    "question": "Đâu KHÔNG được coi là mô hình dữ liệu (Data Model)?",
+    "answer": "Mô hình dữ liệu ký hiệu"
+  },
+  {
+    "question": "Đâu KHÔNG phải là tính chất của phụ thuộc hàm theo Hệ tiên đề Amstrong?",
+    "answer": "Ghép Đôi"
+  },
+  {
+    "question": "Đâu là dạng tổng quát của phép chiếu trong đại số quan hệ?",
+    "answer": "Không hiển thị hình ảnh ngắn hơn"
+  },
+  {
+    "question": "Đâu là dạng tổng quát của phép chọn trong đại số quan hệ?",
+    "answer": "σ <điều kiện> (quan hệ)"
+  },
+  {
+    "question": "Đâu là dạng tổng quát của phép gom nhóm trong đại số quan hệ?",
+    "answer": "(thuộc tính) ( Quan hệ)"
+  },
+  {
+    "question": "Đâu là dạng tổng quát của phép nối tự nhiên trong đại số quan hệ?",
+    "answer": "R*S"
+  },
+  {
+    "question": "Đâu là ký hiệu được dùng cho phép toán chiếu trong các phép toán đại số quan hệ?",
+    "answer": "Π"
+  },
+  {
+    "question": "Đâu là ký hiệu được dùng cho phép toán chọn trong các phép toán đại số quan hệ?",
+    "answer": "σ"
+  },
+  {
+    "question": "Đâu là ký hiệu được dùng để biểu diễn thuộc tính suy dẫn trong mô hình ER?",
+    "answer": "Hình elip có nét đứt đơn"
+  },
+  {
+    "question": "Đâu là nguyên tắc chuyển đổi \"Cho mối liên kết có bậc >2\" khi chuyển từ mô hình ER sang mô hình quan hệ?",
+    "answer": "Tạo ra mối quan hệ (R) và khóa chính của các quan hệ tham gia liên kết được đưa làm khóa ngoại của quan hệ R và các khóa ngoại đồng thời đóng vai trò là khóa chính của R"
+  },
+  {
+    "question": "Đâu là nguyên tắc chuyển đổi \"chuyển thực thể có thuộc tính đa trị\" khi chuyển từ mô hình ER sang mô hình quan hệ?",
+    "answer": "Cả hai nguyên tắc chuyển đổi đều đúng"
+  },
+  {
+    "question": "Đâu là nguyên tắc chuyển đổi \"kiểu thực thể\" khi chuyển từ mô hình ER sang mô hình quan hệ?",
+    "answer": "Tất cả các nguyên tắc đều đúng"
+  },
+  {
+    "question": "Đâu là nguyên tắc chuyển đổi \"quan hệ nhiều - nhiều\" khi chuyển từ mô hình ER sang mô hình quan hệ?",
+    "answer": "Tất cả các nguyên tắc đều đúng"
+  },
+  {
+    "question": "Đâu là phát biểu của thuộc tính đơn của thực thể trong mô hình thực thể liên kết?",
+    "answer": "Là thuộc tính không thể chia nhỏ thành các phần riêng biệt nhỏ hơn."
+  },
+  {
+    "question": "Đâu là phát biểu của thuộc tính đơn trị của thực thể trong mô hình thực thể liên kết?",
+    "answer": "là thuộc tính không thể chia nhỏ thành các phần riêng biệt nhỏ hơn"
+  },
+  {
+    "question": "Đâu là phát biểu của thuộc tính khóa của thực thể trong mô hình ER?",
+    "answer": "là thuộc tính có giá trị duy nhất giúp phân biệt thực thể này với thực thể khác"
+  },
+  {
+    "question": "Đâu là phát biểu của thuộc tính phức của thực thể trong mô hình thực thể liên kết?",
+    "answer": "là thuộc tính có thể phân chia được thành các thành phần nhỏ hơn, mỗi thành phần mang ý nghĩa độc lập"
+  },
+  {
+    "question": "Đây là hình ảnh mô hình dữ liệu nào?",
+    "answer": "Mô hình dữ liệu phân cấp"
+  },
+  {
+    "question": "F ={A→ B , B→ C, BC→ D,DA→ B} chọn một khẳng định đúng sau:",
+    "answer": "A → AD thuộc F+ và A→ D thuộc F+"
+  },
+  {
+    "question": "Giá trị của một thuộc tính trong mô hình dữ liệu quan hệ gồm có những kiểu gì?",
+    "answer": "Tất cả các kiểu đều đúng"
+  },
+  {
+    "question": "Giá trị của thuộc tính trong thực thể gồm những kiểu gì?",
+    "answer": "Tất cả các phát biểu đều đúng"
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Giá trị các thành phần của khoá .........",
+    "answer": "Không thể nhận giá trị null hay các giá trị không xác định."
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Nếu 2 bộ bất kỳ trùng nhau trên các thành phần của khóa thì .........",
+    "answer": "Cũng trùng nhau trên các thành phần của tất cả các bộ"
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: X --> Y (Y Thuộc F) là phụ thuộc hàm đầy đủ, khi và chỉ khi ..........",
+    "answer": "X không chứa thuộc tính dư thừa"
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Hợp các quan hệ khả hợp trên cùng tập các thuộc tính Ω là một quan hệ trên Ω, các bộ là .................... bỏ đi các bộ trùng nhau, chỉ giữ lại những bộ đại diện",
+    "answer": "Các bộ của các quan hệ nguồn thoả điều kiện hợp."
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Nếu quan hệ là dạng chuẩn 1NF và không tồn tại các phụ thuộc hàm sao cho thuộc tính vế trái là một tập con thực sự của khóa và thuộc tính vế phải ..........",
+    "answer": "Là thuộc tính không khóa của quan hệ."
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Phép chiếu quan hệ, tức là từ quan hệ nguồn .........",
+    "answer": "Với chi phí thời gian thực hiện và sử dụng bộ nhớ ít hơn rất nhiều"
+  },
+  {
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Từ một quan hệ 1NF có thể chuyển đổi về nhóm các quan hệ 3NF bằng cách.........",
+    "answer": "Loại bỏ các phụ thuộc không đầy đủ vào khoá và các phụ thuộc bắc cầu"
+  },
+  {
+    "question": "Hệ tiên đề Armstrong cho các phụ thuộc hàm gồm các quy tắc cơ bản:",
+    "answer": "Phản xạ, gia tăng, bắc cầu."
+  },
+  {
+    "question": "Cho hình vẽ, hãy chuyển thành lược đồ quan hệ.",
+    "answer": "Nurse(Nurse_ID, Name, Date_of_Birth ) CareCenter(Center_Name, Location, Nurse_ID_in_charge, Date_Assigned)"
+  },
+  {
+    "question": "Khẳng định nào là phụ thuộc hàm",
+    "answer": "Số chứng minh thư -> Họ và tên"
+  },
+  {
+    "question": "Khi sử dụng hệ quản trị CSDL hiện nay thì có mấy loại giao diện chính để làm việc?",
+    "answer": "4"
+  },
+  {
+    "question": "Khi xây dựng CSDL của bài toán cần đảm bảo tối thiểu bao nhiêu yêu cầu",
+    "answer": "6"
+  },
+  {
+    "question": "Ký hiệu để mô tả thuộc tính đa trị là gì?",
+    "answer": "Hình elip nét đôi"
+  },
+  {
+    "question": "Ký hiệu được dùng để mô tả thuộc tính của thực thể",
+    "answer": "Hình elip nét đơn với tên của thuộc tính."
+  },
+  {
+    "question": "Ký hiệu được sử dụng cho tập thực thể yếu là?",
+    "answer": "Hình chữ nhật nét đôi chứa tên thực thể"
+  },
+  {
+    "question": "Loại thực thể nào không cảm nhận được bằng giác quan mà nhận biết được thông qua nhận thức?",
+    "answer": "Thực thể trừu tượng"
+  },
+  {
+    "question": "Loại thực thể nào không tồn tại độc lập được mà phải phụ thuộc vào một kiểu thực thể khác.",
+    "answer": "Tập thực thể yếu."
+  },
+  {
+    "question": "Lực lượng tham gia liên kết là (min,max). Hỏi thành phần min có thể nhận giá trị là gì?",
+    "answer": "0, 1, 1 số cụ thể"
+  },
+  {
+    "question": "Mô hình quan hệ được đưa ra vào năm nào?",
+    "answer": "1970"
+  },
+  {
+    "question": "Một mô hình CSDL được xem là mô hình chuẩn hoá tốt, nếu:",
+    "answer": "Mỗi một thuộc tính không khoá phụ thuộc hàm vào khoá."
+  },
+  {
+    "question": "Mục đích của khóa ngoại trong mô hình quan hệ là gì?",
+    "answer": "Dùng thể hiện mối quan hệ giữa các bảng, giúp tham chiếu dữ liệu hay kết nối các quan hệ trong một cơ sở dữ liệu với nhau."
+  },
+  {
+    "question": "Nếu A --> B và A --> C thì suy ra:",
+    "answer": "A --> BC"
+  },
+  {
+    "question": "Nếu A --> BC suy ra",
+    "answer": "A --> B và A --> C."
+  },
+  {
+    "question": "Nếu A → B và BC → D thì suy ra:",
+    "answer": "AC → D"
+  },
+  {
+    "question": "Phát biểu \"Loại bỏ đi một số thuộc tính của quan hệ Q không có trong danh sách thuộc tính X và giữ lại những thuộc tính được liệt kê trong danh sách thuộc tính X của quan hệ đó\" là của phép toán đại số quan hệ nào?",
+    "answer": "Phép chiếu"
+  },
+  {
+    "question": "Quan hệ 1NF không thể chấp nhận được trong quá trình tìm kiếm, vì :",
+    "answer": "Khi thao tác các phép lưu trữ thường xuất hiện dị thường thông tin"
+  },
+  {
+    "question": "Quan hệ R được gọi là dạng chuẩn 2NF, khi và chỉ khi :",
+    "answer": "1NF và các thuộc tính không khoá phụ thuộc đầy đủ vào khoá."
+  },
+  {
+    "question": "Quy tắc bắc cầu trong hệ tiên đề Armstrong:",
+    "answer": "Nếu A --> B và B --> C => A --> C."
+  },
+  {
+    "question": "Ràng buộc kiểu được định nghĩa là?",
+    "answer": "Mô tả tính chất của các thuộc tính khi tạo lập CSDL."
+  },
+  {
+    "question": "Ràng buộc toàn vẹn trong mô hình quan hệ là gì?",
+    "answer": "Là những quy tắc bắt buộc dữ liệu phải tuân theo nhằm đảm bảo tính tin cậy và độ chính xác của dữ liệu."
+  },
+  {
+    "question": "Thành phần nào trong quan hệ của mô hình quan hệ được cố định trong suốt quá trình?",
+    "answer": "Tập hợp các thuộc tính."
+  },
+  {
+    "question": "Thuộc tính A là dư thừa vế trái trong phụ thuộc hàm {ABC} F+ khi và chỉ khi:",
+    "answer": "(F-{AB->C) U {B->C}+=~F+"
+  },
+  {
+    "question": "Trong các ký hiệu hình vẽ sau, hình nào biểu diễn kiểu thực thể yếu?",
+    "answer": "hình vuông 2 nét"
+  },
+  {
+    "question": "Trong các ký hiệu hình vẽ sau, hình nào biểu diễn liên kết?",
+    "answer": "Hình thoi"
+  },
+  {
+    "question": "Trong các ký hiệu hình vẽ sau, hình nào biểu diễn thuộc tính?",
+    "answer": "Hình elip"
+  },
+  {
+    "question": "Trong lược đồ CSDL của bài toán \"Quản lý đề án công ty\", Chọn biểu thức đại số quan hệ thực hiện: Đếm tổng số nhân viên và tính lương trung bình toàn công ty",
+    "answer": "COUNT(MANV) AVERAGE(HSL*720000) (NHANVIEN)"
+  },
+  {
+    "question": "Trong lược đồ quan hệ của bài toán \"Quản lý đề án công ty\", chọn biểu thức đại số quan hệ thực hiện: cho tên và ngày sinh của những trưởng phòng.",
+    "answer": "HONV, TENNV,NGAYSINH(PHONGBANTRPHG ⋈ MANVNHANVIEN)"
+  },
+  {
+    "question": "Trong lược đồ quan hệ của bài toán \"Quản lý đề án công ty\", Chọn biểu thức đại số quan hệ thực hiện: Đếm số nhân viên cả công ty?",
+    "answer": "COUNTA(MANV)(NHANVIEN)"
+  },
+  {
+    "question": "Trong mô hình Client/Server nhiều lớp KHÔNG gồm lớp nào?",
+    "answer": "Lớp người dùng (User)"
+  },
+  {
+    "question": "Xét lược đồ quan hệ R(T,V,X,P,K) với tập phụ thuộc hàm F={TV->X; XP->K; X->T; K->P}. Bao đóng của tập X={TVK} là:",
+    "answer": "TVXPK"
+  },
+  {
+    "question": "Xét lược đồ quan hệ với tập phụ thuộc hàm F = { MSKH TENKH, TP; MSMH TENMH, ĐG; MSKH, MSMH SL; TP PVC }. Bao đóng của tập {MSKH, TP} là gì?",
+    "answer": "{MSKH, TP, TENKH, PVC}"
+  },
+  {
+    "question": "Xét lược đồ quan hệ với tập phụ thuộc hàm F = {MSKHTENKH,TP; MSMH TENMH,ĐG; MSKH,MSMH SL; MSKHTENKH}. Phụ thuộc hàm nào sau đây là dư thừa đối với tập F?",
+    "answer": "MSKHTENKH"
+  },
+  {
+    "question": "Xét lược đồ quan hệ với tập phụ thuộc hàm F = {MSKHTENKH,TP; MSMH TENMH,ĐG; MSKH,MSMH SL; MSMHTENMH}. Phụ thuộc hàm nào sau đây là dư thừa đối với tập F?",
+    "answer": "MSMHTENMH"
+  },
+  {
+    "question": "Xét quan hệ NHÂNVIÊN_ĐƠNVỊ(Họtên, MSNV, Ngàysinh, Địachỉ, MSĐV, TênĐV, MãsốNQL) và F={MSĐV→TênĐV, MãNQL; MSNV→Họtên, Ngàysinh, Địachỉ, MSĐV, TênĐV, MãNQL;}. Kết quả tách về dạng chuẩn 3NF là?",
+    "answer": "NV(Họtên, MSNV, Ngàysinh, Địachỉ, MSĐV) và ĐV(MSĐV, TênĐV, MãNQL)"
+  },
+  {
+    "question": "Xét quan hệ R={GHIJK} và tập phụ thuộc hàm F = {GH→IK, I→J}. Dạng chuẩn cao nhất của lược đồ là chuẩn nào?",
+    "answer": "2NF"
+  },
+  {
+    "question": "Xét quan hệ R=ABCDE và tập pth F = {AB->CE, E->AB, C->D}. Dạng chuẩn cao nhất là gì?",
+    "answer": "2NF"
+  },
+  {
+    "question": "Xét quan hệ Ω {A, B, C, D, E, G, H} và F = {C --> AB, D --> E, B --> G}.",
+    "answer": "Khoá quan hệ là {H, C, D}"
+  },
+  {
+    "question": "Xét R(A,B,C,D) có khóa chính là A, là 2NF nhưng không đạt 3NF. Phụ thuộc hàm nào sau đây là không đúng?",
+    "answer": "C->A"
+  },
+  {
+    "question": "Xét R(A,B,C,D) có khóa chính là AB, là 1NF nhưng không đạt 2NF. Phụ thuộc hàm nào sau đây là không đúng?",
+    "answer": "D->C"
+  },
+  {
+    "question": "Xét R(A,B,C,D) có khóa chính là B, là 2NF nhưng không đạt 3NF. Phụ thuộc hàm nào sau đây là không đúng?",
+    "answer": "A->B"
+  },
+  {
+    "question": "Xét R(A,B,C,D) có khóa chính là C, là 2NF nhưng không đạt 3NF. Phụ thuộc hàm nào sau đây là không đúng?",
+    "answer": "B->C"
+  },
+  {
+    "question": "Ý nghĩa đúng nhất của khóa chính trong mô hình dữ liệu quan hệ?",
+    "answer": "Dùng để xác định duy nhất một bộ trong quan hệ"
+  },
+  {
+    "question": "φ [Ω1, Ω2 ,.. , Ωp] là phép tách không tổn thất thông tin, nếu :",
+    "answer": "Kết quả kết nối tự nhiên các quan hệ chiếu chính là quan hệ gốc."
+  },
+  {
+    "question": "Ω {A, B, C, D, E, G }, F = {B --> C, C --> B, A --> GD}, khoá quan hệ là:",
+    "answer": "ACE"
   }
 ]
