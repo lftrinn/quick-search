@@ -32,12 +32,13 @@ function normalizeVietnamese(str) {
 
 function precomputeNormalizedData() {
   normalizedData = data.map(item => ({
-    normalized: normalizeVietnamese(item.question),
+    normalizedQuestion: normalizeVietnamese(item.question),
+    normalizedAnswer: normalizeVietnamese(item.answer),
     original: item
   }));
 }
 
-function searchData(keyword, type) {
+function searchData(keyword, type, field) {
   if (keyword.length < 2) {
     return [];
   }
@@ -46,10 +47,12 @@ function searchData(keyword, type) {
 
   return normalizedData
     .filter(item => {
-      if (type === 'startsWith') {
-        return item.normalized.startsWith(normalizedKeyword);
+      const targetText = field === 'answer' ? item.normalizedAnswer : item.normalizedQuestion;
+
+      if (type === 'contains') {
+        return targetText.includes(normalizedKeyword);
       } else {
-        return item.normalized.includes(normalizedKeyword);
+        return targetText.startsWith(normalizedKeyword);
       }
     })
     .map(item => item.original);
@@ -114,13 +117,15 @@ function escapeHtml(text) {
 function handleSearch() {
   const searchInput = document.getElementById('searchInput');
   const searchType = document.getElementById('searchType');
+  const searchField = document.getElementById('searchField'); 
 
   const keyword = searchInput.value;
   const type = searchType.value;
+  const field = searchField.value;
 
   activeItemId = null;
 
-  const filteredData = searchData(keyword, type);
+  const filteredData = searchData(keyword, type, field);
   renderResults(filteredData, keyword);
 }
 
@@ -139,6 +144,7 @@ async function loadData() {
 export function initSearch() {
   const searchInput = document.getElementById('searchInput');
   const searchType = document.getElementById('searchType');
+  const searchField = document.getElementById('searchField'); // CẬP NHẬT
   const results = document.getElementById('results');
 
   loadData().then(() => {
@@ -147,4 +153,5 @@ export function initSearch() {
 
   searchInput.addEventListener('input', handleSearch);
   searchType.addEventListener('change', handleSearch);
+  searchField.addEventListener('change', handleSearch); // CẬP NHẬT: Lắng nghe sự kiện change
 }
