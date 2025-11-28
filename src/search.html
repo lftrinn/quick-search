@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ứng dụng tìm kiếm</title>
+  <link rel="stylesheet" href="search.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Nhập từ khóa (tối thiểu 2 ký tự)..."
+        autocomplete="off"
+      >
+      <select id="searchType">
+        <option value="startsWith">Bắt đầu với từ khóa</option>
+        <option value="contains">Chứa từ khóa</option>
+      </select>
+    </div>
+
+    <div id="resultsCount" class="results-count"></div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>
