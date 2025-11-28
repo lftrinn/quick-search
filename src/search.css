@@ -38,7 +38,7 @@ body {
   overflow: hidden;
 }
 .container:has(#searchInput:focus) {
-  height: 52vh;
+  height: 56vh;
 }
 
 .results-count {
