@@ -1,22 +1,158 @@
 [
   {
-    "question": "Ký hiệu hóa học của nước là gì?",
-    "answer": "H2O"
+    "question": "\"Là tập tất cả các giá trị mà thuộc tính A có thể nhận được\". Đây là phát biểu của gì trong mô hình quan hệ?",
+    "answer": "Miền giá trị"
   },
   {
-    "question": "Ký hiệu nguyên tố oxy là gì?",
-    "answer": "O"
+    "question": "\"Là tập tất cả các giá trị mà thuộc tính A có thể nhận được\". Đây là phát biểu của gì trong mô hình quan hệ?",
+    "answer": "Miền giá trị"
   },
   {
-    "question": "Công thức tính diện tích hình chữ nhật?",
-    "answer": "Diện tích = chiều dài × chiều rộng"
+    "question": "Biểu thức nào là biểu thức đại số quan hệ",
+    "answer": "Pi T#,TC(σDai>100(R1))"
   },
   {
-    "question": "Ký hiệu toán học của pi là gì?",
-    "answer": "π (pi) ≈ 3.14159"
+    "question": "Các bước thực hiện xây dựng mô hình thực thể ER làm gì?",
+    "answer": "Liệt kê và lựa chọn thông tin -> xác định thực thể và thuộc tính -> xác định mối quan hệ và thuộc tính quan hệ -> vẽ sơ đồ ER và xác định lực lượng tham gia -> chuẩn hóa và rút gọn sơ đồ"
   },
   {
-    "question": "Thủ đô của Việt Nam là gì?",
-    "answer": "Hà Nội"
+    "question": "Các loại dữ liệu bao gồm:",
+    "answer": "Âm thanh, tiếng nói, chữ viết, văn bản, đồ hoạ, hình ảnh tĩnh hay hình ảnh động....được lưu trữ trong các bộ nhớ trong các dạng File"
+  },
+  {
+    "question": "Các loại ràng buộc toàn vẹn trong mô hình dữ liệu quan hệ?",
+    "answer": "Tất cả các loại ràng buộc đều đúng"
+  },
+  {
+    "question": "Các phép toán cơ bản trên tập hợp gồm?",
+    "answer": "Tất cả các phép toán đều đúng"
+  },
+  {
+    "question": "Các thành phần của một quan hệ trong mô hình quan hệ gồm?",
+    "answer": "Tất cả các lựa chọn đều đúng"
+  },
+  {
+    "question": "Các thuộc tính trong quan hệ được thể hiện dưới dạng gì ?",
+    "answer": "Tập hợp các cột"
+  },
+  {
+    "question": "Cho F={AB->C, D->E, D->G, C->A, BE->C, BC->D, CG->B, CG->D, CD->B}. Các phụ thuộc hàm bị dư thừa trong tập F là:",
+    "answer": "Không có phụ thuộc hàm dư thừa"
+  },
+  {
+    "question": "Cho F={ AB->C, D->EG, C->A, BE->C, BC->D, CG->BD, ACD->B}. Các phụ thuộc hàm có thuộc tính dư thừa ở vế trái?",
+    "answer": "ACD->B"
+  },
+  {
+    "question": "Cho F={ AB->C, D->EG, C->A, BE->C, BC->D}. Tập F có pth dư thừa không",
+    "answer": "Không"
+  },
+  {
+    "question": "Cho F={ AB->C, D->EG, C->A, BE->C, BC->D}. Các phụ thuộc hàm có thuộc tính dư thừa ở vế trái là:",
+    "answer": "Các đáp án đưa ra đều sai"
+  },
+  {
+    "question": "Cho F={ AB->C, D->EG, C->A, BE->C, BC->D}. F có phụ thuộc hàm dư thừa là",
+    "answer": "Các đáp án đưa ra đều sai"
+  },
+  {
+    "question": "Cho F={AB->C, D->E, D->G, C->A, BE->C, BC->D, CG->B, CG->D, CD->B}. Phụ thuộc hàm AB->C có bị dư thừa vế trái?",
+    "answer": "Không dư thừa"
+  },
+  {
+    "question": "Cho bảng Cho DUAN (MADA, TenDA, DiaDiem, MaPhong, NgBD, NgKT). Để biểu diễn Ràng buộc “Mỗi một dự án thì ngày bắt dầu dự kiến phải trước ngày kết thúc dự kiến” thì cần đưa nội dung gì tại thao tác “Sửa” trong bảng tầm ảnh hưởng tương ứng?",
+    "answer": "+(NgBD, NgKT)"
+  },
+  {
+    "question": "Cho bảng kết quả thực hiện kiểm tra phép tách sau, phát biểu nào là đúng?",
+    "answer": "Phép tách là không mất mát thông tin"
+  },
+  {
+    "question": "Cho bảng tầm ảnh hưởng: Đâu là phát biểu đúng trong các phát biểu sau?",
+    "answer": "Khi thực hiện thêm Nhân viên mới cần kiểm tra ràng buộc của bảng “NhanVien”"
+  },
+  {
+    "question": "Cho Bảng tblNhanVien(MaNV, HoTen, GioiTinh, Tuoi, HSL). Đâu là biểu diễn của phát biểu ràng buộc “Giá trị Tuổi của Nhân Viên chỉ nhận giá trị từ 18 đến 65”",
+    "answer": "DOM(Tuoi) = { 18 65 }"
+  },
+  {
+    "question": "Cho Bảng tblNhanVien(MaNV, HoTen, GioiTinh, Tuoi, HSL). Ý nghĩa của phát biểu “DOM(Tuoi) = { 18 65 }” là gì?",
+    "answer": "Giá trị tuổi của nhân viên chỉ nhận giá trị từ 18 đến 65"
+  },
+  {
+    "question": "Cho bảng tblNHANVIEN(MaNV, HoTen, Luong, GioiTinh). Ý nghĩa của biểu thức đại số sau: ℑ SUM (Lương)( tblNHANVIEN)",
+    "answer": "Tính tổng lương của các Nhân viên"
+  },
+  {
+    "question": "Cho bảng tblNHANVIEN(MaNV, HoTen, Luong, GioiTinh). Ý nghĩa của biểu thức đại số sau: ℑ AVG (Lương)( tblNHANVIEN)",
+    "answer": "Tính lương trung bình của các Nhân viên"
+  },
+  {
+    "question": "Cho bảng: - tblDonVi(TenDV, MaSoDV, DiaDiemDV, NamThanhLap) - tblDuAn(TenDA, MaSoDA, DiaDiemDA, TGianBatDau, MaSoDV). Cho biết đâu là biểu thức đại số quan hệ thực hiện “Cho danh sách các dự án có địa điểm ở Hà Nội”",
+    "answer": "σDiadiemDA= “Hà Nội”(tblDuAn)"
+  },
+  {
+    "question": "Cho bảng: - tblDonVi(TenDV, MaSoDV, DiaDiemDV, NamThanhLap) - tblDuAn(TenDA, MaSoDA, DiaDiemDA, TGianBatDau, MaSoDV). Cho biết đâu là biểu thức đại số quan hệ thực hiện “Cho danh sách các dự án của đơn vị có năm thành lập là 2000”",
+    "answer": "σNamThanhLap= 2000(tblDuAn*tblDonVi)"
+  },
+  {
+    "question": "Cho bảng: - tblDonVi(TenDV, MaSoDV, DiaDiemDV, NamThanhLap) - tblDuAn(TenDA, MaSoDA, DiaDiemDA, TGianBatDau, MaSoDV). Cho biết đâu là biểu thức đại số quan hệ thực hiện “Cho danh sách các dự án được triển khai trước năm 2019”",
+    "answer": "σTgianBatDau<2019(tblDuAn)"
+  },
+  {
+    "question": "Cho bảng: - tblDuAn(TenDA, MaSoDA, DiaDiemDA, TGianBatDau) - tblNhanVien(TenNV, MaSoNV, HoTen, GioiTinh, Luong) - tblThucHienDA(MaSoDA, MaSoNV, SoGioLam). Cho biết đâu là biểu thức đại số quan hệ thực hiện “Tính Tổng số dự án đã tham gia của từng nhân viên”",
+    "answer": "MaSoNVℑCount(MaSoDA)(tblThucHienDA)"
+  },
+  {
+    "question": "Cho bảng: - tblDuAn(TenDA, MaSoDA, DiaDiemDA, TGianBatDau) - tblNhanVien(TenNV, MaSoNV, HoTen, GioiTinh, Luong) - tblThucHienDA(MaSoDA, MaSoNV, SoGioLam). Cho biết đâu là biểu thức đại số quan hệ thực hiện “Tính Tổng số giờ đã làm dự án của từng dự án”",
+    "answer": "MaSoDAℑSum(SoGioLam)(tblThucHienDA)"
+  },
+  {
+    "question": "Cho bảng: - tblDuAn(TenDA, MaSoDA, DiaDiemDA, TGianBatDau) - tblNhanVien(TenNV, MaSoNV, HoTen, GioiTinh, Luong) - tblThucHienDA(MaSoDA, MaSoNV, SoGioLam). Cho biết đâu là biểu thức đại số quan hệ thực hiện “Tính Tổng số giờ đã làm dự án của từng nhân viên”",
+    "answer": "MaSoNVℑSum(SoGioLam)(tblThucHienDA)"
+  },
+  {
+    "question": "Cho biết phát biểu sau là của bước nào trong thiết kế CSDL? “Kết quả của bước này thu được một lược đồ cơ sở dữ liệu dưới dạng một hình dữ liệu có khả năng cài đặt được bằng một hệ quản trị cơ sở dữ liệu cụ thể”",
+    "answer": "Thiết kế mức logic"
+  },
+  {
+    "question": "Cho biết phát biểu sau là của bước nào trong thiết kế CSDL? “Kết quả của bước này là một tập hợp các ghi chép súc tích về các yêu cầu của người sử dụng cũng như của hệ thống. Những yêu cầu của hệ thống sẽ được đặc tả càng đầy đủ và càng chi tiết càng tốt”",
+    "answer": "Tổng hợp và phân tích yêu cầu"
+  },
+  {
+    "question": "Cho biết phát biểu sau là của bước nào trong thiết kế CSDL? “Tại bước này, ta phải chỉ rõ ra các cấu trúc bên trong, các đường dẫn truy cập, cách tổ chức tệp cho cơ sở dữ liệu của bài toán”",
+    "answer": "Thiết kế vật lý"
+  },
+  {
+    "question": "Cho các lược đồ quan hệ: SinhVien(MaSV, HoTen,GioiTinh, NgaySinh,MaLop)Lop(MaLop, TenLop, SiSo). Chọn biểu thức đại số quan hệ thực hiện: Cho biết thông tin sinh viên gồm họ tên, ngày sinh thuộc lớp có tên là K10A",
+    "answer": "HoTen, NgaySinh ( TenLop= 'K10A' (Sinhvien*Lop))"
+  },
+  {
+    "question": "Cho các lược đồ quan hệ: SinhVien(MaSV, HoTen,GioiTinh, NgaySinh,MaLop)Lop(MaLop, TenLop, SiSo). Chọn biểu thức đại số quan hệ thực hiện: Cho biết thông tin gồm tên lớp và số lượng sinh viên nữ của từng lớp",
+    "answer": "TenLop  COUNT(MaSV) ( GioiTinh= 'Nữ' (SinhVien*Lop))"
+  },
+  {
+    "question": "Cho F = {A --> B, C --> X, BX --> Z}, khi đó:",
+    "answer": "AC --> Z Thuộc F+"
+  },
+  {
+    "question": "Cho F={ A1A2A3, A4A5A6, A3A1, A2A5A3, A2A3A4}. Chọn phát biểu đúng?",
+    "answer": "Không có phụ thuộc hàm dư thừa"
+  },
+  {
+    "question": "Cho F={AB-->C, B-->D, CD-->E, CE-->GH, G-->A}. Cho biết các phụ thuộc hàm nào sau đây được suy dẫn từ F nhờ luật dẫn Armstrong:",
+    "answer": "Cả 3 phương án đã cho"
+  },
+  {
+    "question": "Cho F={AB->C, B->D, CD->E, CE->GH, G->A}. Cho biết các phụ thuộc hàm nào sau đây được suy dẫn từ F nhờ luật dẫn Armstrong.",
+    "answer": "Tất cả các đáp án trên đều đúng"
+  },
+  {
+    "question": "Cho hai tập phụ thuộc hàm sau: F ={AB->C, B->C, CD->E ,D->E }và G ={AB->C, B->C, C->B, BD->E }",
+    "answer": "F và G không tương đương"
+  },
+  {
+    "question": "Cho hai thực thể NHÂN VIÊN và NGƯỜI THÂN. Biết: mỗi NHÂN VIÊN có thể đóng bảo hiểm cho một số NGƯỜI THÂN nào đó khi họ là nhân viên của đơn vị? Vậy đâu là thực thể yếu?",
+    "answer": "NGƯỜI THÂN"
   }
 ]
