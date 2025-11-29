@@ -8,8 +8,8 @@ document.querySelector('#app').innerHTML = `
 
     <div class="search-bar">
       <select id="dataSelect" class="source-select">
-        <option value="data.json">Mạng và truyền thông</option>
-        <option value="data2.json">Giải tích</option>
+        <option value="data.json">Pháp luật đại cương</option>
+        <option value="data2.json">Tin học đại cương</option>
       </select>
       <input
         type="text"

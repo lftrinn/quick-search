@@ -1,402 +1,410 @@
 [
   {
-    "question": "Các bảng mã ASCII, EBCDIC là phương pháp biểu diễn phiên dịch nào ?",
-    "answer": "Phiên dịch mã ký tự"
+    "question": "Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam khác Đoàn thanh niên cộng sản Hồ Chí Minh ở điểm:",
+    "answer": "Nhà nước là tổ chức quyền lực đặc biệt của xã hội và thực hiện việc quản lý dân cư theo lãnh thổ; Nhà nước nắm giữ và thực thi chủ quyền quốc gia; Nhà nước ban hành pháp luật và dùng pháp luật làm công cụ quản lý xã hội."
   },
   {
-    "question": "Các điểm đồng bộ chính đóng vai trò gì ?",
-    "answer": "Tất cả các phương án"
+    "question": "Bộ máy nhà nước Việt Nam gồm có:",
+    "answer": "Tất cả các cơ quan nhà nước từ trung ương tới địa phương."
   },
   {
-    "question": "Các đơn vị nào ban hành giao thức chuản tầng trình diễn",
-    "answer": "ISO/CCIT"
+    "question": "Nguồn của pháp luật là tất cả các hình thức (yếu tố) chứa đựng hoặc cung cấp căn cứ pháp lý cho hoạt động",
+    "answer": "Của cơ quan nhà nước, nhà chức trách có thẩm quyền cũng như các chủ thể khác trong xã hội."
   },
   {
-    "question": "Các giao thức ở tầng 2 có được chia thành mấy nhóm",
-    "answer": "3"
+    "question": "Pháp luật có các hình thức cơ bản là tập quán pháp, tiền lệ pháp (hay án lệ) và văn bản quy phạm pháp luật.",
+    "answer": "Tập quán pháp, tiền lệ pháp (hay án lệ) và văn bản quy phạm pháp luật."
   },
   {
-    "question": "Các hệ thống mạng điện thoại, mạng ATM. ISDN thuộc nhóm mạng nào?",
-    "answer": "Mạng chuyển mạch kênh"
+    "question": "Loại văn bản quy phạm pháp luật do Hội đồng nhân dân ban hành là:",
+    "answer": "Nghị quyết."
   },
   {
-    "question": "Các loại dịch vụ cho tầng trình diễn được chia làm mấy loại",
-    "answer": "2"
+    "question": "Chủ thể có quyền ban hành văn bản quy phạm pháp luật ở Việt Nam hiện nay bao gồm",
+    "answer": "Các cơ quan nhà nước và các cá nhân có thẩm quyền ban hành pháp luật."
   },
   {
-    "question": "Các quy tắc đồng thuận về giao tiếp phải được tiến hành trong giai đoạn nào?",
-    "answer": "Trước khi tiến hành giao tiếp"
+    "question": "Loại văn bản quy phạm pháp luật do Chính phủ ban hành là:",
+    "answer": "Nghị định."
   },
   {
-    "question": "Cáp quang có tốc độ truyền tin tối đa trên lý thuyết là bao nhiêu ?",
-    "answer": "Khoảng 195Gbs"
+    "question": "Có thể phân loại chức năng nhà nước theo",
+    "answer": "Nhiều cách dựa vào các tiêu chí phân loại khác nhau."
   },
   {
-    "question": "Cấu trúc chung của giao thức tầng phiên gồm 4 phần là :",
-    "answer": "SI L PARAMETER USER DATA"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Văn bản quy phạm pháp luật là văn bản... Ban hành theo trình tự, thủ tục và hình thức do pháp luật quy định, trong đó có các quy tắc xử sự chung được nhà nước bảo đảm thực hiện hay các quy phạm pháp luật để điều chỉnh quan hệ xã hội theo mục đích của nhà nước.",
+    "answer": "Do cơ quan nhà nước hoặc cá nhân có thẩm quyền"
   },
   {
-    "question": "Cấu trúc của một địa chỉ IPv4 gồm mấy phần",
-    "answer": "3"
+    "question": "Xét về bản chất: nhà nước là",
+    "answer": "Một hiện tượng xã hội luôn thể hiện tính xã hội và tính giai cấp"
   },
   {
-    "question": "Cấu trúc khuôn dạng của địa chỉ IP lớp A là :",
-    "answer": "Class Bit 1 bit NetID: 7 bits HostID: 24 bits"
+    "question": "Xét về bản chất, pháp luật là",
+    "answer": "Hiện tượng xã hội luôn thể hiện tính xã hội và tính giai cấp."
   },
   {
-    "question": "Cho địa chỉ IP và Subnetmask sau , địa chỉ mạng Network Address là bao nhiêu ? 192.168.1.150 / 255.255.255.128",
-    "answer": "192.168.1.128"
+    "question": "Nhà nước có",
+    "answer": "5 đặc trưng (đặc điểm)"
   },
   {
-    "question": "Chức năng chính của dịch vụ QoS là gì?",
-    "answer": "Khả năng phân loại và gán độ ưu tiên cho các gói tin"
+    "question": "Loại văn bản quy phạm pháp luật do Ủy ban thường vụ Quốc hội ban hành là:",
+    "answer": "Pháp lệnh, nghị quyết."
   },
   {
-    "question": "Chức năng chính của tầng trình diễn là gì ?",
-    "answer": "Tất cả các chức năng trên"
+    "question": "Tính xã hội của nhà nước thể hiện ở điểm:",
+    "answer": "Nhà nước là bộ máy để tổ chức và quản lý xã hội, nhằm thiết lập, giữ gìn trật tự và sự ổn định của xã hội; Nhà nước có nhiều hoạt động vì lợi ích của lượng lượng cầm quyền và bảo vệ quyền lãnh đạo của lực lượng này"
   },
   {
-    "question": "Chức năng cơ bản của tầng ứng dụng là gì ?",
-    "answer": "Cung cấp các ứng dụng truy xuất tới dịch vụ mạng"
+    "question": "Đặc điểm của văn bản quy phạm pháp luật:",
+    "answer": "Là văn bản do các cơ quan nhà nước hoặc cá nhân có thẩm quyền ban hành pháp luật ban hành; Là văn bản có chứa đựng các quy tắc xử sự chung được nhà nước bảo đảm thực hiện; Văn bản quy phạm pháp luật được thực hiện nhiều lần trong thực tế cuộc sống"
   },
   {
-    "question": "Chức năng của các điểm đồng bộ hóa phụ là gì ?",
-    "answer": "Đánh đấu vị trí trong 1 hội thoại, ngăn chặn việc truyền lại cả khối hội thoại với kích thước lướn"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Pháp luật tạo cơ sở pháp lý cho việc... Quyền lực nhà nước.",
+    "answer": "Kiểm soát"
   },
   {
-    "question": "Chức năng của Router cho phép điều gì ?",
-    "answer": "Liên kết nhiều mạng LAN lại với nhau, đồng thời ngăn không cho các packet thuộc loại Broadcast đi qua nó và giúp việc định tuyến cho các packet"
+    "question": "Vai trò của pháp luật có thể được xem xét dưới góc độ:",
+    "answer": "Đối với xã hội; đối với lực lượng cầm quyền; đối với nhà nước"
   },
   {
-    "question": "Chức năng của tầng mạng là gì?",
-    "answer": "Thực hiện chọn đường"
+    "question": "Văn bản luật bao gồm:",
+    "answer": "Hiến pháp, các đạo luật khác (bộ luật và luật), nghị quyết của Quốc hội."
   },
   {
-    "question": "Có bao nhiêu cách phân loại mạng?",
-    "answer": "3"
+    "question": "Tính giai cấp của pháp luật thể hiện ở điểm:",
+    "answer": "Pháp luật thể hiện ý chí của giai cấp thống trị hay lực lượng cầm quyền; Pháp luật bảo vệ lợi ích, quyền và địa vị thống trị của lực lượng cầm quyền."
   },
   {
-    "question": "Cơ chế truyền tin của mạng quảng bá là như thế nào?",
-    "answer": "Các gói tin được gửi cùng 1 lúc đến tất cả các nút trong mạng.Nếu đúng là nút cần nhận dữ liệu, gói tin sẽ được lấy về đủ xử lý."
+    "question": "Những từ nào còn thiếu trong chỗ trống: Pháp luật là cơ sở pháp lý cho việc ... Của bộ máy nhà nước.",
+    "answer": "Tổ chức, hoạt động, giám sát hoạt động"
   },
   {
-    "question": "Dung lượng dữ liệu tối đa của một gói tin IP cho phép là bao nhiêu bytes?",
-    "answer": "65535"
+    "question": "Văn bản dưới luật là:",
+    "answer": "Các văn bản quy phạm pháp luật do các cơ quan nhà nước từ Ủy ban thường vụ Quốc hội trở xuống ban hành."
   },
   {
-    "question": "Đâu không phải kỳ hiệu của các thành phần trong giao dịch thư điện tử ?",
-    "answer": "MTU"
+    "question": "Đặc trưng của pháp luật là:",
+    "answer": "Pháp luật có tính chính trị; Pháp luật có tính hệ thống và tính thống nhất."
   },
   {
-    "question": "Đâu không phải là chức năng của QoS?",
-    "answer": "Cung cấp dịch vụ đảm bảo quá trình truyên tin"
+    "question": "Trong hệ thống chính trị Việt Nam hiện nay, Nhà nước ở vị trí trung tâm và có vai trò đặc biệt quan trọng, bởi vì:",
+    "answer": "Nhà nước là tổ chức có cơ sở xã hội và phạm vi tác động rộng lớn nhất và có quyền thu thuế; Nhà nước có hệ thống pháp luật là công cụ hữu hiệu để quản lý và duy trì trật tự xã hội"
   },
   {
-    "question": "Đâu không phải là tác nhân trong ảnh hưởng đến quá trình truyền tin",
-    "answer": "Khoảng thời gian cho phép hìn thành 1 Chu kỳ truyền tin"
+    "question": "Loại văn bản quy phạm pháp luật do Ủy ban nhân dân ban hành là:",
+    "answer": "Quyết định."
   },
   {
-    "question": "Đâu không phải là tên viết tắt của tên các mạng máy tính?",
-    "answer": "NAN"
+    "question": "Nếu dựa vào giá trị pháp lý thì có thể chia văn bản quy phạm pháp luật của Việt Nam hiện nay thành",
+    "answer": "Hai loại cơ bản là văn bản luật và văn bản dưới luật."
   },
   {
-    "question": "Đâu không phải là tổ chức ban hành các tiêu chuẩn mạng?",
-    "answer": "IANA"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước... Để điều chỉnh các quan hệ xã hội nhằm thiết lập và giữ gìn trật tự xã hội.",
+    "answer": "Đặt ra hoặc thừa nhận và bảo đảm thực hiện"
   },
   {
-    "question": "Đâu không phải là ưu điểm của các mạng chuyển mạch thông báo?",
-    "answer": "Nếu một liên kết bị sự cố trong quá trình truyền thông thì các gói tin còn lại có thể được gửi đi theo các con đường khác"
+    "question": "Những từ nào còn thiếu trong chỗ trống: hệ thống chính trị nước ta gồm .... Các đoàn thể quần chúng, các tổ chức xã hội được thành lập và hoạt động hợp pháp dưới sự lãnh đạo của Đảng.",
+    "answer": "Đảng, Nhà nước, Mặt trận Tổ quốc Việt Nam"
   },
   {
-    "question": "Đâu không phải là ưu điểm của việc thiết kế giao thức mạng dưới dạng phân tầng?",
-    "answer": "Có thể quy đổi tương đương số lượng tầng trong các kiến trúc mạng khác nhau"
+    "question": "Pháp luật khác với đạo đức ở điểm cơ bản là:",
+    "answer": "Pháp luật có tính quyền lực nhà nước; Pháp luật có tính quy phạm phổ biến; Pháp luật có tính hệ thống và tính thống nhất"
   },
   {
-    "question": "Đâu không phải nhân tố tác động đến quá trình truyền tin?",
-    "answer": "Cấu hình của máy tính"
+    "question": "Các trường hợp cần áp dụng pháp luật:",
+    "answer": "Khi cần kết nạp thêm đảng viên mới; Khi cần áp dụng các biện pháp cưỡng chế nhà nước đối với các chủ thể vi phạm pháp luật."
   },
   {
-    "question": "Để đánh giá chất lượng của mạng người ta sử dụng thông tin nào?",
-    "answer": "QoS"
+    "question": "Đặc điểm của thực hiện pháp luật là:",
+    "answer": "Thực hiện pháp luật phải là hành vi xác định hay xử sự thực tế của con người; Thực hiện pháp luật là hành vi hợp pháp; Thực hiện pháp luật phải là xử sự của các chủ thể có khả năng nhận thức và điều khiển hành vi"
   },
   {
-    "question": "Để ngăn cách các cấp cuẩ tên miền người ta sử dụng ký hiệu nào ?",
-    "answer": "“.”"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Áp dụng pháp luật là hoạt động có tính tổ chức, quyền lực nhà nước, do... Có thẩm quyền theo quy định của pháp luật tiến hành nhằm cá biệt hoá các quy phạm pháp luật hiện hành vào những trường hợp cụ thể, đối với các cá nhân, tổ chức cụ thể.",
+    "answer": "Các cơ quan, tổ chức hoặc cá nhân"
   },
   {
-    "question": "Để thực hiện thành công 1 giao tiếp các nút mạng đầu cuối cần tuân thủ các quy tắc nào sau đây?",
-    "answer": "Tất cả các phương án"
+    "question": "Lỗi của chủ thể vi phạm pháp luật gồm các loại:",
+    "answer": "Cố ý trực tiếp; Cố ý gián tiếp; Vô ý vì cẩu thả và vì quá tự tin"
   },
   {
-    "question": "Địa chỉ IP sau đây là thuộc lớp nào ?172.16.1.1/ 255.255.255",
-    "answer": "B"
+    "question": "Đặc điểm của vi phạm pháp luật là:",
+    "answer": "Vi phạm pháp luật phải là hành vi trái pháp luật; Vi phạm pháp luật phải là hành vi của chủ thể có năng lực trách nhiệm pháp lý."
   },
   {
-    "question": "Địa chỉ IPv4 có số lượng địa chỉ lý thuyết tối đa là :",
-    "answer": "2^32"
+    "question": "Mặt khách quan của vi phạm pháp luật gồm các yếu tố:",
+    "answer": "Hành vi trái pháp luật; Hậu quả nguy hiểm cho xã hội"
   },
   {
-    "question": "Địa chỉ nào được Switch sử dụng khi quyết định gửi data sang cổng (port) nào?",
-    "answer": "Destination MAC address"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Động cơ vi phạm pháp luật là thúc đẩy chủ thể thực hiện hành vi trái pháp luật.",
+    "answer": "Động lực tâm lý bên trong"
   },
   {
-    "question": "Đơn vị dữ liệu tại tầng thứ 4 được gọi là gì ?",
-    "answer": "Segment"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Tư tưởng pháp luật là toàn bộ những... Pháp lý.",
+    "answer": "Tư tưởng, quan điểm, học thuyết, trường phái"
   },
   {
-    "question": "Frame là tên gọi của đơn vị truyền thông tầng nào ?",
-    "answer": "Data Link"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Cố ý trực tiếp là lỗi của chủ thể khi thực hiện hành vi trái pháp luật, nhận thức rõ hành vi của mình là trái pháp luật, thấy trước được hậu quả của hành vi đó và ...",
+    "answer": "Mong muốn hậu quả đó xảy ra."
   },
   {
-    "question": "Giả sử có thông điệp như sau : HTTP/1.1 200 OK Date: Thu, 06 Aug 1998 12:00:15 GMT Server: Apache/1.3.0 (Unix) Last-Modified: Mon, 22 Jun 1998 09:23:24 GMT Content-Length: 6821 Content-Type: text/html Đây là thông điệp từ ứng dụng gửi từ đâu?",
-    "answer": "Từ Server gửi đến Client"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Áp dụng pháp luật là hình thức thực hiện pháp luật trong đó nhà nước thông qua... Có thẩm quyền tổ chức cho các chủ thể pháp luật thực hiện những quy định của pháp luật hoặc ra các quyết định làm phát sinh, thay đổi hoặc chấm dứt những quan hệ pháp luật cụ thể.",
+    "answer": "Các cơ quan nhà nước, tổ chức hoặc cá nhân"
   },
   {
-    "question": "Giải thuật định tuyến Link-State là giải thuật mà trong đó :",
-    "answer": "Mọi nút đều biết đường đi đến các nút láng giềng kề bên chúng và nếu chúng ta đảm bảo rằng tổng các kiến thức này được phân phối cho mọi nút thì mỗi nút sẽ có đủ hiểu biết về mạng để dựng lên một bản đồ hoàn chỉnh của mạng"
+    "question": "Cấu thành của vi phạm pháp luật gồm yếu tố:",
+    "answer": "Mặt khách quan của vi phạm pháp luật; Mặt chủ quan của vi phạm pháp luật; Chủ thể và khách thể của vi phạm pháp luật"
   },
   {
-    "question": "Giải thuật định tuyến mà trong đó mỗi nút thiết lập một mảng một chiều chứa khoảng cách (chi phí) từ nó đến tất cả các nút còn lại và sau đó phát thông tin này đến tất cả các nút láng giềng của nó là giải thuật nào?",
-    "answer": "Distance Vector"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Sử dụng (vận dụng) pháp luật là hình thức thực hiện pháp luật trong đó các chủ thể pháp luật... Của mình theo quy định của pháp luật.",
+    "answer": "Thực hiện quyền"
   },
   {
-    "question": "Giao thức nào sau đây hoạt động ở tầng 3 ?",
-    "answer": "Tất cả các giao thức."
+    "question": "Đặc điểm của truy cứu trách nhiệm pháp lý là:",
+    "answer": "Chủ thể tiến hành truy cứu trách nhiệm pháp lý chủ yếu là các cơ quan, tổ chức hoặc cá nhân có thẩm quyền theo quy định của pháp luật; Truy cứu trách nhiệm pháp lý là áp dụng các biện pháp cưỡng chế nhà nước cụ thể đối với chủ thể vi phạm pháp luật."
   },
   {
-    "question": "Giao thức nào trong số các giao thức sau thuộc tầng mạng?",
-    "answer": "IP"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Trách nhiệm pháp lý của một chủ thể là... Phải gánh chịu những hậu quả pháp lý bất lợi thể hiện qua việc họ phải chịu những biện pháp cưỡng chế nhà nước được quy định trong phần chế tài của các quy phạm pháp luật khi họ vi phạm pháp luật hoặc khi có thiệt hại xảy ra do những nguyên nhân khác được pháp luật quy định.",
+    "answer": "Sự bắt buộc chủ thể đó"
   },
   {
-    "question": "Giao thức POP3 được sử dụng để",
-    "answer": "Gửi thư từ Mail Server đến Mail Agent Client"
+    "question": "Căn cứ thực tế để truy cứu trách nhiệm pháp lý đối với chủ thể vi phạm pháp luật là:",
+    "answer": "Tất cả các yếu tố cấu thành vi phạm pháp luật của chủ thể vi phạm."
   },
   {
-    "question": "Hãy chỉ ra phát biêu sai trong mục tiêu của vấn đề chuẩn hóa mạng?",
-    "answer": "Thống nhất để duy nhất 1 đơn vị ban hành tiêu chuẩn thiết kế hệ thống mạng"
+    "question": "Hình thức phổ biến, giáo dục pháp luật gồm có:",
+    "answer": "Phổ biến pháp luật trực tiếp; tư vấn, hướng dẫn tìm hiểu pháp luật; Thông qua các phương tiện thông tin đại chúng; Tổ chức thi tìm hiểu pháp luật"
   },
   {
-    "question": "Hãy sắp xếp thứ thự thực hiện hoạt động của Web Server qua 4 giai đoạn sau :",
-    "answer": "1. Trình duyệt kiểm tra URL. 2. Truy vấn đến DNS yêu cầu địa chỉ IP của URL. 3. NS phản hồi IP của URL truy vấn 4.Tạo kết nối tới Web Server"
+    "question": "Đặc điểm của áp dụng pháp luật là:",
+    "answer": "Áp dụng pháp luật là hoạt động có tính quyền lực nhà nước; Áp dụng pháp luật là hoạt động có tính cá biệt, cụ thể đối với từng quan hệ xã hội."
   },
   {
-    "question": "Hệ thống tên miền DNS được tổ chức theo mô hình nào ?",
-    "answer": "Mô hình phân cấp"
+    "question": "Mặt chủ quan của vi phạm pháp luật gồm các yếu tố:",
+    "answer": "Lỗi của chủ thể; Mục đích vi phạm pháp luật; Động cơ vi phạm pháp luật."
   },
   {
-    "question": "Kết nối Bluetooth giữa các thiết bị truyền tin được phân loại theo mạng nào?",
-    "answer": "Mạng điểm-điểm"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Tâm lý pháp luật là tổng thể các trạng thái tâm lý của con người như... Đối với pháp luật.",
+    "answer": "Tình cảm, thái độ, tâm trạng, thói quen, xúc cảm"
   },
   {
-    "question": "Kết nối liên mạng các mạng LAN, WAN, MAN độc lập với nhau bằng các thiết bị có chức năng nào?",
-    "answer": "Định tuyến (Routing)."
+    "question": "Những từ nào còn thiếu trong chỗ trống: Ý thức pháp luật là... Để xây dựng và hoàn thiện hệ thống pháp luật.",
+    "answer": "Tiền đề tư tưởng trực tiếp"
   },
   {
-    "question": "Khi dữ liệu đi qua mạng chúng được gửi đi theo từng bit là cách phiên dịch dữ liệu theo dạng nào ?",
-    "answer": "Phiên dịch thứ tự bit"
+    "question": "Ý thức pháp luật có vai trò quan trọng đối với:",
+    "answer": "Việc xây dựng, hoàn thiện hệ thống pháp luật và việc thực hiện pháp luật."
   },
   {
-    "question": "Khi một gói tin đến trạm đích, nó sẽ được kiểm tra để phát hiện lỗi và sửa lỗi (nếu có). Chức anwng này được thực hiện ở tầng thứ mấy trong mô hình OSI",
-    "answer": "2"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Khách thể của vi phạm pháp luật là... Được pháp luật bảo vệ nhưng bị hành vi trái pháp luật xâm hại.",
+    "answer": "Quan hệ xã hội"
   },
   {
-    "question": "Khi một gói tin IP đến Router, nó kiểm tra thấy giá trị TTL của gói tin đó =0. Router sẽ xử lý như thế nào ?",
-    "answer": "Nhận thấy gói tin đó hết hạn, nó sẽ hủy gói tin đó"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Ý thức pháp luật là tổng thể những học thuyết, tư tưởng, quan điểm, quan niệm, tâm trạng, thái độ, tình cảm của con người..., thể hiện mối quan hệ của con người đối với pháp luật, sự đánh giá về tính hợp pháp hay không hợp pháp trong hành vi của các chủ thể",
+    "answer": "Đối với pháp luật và các hiện tượng pháp lý khác"
   },
   {
-    "question": "Khi sử dụng QoS tại sao chất lượng của dịch vụ được tăng lên?",
-    "answer": "Do QoS sẽ phân luồng được các gói tin nên các gói tin có độ ưu tiên cao sẽ được phục vụ trước"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Lỗi là... Của chủ thể đối với hành vi trái pháp luật của mình và đối với hậu quả do hành vi đó gây ra cho xã hội.",
+    "answer": "Thái độ hay trạng thái tâm lý tiêu cực"
   },
   {
-    "question": "Khi ta gõ vào trình duyệt địa chỉ : thì địa chỉ IP của đích kết nối tới sẽ được nhận được từ đâu ?",
-    "answer": "Từ máy chủ DNS."
+    "question": "Căn cứ để truy cứu trách nhiệm pháp lý là:",
+    "answer": "Căn cứ pháp lý và căn cứ thực tế."
   },
   {
-    "question": "Kỹ thuật điều phối các gói tin trong QoS là kỹ thuật nào?",
-    "answer": "Sử dụng hàng đợi Queue để phân loại gói tin"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Thi hành (chấp hành) pháp luật là hình thức thực hiện pháp luật trong đó các chủ thể pháp luật... Của mình bằng các hành động tích cực.",
+    "answer": "Thực hiện nghĩa vụ pháp lý"
   },
   {
-    "question": "Mạng chuyển mạch thông báo là gì?",
-    "answer": "Mỗi gói tin gửi sẽ được gửi tới địa chỉ công cộng cho toàn mạng, nút mạng nào cần dữ liệu sẽ lấy vào và xử lý"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Phổ biến, giáo dục pháp luật là hoạt động của các cá nhân, tổ chức trong xã hội nhằm... Của mọi tầng lớp nhân dân trong xã hội, từ đó hình thành ý thức đúng đắn về pháp luật, tôn trọng và tự giác xử sự theo những yêu cầu của pháp luật.",
+    "answer": "Tăng cường sự hiểu biết pháp luật"
   },
   {
-    "question": "Môi trường truyền tin thông thuờng trong mạng máy tính là?",
-    "answer": "Tất cả các phương tiện."
+    "question": "Trách nhiệm pháp lý khác với trách nhiệm đạo đức ở điểm:",
+    "answer": "Trách nhiệm pháp lý là loại trách nhiệm do pháp luật quy định; Trách nhiệm pháp lý luôn gắn liền với các biện pháp cưỡng chế nhà nước được quy định trong phần chế tài của các quy phạm pháp luật; Trách nhiệm pháp lý luôn là hậu quả pháp lý bất lợi đối với chủ thể phải gánh chịu"
   },
   {
-    "question": "Một gói tin trong giao thức IP tầng 3 được gọi là gì ?",
-    "answer": "Packet"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Cố ý gián tiếp là lỗi của chủ thể khi thực hiện hành vi trái pháp luật, nhận thức rõ hành vi của mình là trái pháp luật, thấy trước được hậu quả của hành vi đó, tuy không mong muốn nhưng có ý thức...",
+    "answer": "Để mặc cho hậu quả đó xảy ra hoặc chấp nhận hậu quả đó."
   },
   {
-    "question": "Nhóm giao thức truyền tầng liên kết dữ liệu mà cho phép một ký tự dữ liệu được truyền đi bất cứ lúc nào mà không cần quan tâm đến tín hiệu đồng bộ trước đó là nhóm giao thức nào?",
-    "answer": "Giao thức dị bộ"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Khách thể của quan hệ pháp luật là ...khiến cho các bên chủ thể thiết lập quan hệ pháp luật với nhau, yếu tố này có thể mang lại cho các chủ thể những lợi ích nhất định về vật chất hoặc tinh thần.",
+    "answer": "Yếu tố"
   },
   {
-    "question": "Những phương pháp nào để diều khiển chống tắc nghẽn ?",
-    "answer": "Tất cả các phương án"
+    "question": "Chủ thể của quan hệ pháp luật là tổ chức gồm:",
+    "answer": "Nhà nước; cơ quan, tổ chức nhà nước; các tổ chức phi nhà nước; pháp nhân."
   },
   {
-    "question": "Phần nào trong địa chỉ IP được Router sử dụng khi tìm đường đi?",
-    "answer": "Network address"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Quan hệ pháp luật là quan hệ xã hội được pháp luật điều chỉnh trong đó các bên chủ thể tham gia quan hệ pháp luật có... Được nhà nước quy định hoặc thừa nhận và bảo đảm thực hiện.",
+    "answer": "Các quyền và nghĩa vụ pháp lý."
   },
   {
-    "question": "Phương pháp điều khiển dòng truyền tại tầng 2 là phương pháp nào ?",
-    "answer": "Slidding Windows"
+    "question": "Chủ thể của quan hệ pháp luật là cá nhân gồm:",
+    "answer": "Công dân, người nước ngoài, người không quốc tịch cư trú ở Việt Nam."
   },
   {
-    "question": "Phương pháp nào được dùng để phân tách các khung tin ?",
-    "answer": "Tất cả các phương pháp"
+    "question": "Quyền chủ thể bao gồm các khả năng:",
+    "answer": "Tự xử sự theo những cách thức nhất định mà pháp luật cho phép; Yêu cầu các chủ thể khác phải chấm dứt những hành vi cản trở việc thực hiện quyền của mình; Yêu cầu các chủ thể khác phải thực hiện những nghĩa vụ tương ứng phát sinh từ quyền của mình"
   },
   {
-    "question": "Phương pháp nén gói tin bằng cách tạo ra một bảng mã cho các từ hoặc các cặp ký tự thường xuyên xuất hiện và thay thế là phương pháp nào?",
-    "answer": "Keyword encoding"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Sự kiện pháp lý là sự kiện, sự việc thực tế xảy ra trong cuộc sống được pháp luật gắn với việc... Quan hệ pháp luật.",
+    "answer": "Làm phát sinh, thay đổi hoặc chấm dứt"
   },
   {
-    "question": "Phương pháp nén gói tin bằng cách thay thế một dãy các dấu cách bằng một mã nén và một giá trị số lượng các dấu cách là phương pháp nào?",
-    "answer": "Null compression"
+    "question": "Cơ cấu của quy phạm pháp luật điều chỉnh bao gồm:",
+    "answer": "Giả định, quy định và biện pháp tác động của nhà nước."
   },
   {
-    "question": "Phương pháp truy nhập nào dưới đây lắng nghe lưu thông mạng trên đường truyền trước khi truyền dữ liệu ?",
-    "answer": "CSMA/CD"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Pháp nhân là tổ chức do nhà nước... Có thể trở thành chủ thể độc lập của nhiều quan hệ pháp luật.",
+    "answer": "Thành lập hoặc thừa nhận"
   },
   {
-    "question": "Phương pháp truyền tin nào cho phép tiến hành các đợi truyền dữ liệu đồng thời bằng cách cung cấp cho mỗi thiết bị một kênh truyền thông riêng biệt",
-    "answer": "Full-duplex"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Ý thức pháp luật là... Thúc đẩy việc thực hiện pháp luật trong thực tế",
+    "answer": "Yếu tố"
   },
   {
-    "question": "Phương pháp truyền tin nào không sử dụng trong tầng vật lý",
-    "answer": "Truyền quảng bá (broadcast)"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Nghĩa vụ của chủ thể là cách xử sự mà chủ thể... Theo quy định của pháp luật nhằm đáp ứng việc thực hiện quyền của chủ thể khác.",
+    "answer": "Buộc phải thực hiện"
   },
   {
-    "question": "Phương pháp xác định lỗi của khung tin dựa trên nguyên lý cân bằng các bit chẵn lẻ để chỉ ra lỗi là phương pháp nào ?",
-    "answer": "Hamming"
+    "question": "Các tội phạm tham nhũng gồm:",
+    "answer": "Tội lạm quyền trong khi thi hành công vụ; Tội lợi dụng chức vụ, quyền hạn gây ảnh hưởng đối với người khác để trục lợi"
   },
   {
-    "question": "Số lượng giao thức xuất hiện trên tầng ứng dụng là bao nhiêu",
-    "answer": "Không hạn chế"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Quyền chủ thể là cách xử sự mà chủ thể... Theo quy định của pháp luật.",
+    "answer": "Có thể tiến hành"
   },
   {
-    "question": "Số lượng tầng trong mô hình OSI là bao nhiêu ?",
-    "answer": "7"
+    "question": "Các tội phạm tham nhũng gồm:",
+    "answer": "Tội tham ô tài sản; Tội lạm dụng chức vụ, quyền hạn chiếm đoạt tài sản; Tội lợi dụng chức vụ, quyền hạn trong khi thi hành công vụ"
   },
   {
-    "question": "Số lượng tầng trong mô hình TCP là bao nhiêu",
-    "answer": "4"
+    "question": "Ý nghĩa, tầm quan trọng của công tác phòng, chống tham nhũng là:",
+    "answer": "Phòng, chống tham nhũng góp phần củng cố niềm tin của nhân dân vào chế độ và pháp luật; Phòng, chống tham nhũng góp phần duy trì các giá trị đạo đức truyền thống, làm lành mạnh các quan hệ xã hội"
   },
   {
-    "question": "Tắc nghẽn mạng được định nghĩa là :",
-    "answer": "Tất cả đều đúng"
+    "question": "Điều kiện để một tổ chức được công nhận là pháp nhân gồm:",
+    "answer": "Được thành lập một cách hợp pháp; Có cơ cấu tổ chức chặt chẽ; Có tài sản độc lập với cá nhân, tổ chức khác và tự chịu trách nhiệm bằng tài sản đó"
   },
   {
-    "question": "Tầng nào trong mô hình OSI thiết lập, duy trì hoặc hủy bỏ các giao dịch giữa các thực thể đầu cuối",
-    "answer": "Tầng phiên"
+    "question": "Quy phạm pháp luật khác quy tắc đạo đức ở điểm cơ bản là:",
+    "answer": "Quy phạm pháp luật là do nhà nước đặt ra hoặc thừa nhận và được nhà nước bảo đảm thực hiện; Quy phạm pháp luật luôn thể hiện ý chí của Nhà nước; Nội dung của quy phạm pháp luật quy định quyền và nghĩa vụ pháp lý cho các chủ thể tham gia quan hệ xã hội do nó điều chỉnh"
   },
   {
-    "question": "Tầng phiên có các phương pháp trao đổi dữ liệu nào ?",
-    "answer": "Tất cả các phương án"
+    "question": "Tính ý chí của quan hệ pháp luật thể hiện ở điểm:",
+    "answer": "Thể hiện ý chí của Nhà nước và của các chủ thể cụ thể tham gia quan hệ."
   },
   {
-    "question": "Tầng phiên có thể khôi phục hội thoại nhờ vào cơ chế nào ?",
-    "answer": "Sử dụng các điểm khôi phục gọi là các điểm đồng bộ"
+    "question": "Phần biện pháp tác động của nhà nước trong quy phạm pháp luật trả lời cho câu hỏi:",
+    "answer": "Hậu quả bất lợi nào có thể phải gánh chịu?"
   },
   {
-    "question": "Tầng phiên sẽ sử dụng loại địa chỉ logic nào để quản lý các phiên truyền thông ?",
-    "answer": "Socket"
+    "question": "Phần giả định của quy phạm pháp luật trả lời cho câu hỏi:",
+    "answer": "Ai? Khi nào? Trong điều kiện, hoàn cảnh nào?"
   },
   {
-    "question": "Tầng truy cập mạng Network Access trong mô hình TCP đóng vai trò tương đương với các tầng nào của mô hình OSI.",
-    "answer": "Tương đương với Data Link và Physical"
+    "question": "Phần quy định của quy phạm pháp luật trả lời cho câu hỏi:",
+    "answer": "Được làm gì? Không được làm gì? Phải làm gì?"
   },
   {
-    "question": "Tầng vật lý chịu trách nhiệm quy đinh các chuẩn về mặt nào ?",
-    "answer": "Tất cả quy định đều đúng"
+    "question": "Tính xã hội của pháp luật thể hiện ở điểm:",
+    "answer": "Pháp luật thể hiện ý chí chung của toàn xã hội và nhằm bảo vệ lợi ích chung của xã hội; Pháp luật là công cụ để điều chỉnh các quan hệ xã hội nhằm thiết lập, củng cố và bảo vệ trật tự xã hội."
   },
   {
-    "question": "Tên miền ehou.edu.vn có thể gán với bao nhiêu địa chỉ IP",
-    "answer": "Không hạn chế"
+    "question": "Trong lĩnh vực phòng, chống tham nhũng, công dân có nghĩa vụ:",
+    "answer": "Hợp tác, giúp đỡ cơ quan, tổ chức, cá nhân có thẩm quyền trong phòng, chống tham nhũng; Không được lợi dụng việc phản ánh, tố cáo, tố giác, báo tin, cung cấp thông tin về hành vi tham nhũng để vu khống cơ quan, tổ chức, đơn vị, cá nhân khác"
   },
   {
-    "question": "Thao tác nào không xuất hiện tại tầng 3 khi một gói tin IP đến trạm đích",
-    "answer": "Sắp xếp lại các gói tin theo đúng thứ tự của gói tin gửi"
+    "question": "Các hành vi tham nhũng trong khu vực ngoài nhà nước gồm:",
+    "answer": "Tham ô tài sản; Nhận hối lộ; Đưa hối lộ, môi giới hối lộ để giải quyết công việc của doanh nghiệp, tổ chức mình vì vụ lợi."
   },
   {
-    "question": "Thiết bị mạng nào có nhiệm vụ chuyển tín hiệu từ máy tính vào đường truyền và ngược lại",
-    "answer": "Card mạng"
+    "question": "Các hành vi tham nhũng trong khu vực nhà nước gồm:",
+    "answer": "Lợi dụng chức vụ, quyền hạn gây ảnh hưởng đối với người khác để trục lợi; Đưa hối lộ, môi giới hối lộ để giải quyết công việc của cơ quan, tổ chức, đơn vị hoặc địa phương vì vụ lợi; Lợi dụng chức vụ, quyền hạn để bao che cho người có hành vi vi phạm pháp luật vì vụ lợi"
   },
   {
-    "question": "Thiết bị nào sau đây được sử dụng tại trung tâm của mạng hình sao?",
-    "answer": "Switch"
+    "question": "Cơ cấu của quy phạm pháp luật bảo vệ gồm có hai bộ phận là:",
+    "answer": "Giả định và chế tài."
   },
   {
-    "question": "Thông số nào sau đây không ảnh hưởng đến môi trường truyền tin",
-    "answer": "Thời gian truyền tin"
+    "question": "Đặc điểm của hành vi tham nhũng là:",
+    "answer": "Tham nhũng là hành vi của người có thẩm quyền; Khi thực hiện hành vi tham nhũng, người có chức vụ, quyền hạn lợi dụng chức vụ, quyền hạn của mình làm trái pháp luật để mưu lợi riêng; Động cơ của người có hành vi tham nhũng là vì vụ lợi"
   },
   {
-    "question": "Thuật ngữ chung dùng để mô tả đơn vị dữ liệu tầng trình diễn là gì ?",
-    "answer": "Data"
+    "question": "Điều kiện để cá nhân, tổ chức trở thành chủ thể độc lập và chủ động của quan hệ pháp luật là:",
+    "answer": "Phải có năng lực pháp luật và năng lực hành vi pháp luật."
   },
   {
-    "question": "Thứ tự các tầng (layer) của mô hình OSI theo thứ tự từ trên xuống là gì ?",
-    "answer": "Application, Presentation, Session, Transport, Network, Data Link, Physical"
+    "question": "Tác hại của tham nhũng là:",
+    "answer": "Tác hại về chính trị; Tác hại về kinh tế; Tác hại về xã hội"
   },
   {
-    "question": "Tín hiệu DCHPDISCOVER là tín hiệu được gửi từ đâu ?",
-    "answer": "Từ Client gửi quảng bá đến Server yêu cầu cấp phát địa chỉ IP"
+    "question": "Trong lĩnh vực phòng, chống tham nhũng, công dân có quyền:",
+    "answer": "Phát hiện, phản ánh, tố cáo, tố giác, báo tin về hành vi tham nhũng và được bảo vệ; Kiến nghị với cơ quan nhà nước hoàn thiện pháp luật về phòng, chống tham nhũng và giám sát việc thực hiện pháp luật về phòng, chống tham nhũng; Yêu cầu cơ quan nhà nước cung cấp thông tin về tổ chức và hoạt động của cơ quan, tổ chức, đơn vị theo quy định của pháp luật về tiếp cận thông tin."
   },
   {
-    "question": "Tín hiệu DHCPREQUEST là tín hiệu của các máy Client gửi đi để thực hiện công việc gì ?",
-    "answer": "Chấp nhận địa chỉ IP và Subnetmask do DHCP Server cung cấp"
+    "question": "Ý nghĩa, tầm quan trọng của công tác phòng, chống tham nhũng là:",
+    "answer": "Phòng, chống tham nhũng góp phần bảo vệ chế độ, xây dựng Nhà nước pháp quyền; Phòng, chống tham nhũng góp phần tăng trưởng kinh tế đất nước, nâng cao đời sống nhân dân;"
   },
   {
-    "question": "Tốc độ truyền tin của cáp đồng trục (loại Thick) có thể đạt được tối đa là bao nhiêu ?",
-    "answer": "Từ 10Mbs đến 30Mbs."
+    "question": "Những từ nào còn thiếu trong chỗ trống: Năng lực hành vi pháp luật là khả năng của chủ thể được nhà nước thừa nhận là bằng hành vi của chính mình có thể... Các quyền và nghĩa vụ pháp lý của mình.",
+    "answer": "Xác lập và thực hiện"
   },
   {
-    "question": "Trong các giao thức tầng trình diễn sau. Đâu là giao thức của chuẩn ISO ?",
-    "answer": "ASNI.I"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Nội dung của quan hệ pháp luật bao gồm... Của các chủ thể tham gia quan hệ do nhà nước quy định hoặc thừa nhận và bảo đảm thực hiện.",
+    "answer": "Quyền và nghĩa vụ pháp lý"
   },
   {
-    "question": "Trong các tầng sau đây của mô hình OSI tầng nào chịu trách nhiệm biến đổi dữ liệu thành các ‘ngôn ngữ’ chung của mạng",
-    "answer": "Tầng trình diễn"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Quy phạm pháp luật là quy tắc xử sự chung hay chuẩn mực chung do nhà nước... Để điều chỉnh các quan hệ xã hội theo mục đích của nhà nước.",
+    "answer": "Đặt ra hoặc thừa nhận và bảo đảm thực hiện"
   },
   {
-    "question": "Trong cấu trúc của gói tin IP, trường TTL (Time-to-Live) được tính theo đơn vị nào ?",
-    "answer": "Hop"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Thực hiện pháp luật là hành vi (hành động hoặc không hành động)... Của chủ thể có năng lực hành vi pháp luật.",
+    "answer": "Thực tế hợp pháp"
   },
   {
-    "question": "Trong giao thức HDLC để đánh dấu khung tin người ta sử dụng phương pháp nào",
-    "answer": "Sử dụng cờ đánh dấu Flag và quy ước trong dữ liệu sẽ chèn bit 0 sau 5 bit 1 liên tiếp"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Tuân theo (tuân thủ) pháp luật là hình thức thực hiện pháp luật trong đó các chủ thể pháp luật... Những hành vi mà pháp luật cấm.",
+    "answer": "Kiềm chế, không tiến hành"
   },
   {
-    "question": "Trong header của giao thức HTTP tại Client khi nhận được gói tin từ Server ta nhận được thông điệp sau : HTTP/1.1 404. Ý nghĩa của thông điệp là?",
-    "answer": "Kết nối thành công nhưng không tìm thấy nguồn tài nguyên theo yêu cầu"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Vi phạm pháp luật là hành vi..., do chủ thể có năng lực trách nhiệm pháp lý thực hiện, xâm hại các quan hệ xã hội được pháp luật bảo vệ.",
+    "answer": "Trái pháp luật và có lỗi"
   },
   {
-    "question": "Trong liên kết phiên làm việc với tầng giao vận có những trường hợp nào xảy ra ?",
-    "answer": "1. Nhiều liên kết giao vận sử dụng cùng một phiên liên kết. 2. Một liên kết giao vận sử dụng nhiều liên kết phiên"
+    "question": "Những từ nào còn thiếu trong chỗ trống: Vô ý vì quá tự tin là lỗi của một chủ thể tuy thấy trước hành vi của mình có thể gây ra hậu quả nguy hiểm cho xã hội nhưng cho rằng... Nên vẫn thực hiện và đã gây ra hậu quả nguy hiểm cho xã hội.",
+    "answer": "Hậu quả đó sẽ không xảy ra hoặc có thể ngăn ngừa được"
   },
   {
-    "question": "Trong những giao thức sau, giao thức nào không thuộc tầng ứng dụng",
-    "answer": "TCP"
+    "question": "Những từ nào còn thiếu trong chỗ trống: “Nhà nước là tổ chức......của xã hội, bao gồm một lớp người được tách ra từ xã hội để chuyên thực thi quyền lực, nhằm tổ chức và quản lý xã hội, phục vụ lợi ích chung của toàn xã hội cũng như lợi ích của lực lượng cầm quyền trong xã hội”",
+    "answer": "Quyền lực đặc biệt"
   },
   {
-    "question": "Trong phiên dịch thứ tự byte các CPU của Intel sẽ ưu tiên thứ tự phiên dịch, truyền dữ liệu như thế nào ?",
-    "answer": "Ưu tiên theo thứ tự từ byte ít quan trọng trước"
+    "question": "Chủ thể của quan hệ pháp luật là … có đủ các điều kiện do pháp luật quy định và tham gia vào các quan hệ pháp luật.",
+    "answer": "Cá nhân, tổ chức"
   },
   {
-    "question": "Trong phương pháp cửa sổ trượt. Nếu cửa sổ có n vị trí thì kích thước tối đa của cửa số là bao nhiêu ?",
-    "answer": "n-1"
+    "question": "Trong hệ thống chính trị Việt Nam hiện nay",
+    "answer": "Nhà nước ở vị trí trung tâm và có vai trò đặc biệt quan trọng."
   },
   {
-    "question": "Trong quá trình truyền tin giai đoạn mã hóa “EnCode” nhằm thực hiện điều gì?",
-    "answer": "Mã hóa dữ liệu sang dạng mã nhị phân để chuẩn bị truyền tin trên mạng"
+    "question": "Nghĩa vụ của chủ thể bao gồm xử sự bắt buộc sau:",
+    "answer": "Chủ thể phải thực hiện những hành vi nhất định; Chủ thể phải kiềm chế để không thực hiện những hành vi nhất định; Chủ thể phải chịu trách nhiệm pháp lý khi không thực hiện hoặc thực hiện không đầy đủ các nghĩa vụ pháp lý của mình."
   },
   {
-    "question": "Yếu tố nào sau đây gây nên tắc nghẽn mạng ?",
-    "answer": "Sự mất cân đối giữa đường truyền và năng lực xử lý Router"
+    "question": "Chọn đáp án đúng nhất: Thực hiện pháp luật có hình thức là:",
+    "answer": "Tuân theo (tuân thủ) pháp luật; Thi hành (chấp hành) pháp luật; Sử dụng (vận dụng) pháp luật, áp dụng pháp luật"
   },
   {
-    "question": "Khi bên cung cấp dịch vụ trình diễn không xác định đối tượng phía bên kia đầu giao tiếp có sẵn sàng hay không, bên cung cấp sẽ lựa chọn nhóm giao thức nào ?",
-    "answer": "Nhóm giao thức Default context"
+    "question": "Năng lực pháp luật là khả năng mà pháp luật quy định cho cá nhân hoặc tổ chức … Khi tham gia quan hệ pháp luật.",
+    "answer": "Có các quyền và nghĩa vụ pháp lý"
+  },
+  {
+    "question": "Bộ máy nhà nước là hệ thống các ….. từ trung ương tới địa phương, được tổ chức và hoạt động theo những nguyên tắc chung nhất định tạo thành một cơ chế để thực hiện các chức năng, nhiệm vụ của Nhà nước.",
+    "answer": "Cơ quan nhà nước"
+  },
+  {
+    "question": "Khách thể của vi phạm pháp luật là … được pháp luật bảo vệ nhưng bị hành vi trái pháp luật xâm hại.",
+    "answer": "Quan hệ xã hội"
   }
 ]

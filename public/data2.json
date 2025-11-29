@@ -1,410 +1,718 @@
 [
   {
-    "question": "Anh/chị hãy chỉ ra tập xác định của hàm: y = f(x) = Căn log2 (3x +4)",
-    "answer": "[- 1 ; +oo)"
+    "question": "Phần mềm gián điệp (Spyware) là gì?",
+    "answer": "Một công nghệ cho phép theo dõi, bí mật giám sát, ngăn chặn, hoặc mất kiểm soát sự tương tác của người dùng với máy tính"
   },
   {
-    "question": "Các hàm số định bởi công thức nào sau đây là hàm lẻ?",
-    "answer": "Tất cả các phương án đều đúng"
+    "question": "Giáo dục và đào tạo qua internet thường được gọi là…",
+    "answer": "Học trực tuyến (e-learning)"
   },
   {
-    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số y = f(x) - Căn x^2 -1",
-    "answer": "y' = x / Căn x^2 - 1 (x < -1, x >1)"
+    "question": "Người truy cập trái phép vào máy tính của bạn và lấy cắp thông tin được gọi là gì?",
+    "answer": "Hacker"
   },
   {
-    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số Y= f(x) = X^2 - 4 / X^2 + 4",
-    "answer": "Y' = 16x / (X^2 +4) ^2"
+    "question": "Đặt màn hình máy tính như thế nào là tốt nhất cho mắt bạn?",
+    "answer": "Không đối diện với cửa ra vào, cửa số, bóng đèn."
   },
   {
-    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số: y = f(x) = (2x - 3) (x^2 +3x - 2)",
-    "answer": "y ' = 6x^2 + 6x -13"
+    "question": "Hãy chỉ ra đặc điểm của tin nhắn tức thời?",
+    "answer": "Có thể có nhiều thông điệp cùng một lúc, tức thời"
   },
   {
-    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số: y = f(x) = cos ( căn 1+ x^2)",
-    "answer": "-xsin ( Căn 1+ x^2) / Căn 1+ x^2"
+    "question": "Cho phép sinh viên sử dụng thông tin thuộc sở hữu của người khác trong cùng một báo cáo nghiên cứu khoa học mà không cần sự cho phép của chủ sở hữu là:",
+    "answer": "Quy tắc sử dụng tài liệu hợp lý (không phải xin phép trong 1 số trường hợp nhất định) phải sử dụng."
   },
   {
-    "question": "Câu nào sau đây chỉ ra đạo hàm của hàm số Y = f(x) = x+1 / x -1 trên R \\ {1}?",
-    "answer": "y' = -2 / (x -1)^2"
+    "question": "Loại tài liệu bằng văn bản có thể được sử dụng mà không cần sự cho phép của bản quyền?",
+    "answer": "Tài liệu phạm vi công cộng"
   },
   {
-    "question": "Cho a,b,v thuộc R . Trong các mệnh đề sau, mệnh đề nào sai?",
-    "answer": "Nếu a > b thì ac > bc"
+    "question": "Định nghĩa của một giấy phép bản quyền là gì?",
+    "answer": "Việc ủy quyền hợp pháp để sử dụng một sản phẩm phần mềm"
   },
   {
-    "question": "Cho A={a.b.c}, B={1,2,3}, C=[b,c,a}, D={3,2,1}.Trong các mệnh đề sau, mệnh đề nào sai?",
-    "answer": "A=B"
+    "question": "Thành phần phần cứng nào bảo vệ máy tính của bạn khỏi nguy hại do điện khi chuyển đổi giữa các hệ thống điện.",
+    "answer": "Bộ lưu điện UPS"
   },
   {
-    "question": "Cho các giới hạn có giá trị: Anh/chị hãy chỉ ra các cặp giới hạn có giá trị bằng nhau:",
-    "answer": "(I) và (III)"
+    "question": "Lựa chọn trong trường học: lý do hợp lệ để hạn chế truy cập của sinh viên với các mạng và Internet?",
+    "answer": "Ngăn chặn việc xem hoặc chỉnh sửa các tập tin hoặc thư mục nhất định, màn hình và các hoạt động trực tuyến bộ lọc"
   },
   {
-    "question": "Cho các giới hạn sau: Giới hạn nào sẽ không hữu hạn?",
-    "answer": "Chỉ (III)"
+    "question": "Thiết bị nào chịu được nguy hại do từ tính?",
+    "answer": "DVD ROM"
   },
   {
-    "question": "Cho F = {1,4,7,10} và G = {1,4,7}. Hỏi các mệnh đề sau mệnh đề nào sai?",
-    "answer": "Tập {1,4,7} là tập con thật sự của G"
+    "question": "Nội dung nào dưới đây thuộc loại phần mềm máy tính giá rẻ?",
+    "answer": "Phần mềm miễn phí, phần mềm chia sẻ, phần mềm giảm giá cho sinh viên."
   },
   {
-    "question": "Cho hàm số f(x) = xln x khi x>0; 0 khi x = 0; xe^x khi x <0 là điểm",
-    "answer": "Liên tục"
+    "question": "Trong MS Word 2013, phím hoặc tổ hợp phím nào dùng để di chuyển con trỏ về cuối dòng văn bản?",
+    "answer": "End"
   },
   {
-    "question": "Cho hàm số: f(x) = 3x+5/x^2+8x+12. Tìm các hệ số a,b để f(x)=a/x+2+b/x+6",
-    "answer": "{ a=-1/4 { b=13/4"
+    "question": "Phím nóng Ctrl + Shift + =, có chức năng gì?",
+    "answer": "Bật hoặc tắt chỉ số trên"
   },
   {
-    "question": "Cho hàm số: g:R \\{1} ->R \\ {2} x->y =g(x) = 2x+1/ x-1. Hàm số ngược (đảo) cho bởi công thức nào sau đây?",
-    "answer": "y=x+1 / x-2"
+    "question": "Để tạo định dạng khổ giấy mặc định là A4 khi soạn thảo văn bản trên Word 2013 ta thực hiện theo cách nào?",
+    "answer": "Vào Page Layout/Size/ More Paper Size. Trong thẻ Paper chọn Paper size là A4, nhấn nút Set As Default"
   },
   {
-    "question": "Đạo hàm cấp hai của hàm số F(x,y) = x^y + x căn y là?",
-    "answer": "f'' = 2y; f''xy = 2x + 1/ 2 căn y, f '' yy = -x/ 4 căn y"
+    "question": "Trong Home/ Paragraph/ Tabs, mục Tab Stop position dùng để xác định khoảng cách:",
+    "answer": "Từ lề trái đến vị trí Tab đã nhập (vị trí điểm dừng Tab)"
   },
   {
-    "question": "Đạo hàm của hàm số f(x) = 3 Căn sin^2 x tại điểm x=0 là:",
-    "answer": "Không tồn tại"
+    "question": "Muốn sao chép định dạng của một dòng văn bản nào đó, bạn sẽ bôi đen dòng đó, sau đó:",
+    "answer": "Nhấn chuột vào biểu tượng Format Painter trong thẻ Home"
   },
   {
-    "question": "Đạo hàm của hàm số f(X) =3 căn tg^4x tại điểm x=0 bằng:",
-    "answer": "0"
+    "question": "Trong Word 2013, làm thế nào để chuyển đổi từ văn bản dạng bảng (Table) sang văn bản dạng Text thông thường?",
+    "answer": "Vào Layout/Convert to Text"
   },
   {
-    "question": "Giá trị lớn nhất của hàm số f(x) = x + 2 cos x trên [0, pi] bằng:",
-    "answer": "Căn 3 + pi/6"
+    "question": "Trong chế độ tạo bảng (Table) của phần mềm Word 2013, muốn chèn thêm một dòng ở phía dưới dòng hiện tại, ta thực hiện thao tác nào dưới đây?",
+    "answer": "Layout / Rows & Columns/ Insert Below"
   },
   {
-    "question": "Giá trị nhỏ nhất của hàm sồ f(x) = x - 2sin x trên [0,pi] là:",
-    "answer": "Pi/3 - Căn 3"
+    "question": "Trước khi in nếu muốn đặt lề cho trang in ta thực hiện chọn Page Layout, trong mục Page Setup tiếp tục chọn:",
+    "answer": "Margins"
   },
   {
-    "question": "Giải phương trình biến số phân ly (x^2+1)y'=xy",
-    "answer": "Cy=C Căn1+x^2"
+    "question": "Trong MS Word 2013, khi bạn đang thực hiện các thao tác trộn thư, nút Preview Results có chức năng gì?",
+    "answer": "Xem trước cấu trúc bức thư"
   },
   {
-    "question": "Giải phương trình biến số phân ly x(1+y^2)dx+y(1+x^2)dy=0",
-    "answer": "1/1+x^2+1/1+y^2=K"
+    "question": "Nếu bạn muốn chuyển toàn bộ phần văn bản được chọn sang định dạng viết hoa đầu mỗi từ thì bạn cần thực hiện thao tác nào sau đây?",
+    "answer": "Home/ Change Case/ Capitalize Each Word"
   },
   {
-    "question": "Giải phương trình đẳng cấp y^2=2x^2Ln|Cx|",
-    "answer": "y^2=2x^2Ln|Cx|"
+    "question": "Nhấp chuột trái 3 lần vào khoảng trống lề trái của đoạn văn bản sẽ có tác dụng gì?",
+    "answer": "Chọn toàn bộ văn bản"
   },
   {
-    "question": "Giải phương trình thuần nhất (x^2+1)y`+xy=0",
-    "answer": "y=C/Căn x^2+1"
+    "question": "Để gạch dưới mỗi từ một nét đôi, ngoài việc vào Home/Font/Underline, ta có thể dùng tổ hợp phím nào:",
+    "answer": "Ctrl + Shift + D"
   },
   {
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng y’’+ 4y’- 5y = 2ex",
-    "answer": "y= (C1e^x +C2e^-5x)+1/3xe^x"
+    "question": "Trong soạn thảo Word, muốn trình bày văn bản dạng cột (dạng thường thấy tên các trang báo và tạp chí), ta thực hiện:",
+    "answer": "Page Layout -> Column"
   },
   {
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng y’’+ 9 y= 6e3x",
-    "answer": "y=C1cos3x+C2sin3x+1/3e^3x"
+    "question": "Trong Word 2013, bạn thực hiện thao tác nào để hiển thị thanh thước ngang và dọc ?",
+    "answer": "View / Ruler"
   },
   {
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’- 2y’+ 2y=0",
-    "answer": "y = ex (C1 cosx+ C2 sinx)"
+    "question": "Trong chế độ tạo bảng (Table) của phần mềm Word, muốn tách một ô thành nhiều ô, ta thực hiện:",
+    "answer": "Layout / Split Cells"
   },
   {
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’- 2y’+ 2y=x2",
-    "answer": "y=e^x(C1cosx+C2sinx)+1/2(x+1)^2"
+    "question": "Trong chế độ tạo bảng (Table) của phần mềm Word 2013, muốn chèn thêm một cột ở phía trước cột hiện tại, ta thực hiện thao tác nào dưới đây?",
+    "answer": "Layout / Rows & Columns/ Insert Left"
   },
   {
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’-y’-2y=0",
-    "answer": "y= C1 e-x + C2 e2x"
+    "question": "Trong MS Word 2013 để thay đổi hướng in cho văn bản đang soạn thảo, ta chọn thẻ Page Layout rồi chọn nút gì sau đây?",
+    "answer": "Orientation"
   },
   {
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’+ 3y’=0",
-    "answer": "y = C1 + C2 e-3x"
+    "question": "Trong MS Word 2013, tổ hợp phím nào dùng để thay thế cho thao tác click vào nút B trên thẻ Home?",
+    "answer": "Ctrl+ B"
   },
   {
-    "question": "Giải phương trình vi phântuyến tính cấp 1 y’+2xy=x",
-    "answer": "Ke^x^2+1/2"
+    "question": "Trong MS Word 2013, tổ hợp phím nào được dùng để lưu văn bản?",
+    "answer": "Ctrl+ S"
   },
   {
-    "question": "Giới hạn bằng:",
-    "answer": "-1/6"
+    "question": "Trong soạn thảo văn bản Word, muốn tắt đánh dấu chọn khối văn bản (tô đen), ta thực hiện:",
+    "answer": "Bấm phím mũi tên di chuyển"
   },
   {
-    "question": "Giới hạn lim n->oo [sin Căn n+1) - sin căn n bằng",
-    "answer": "0"
+    "question": "Muốn thay đổi màu nền hoặc tạo khung cho một đoạn văn bản đã được chọn ta chọn Page Layout sau đó chọn:",
+    "answer": "Page Borders"
   },
   {
-    "question": "Hàm số (e^x - e^-x) / 2 đạt cực tiểu tại điểm",
-    "answer": "không có cực tiểu"
+    "question": "Trong soạn thảo văn bản Word, muốn tạo ký tự Hoa đầu dòng của đoạn văn, ta thực hiện:",
+    "answer": "Insert - Drop Cap"
   },
   {
-    "question": "Hàm số định bởi công thức nào sau đây là hàm chẵn?",
-    "answer": "g(x) = 3 căn (1-x) + 3 căn (1+x)^2"
+    "question": "Trong MS Word 2013, để thay đổi hướng của văn bản trong ô của bảng (Table) ta thực hiện như thế nào?",
+    "answer": "Layout/Text Direction"
   },
   {
-    "question": "Hàm số định bởi công thức nào sau đây là hàm chẵn?",
-    "answer": "|x| + 2000"
+    "question": "Trong MS Word 2013, để chèn các hình đơn giản như hình chữ nhật, hình tròn, hình tam giác... ta gọi lệnh gì?",
+    "answer": "Insert/ Shapes/ Chọn hình cần vẽ"
   },
   {
-    "question": "Hàm số nào sau đây không có đạo hàm tại x=0 ?",
-    "answer": "y=|x|"
+    "question": "Recyle Bin được dùng để làm gì?",
+    "answer": "Lưu trữ các tài liệu đã được xóa tạm thời"
   },
   {
-    "question": "Hàm số nào sau đây không có đạo hàm tại x=1?",
-    "answer": "y = |x - 1|"
+    "question": "Những gì có thể xảy ra sau khi bạn thay đổi thiết lập Control Panel?",
+    "answer": "Các thiết lập hiện tại sẽ không được ghi lại vì chúng không tương thích với hệ thống"
   },
   {
-    "question": "Hàm số xác định bởi phương án nào sau đây có tập xác định là R?",
-    "answer": "f(x) = arctgx"
+    "question": "Hộp điều khiển việc phóng to, thu nhỏ, đóng cửa sổ được gọi là gì?",
+    "answer": "Control box"
   },
   {
-    "question": "Hàm số y = (e^x +e^-x)/2 đạt cực tiểu tại điểm:",
-    "answer": "0"
+    "question": "Để thoát khỏi Windows và tắt hẳn máy tính ta nhấn vào nút Start/Shutdown hoặc Tunrn off Computer) và chọn ...",
+    "answer": "Shutdown"
   },
   {
-    "question": "Hàm số: f(x) = ln (4 - x^2) xác định tại giá trị nào của x , ở sau đây?",
-    "answer": "-2 < x < 2"
+    "question": "Khởi động máy tính thuộc giai đoạn nào của dòng chảy thông tin trong một máy tính?",
+    "answer": "Khởi động của máy tính"
   },
   {
-    "question": "Khai triển Maclaurin đến bậc hai của hàm số f(x) = e^-x khi x là VCB bằng",
-    "answer": "1 -x + x^2 + o(x^2)"
+    "question": "Loại tập tin nào thường được ẩn?",
+    "answer": "Tập tin hệ thống"
   },
   {
-    "question": "Khảo sát sự liên tục của hàm số sau và của các đạo hàm riêng cấp 1 của nó F(x,y) = x^2 + y^2 sin 1/ x^2 +y^2, nếu (x,y) khác(0,0); 0 , nếu (x,y) khác(0,0)",
-    "answer": "Hàm số liên tục trên R^2 và các đạo hàm riêng liên tục tại mọi (x,y) khác (0,0)"
+    "question": "Trong Windows, từ Shortcut có ý nghĩa gì?",
+    "answer": "Tạo đường tắt để truy cập nhanh"
   },
   {
-    "question": "Khi viết: Cho x → +∞ lim Căn x + căn x + căn x / Căn x+ 1 =l thì giá trị của l là:",
-    "answer": "1"
+    "question": "Khi một máy in mới một trang thử nghiệm sau khi nó được bật, điều này có nghĩa rằng ...",
+    "answer": "trình điều khiển máy in là chính xác / hiện tại"
   },
   {
-    "question": "Khi viết: Cho x → 0 Lim Căn 1+ 2arcsinx - 1 / sin3x = L thì giá trị của l là:",
-    "answer": "1/3"
+    "question": "Khi đang làm việc với Windows, muốn xem tổ chức các tệp và thư mục trên đĩa, ta có thể sử dụng ...",
+    "answer": "My Computer hoặc Windows Explorer"
   },
   {
-    "question": "Khi viết: Cho x→a lim sin x - sin @ / x- a = l thì giá trị của l là:",
-    "answer": "cos a"
+    "question": "Theo hình minh hoạ, muốn đổi tên tệp tin thì việc đầu tiên phải làm là gì?",
+    "answer": "nhắp chọn tệp tin cần đổi tên"
   },
   {
-    "question": "Khi x->0 , VCB nào dưới đây không cùng bậc với các VCB còn lại ?",
-    "answer": "Ln(cosx)"
+    "question": "Tại một slide ta dùng tổ hợp phím nào sau đây sẽ xoá slide đó?",
+    "answer": "Shift + Delete"
   },
   {
-    "question": "Một nguyên hàm của hàm số y =1/1+ cosx là:",
-    "answer": "tg x/2"
+    "question": "Trong khi thiết kế giáo án điện tử, thực hiện thao tác chọn Insert-> New Slide là để",
+    "answer": "Chèn thêm một slide mới vào ngay sau slide hiện hành"
   },
   {
-    "question": "Một nguyên hàm của hàm số y=1/sin^2x+2cos^2x là:",
-    "answer": "1/Căn2arctg(tgx/căn2)+C"
+    "question": "Khi đang trình diễn trong PowerPoint, muốn kết thúc phiên trình diễn, ta thực hiện:",
+    "answer": "Nháy chuột phải, rồi chọn End Show"
   },
   {
-    "question": "Một nguyên hàm của hàm số y=1/1+sinx là:",
-    "answer": "-tg(pi/4-x/2)"
+    "question": "Để thực hiện việc chèn bảng biểu vào slide ta phải",
+    "answer": "chọn Insert -> Table"
   },
   {
-    "question": "Tập xác định của hàm số y=arcsin (x/x+1) là",
-    "answer": "[-1/2, +oo)"
+    "question": "Để căn lề cho một đoạn văn bản nào đó trong giáo án điện tử đang thiết kế, trước tiên ta phải",
+    "answer": "Chọn cả đoạn văn bản cần căn lề"
   },
   {
-    "question": "Tập xác định của hàm số y=arctg(ln x) là",
-    "answer": "(0;+oo)"
+    "question": "Nếu chọn 3 ô liên tiếp trên cùng một cột của bảng biểu, đưa chuột vào vùng ô đó, nhấn chuột phải và chọn Insert Rows below thì ta đã",
+    "answer": "thêm vào bảng 3 dòng"
   },
   {
-    "question": "Tìm cực trị của hàm số z = f(x,y) = x^2 +xy + y^2 + x - y + 1",
-    "answer": "Hàm số đạt cực tiểu tại điểm (-1,1) zmax= 0"
+    "question": "Để tạo một slide giống hệt slide hiện hành mà không phải thiết kế lại, người sử dụng",
+    "answer": "Chọn Insert-> Duplicate slide"
   },
   {
-    "question": "Tìm cực trị của hàm số z = f(x,y) = 1/2xy + (47 - x - y ) (x/3 + y/4)",
-    "answer": "Hàm số đạt cực đại tại (21,20) zmax = 282"
+    "question": "Âm thanh đưa vào bài trình diễn",
+    "answer": "thực hiện được cả khi tạo hiệu ứng động và hiệu ứng chuyển trang"
   },
   {
-    "question": "Tìm cực trị của hàm số Z = f(x,y) = 2x^2 + y^2 + 2xy + 2x+ 2y",
-    "answer": "Hàm số đạt cực tiểu tại (0,-1) zmin = -1"
+    "question": "Chèn 1 đoạn nhạc vào Slide và chọn kiểu chạy cho đoạn nhạc “ Play across slides” nghĩa là",
+    "answer": "Đoạn nhạc sẽ chạy xuyên suốt các slide"
   },
   {
-    "question": "Tìm cực trị của hàm số z = f(x,y) = 4(x - y ) - x^2 - y^2",
-    "answer": "Hàm số đạt cực đại tại tại điểm (2,-2) zmax = 8"
+    "question": "Khi thực hiện thao tác chọn Insert ->Media -> sound người sử dụng",
+    "answer": "chỉ được phép chèn âm thanh vào giáo án"
   },
   {
-    "question": "Tìm cực trị của hàm số z = f(x,y) = x^4 + y^4 - 4xy + 1",
-    "answer": "Hàm số đạt cực tiểu tại hai điểm (1,1), (-1,-1) zmax = -1"
+    "question": "Muốn chèn một hình ảnh nào đó đã có trong đĩa vào trong slide ta chọn",
+    "answer": "Insert -> Picture"
   },
   {
-    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau Un(x)=(-1)^nx^n/3 căn n",
-    "answer": "-1 < x ≤ 1"
+    "question": "Kết quả khi thực hiện tìm kiếm qua trang //google.com.vn với nội dung “Chuẩn kỹ năng công nghệ thông tin cơ bản” filetype:pdf",
+    "answer": "Các file có định dạng pdf mà trong nội dung file có chứa cụm từ “chuẩn kỹ năng công nghệ thông tin cơ bản”"
   },
   {
-    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau Un(x)=x^n/n(n-1),N>=",
-    "answer": "-1 ≤ x ≤ 1"
+    "question": "Shortcut là biểu tượng đại diện cho một chương trình hay một tập tin để khởi động một chương trình hay một tập tin. Vậy có mấy loại shortcut:",
+    "answer": "1 loại"
   },
   {
-    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau un(x)=(-1)^n+1 x^n/n",
-    "answer": "-1 < x ≤ 1"
+    "question": "Chọn phát biểu đúng:",
+    "answer": "Để bắt đầu cài đặt máy in thì nhắp đúp lên biểu tượng Add Printer"
   },
   {
-    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau un(x)=(x-4)^n/Căn n",
-    "answer": "3 ≤ x < 5"
+    "question": "Phát biểu nào sau đây là đúng đối với phần mềm nén/giải nén tệp tin Winzip?",
+    "answer": "Winzip có khả năng nén nhiều tệp tin, thư mục thành 1 tệp tin. Tệp tin sau khi nén thường có đuôi .zip và có kích thước nhỏ hơn tổng kích thước của các tệp tin ban đầu"
   },
   {
-    "question": "Tìm miền xác định của hàm số f(x,y) = ln x + ln sin y?",
-    "answer": "{(x,y) thuộc R^2 , x>0, 2kpi <y < (2k+1)pi , k thuộc Z}"
+    "question": "Khi đang soạn thảo, muốn thay đổi màu chữ ta thực hiện thao tác nào?",
+    "answer": "Home/Font/Font color và chọn màu phù hợp"
   },
   {
-    "question": "Tìm miền xác định của hàm số f(x,y) =1/ Căn x + y + 1 / Căn x - y",
-    "answer": "x>0 x>y > - x"
+    "question": "Một văn bản được soạn thảo trong MS Word được gọi là gì?",
+    "answer": "Document"
   },
   {
-    "question": "Tìm miền xác định của hàm số f(x,y) =Căn y - x Ln(y +x)",
-    "answer": "y>0 y>=x>-y"
+    "question": "Khi muốn định dạng kí tự cho một đoạn văn bản đã được chọn ta chọn Home sau đó chọn:",
+    "answer": "Font"
   },
   {
-    "question": "Tìm miền xác định của hàm số: f(x,y) = 1/ căn x + y + 1/ căn x - y",
-    "answer": "X > 0 X >Y >-X"
+    "question": "Muốn chèn thêm biểu đồ vào để minh họa cho văn bản. Bạn thực hiện thao tác nào sau đây?",
+    "answer": "Insert/ Chart"
   },
   {
-    "question": "Tìm miền xác định của hàm số: F(x,y) = Căn x ln y?",
-    "answer": "{(x,y) thuộc R^2, x >=0, y >=1} U {(x,y) thuộc R^2 , x<=0, 0 <y<=1}"
+    "question": "Trong MS Word 2013, để chọn nhiều hình vẽ trên văn bản, bạn cần nhấn thêm phím gì khi click vào hình vẽ?",
+    "answer": "Shift"
   },
   {
-    "question": "Tính giới hạn sau: lim n->oo (1/n^2 +3/n^2 + 5/n^2+...+2n-1/n^2)",
-    "answer": "1"
+    "question": "Ta có thể xóa một Sheet bằng cách:",
+    "answer": "Nhấp chuột phải vào tên Sheet, chọn Delete"
   },
   {
-    "question": "Tính tích phân I = Se^xdx/2+e^xDx. Kết quả nào sau đây là đúng?",
-    "answer": "I=Ln(2+e^x)+C"
+    "question": "Để ghi lưu một sổ bảng tính đang mở dưới một tên khác, bạn vào thực đơn lệnh File và chọn lệnh nào sau đây ?",
+    "answer": "Save As"
   },
   {
-    "question": "Tính tích phân I=Sx+1/ Căn Kết quả nào sau đây là đúng?",
-    "answer": "I=2/3x Căn x +2 Cẵn+C"
+    "question": "Muốn nhập dữ liệu số với những số 0 phía trước mỗi số. ví dụ 0912 hay 0011, phương án nào sau đây là lựa chọn sai?",
+    "answer": "Nhập dấu nháy đơn (') trước khi nhập số"
   },
   {
-    "question": "Tính tích phân Căn x^2 + y^2 dxdy,với D: x <=x^2 + y^2 <=2x, y>=0",
-    "answer": "14/9"
+    "question": "Trong MS Excel 2013, giả sử vùng giá trị từ A4 đến A20 chứa cột Họ và tên sinh viên. Với yêu cầu bài toán \"Tính tổng số lượng sinh viên có trong danh sách\" thì công thức sẽ là gì?",
+    "answer": "=COUNTA(A4:A20)"
   },
   {
-    "question": "Tính tích phân",
-    "answer": "14/3"
+    "question": "Để biểu diễn số liệu dạng phần trăm, sử dụng biểu đồ kiểu nào dưới đây là hợp lý nhất:",
+    "answer": "Biểu đồ dạng quạt tròn (Pie)"
   },
   {
-    "question": "Tính tích phân I=Sdx/e^x+e^-xdx. Kết quả nào sau đây là đúng?",
-    "answer": "I=arctg(e^x)+C"
+    "question": "Để in một trang bảng tính nằm ngang hoặc thẳng đứng, bạn chọn thao tác nào?",
+    "answer": "Vào File/ Print/ Page Setup - Chọn kiểu đứng hoặc nằm ngang."
   },
   {
-    "question": "Tính tích phân I=Sdx/sin^2(2x+pi/4) Kết quả nào sau đây là đúng?",
-    "answer": "I=-1/2cot g(2x+pi/4)+C"
+    "question": "Trong soạn thảo Word, muốn trình bày văn bản trong khổ giấy theo hướng ngang ta chọn mục:",
+    "answer": "Landscape"
   },
   {
-    "question": "Tính tích phân (sin x + cos y) dxdy , với D: 0 <=x <=pi/2, 0 <=y<=Pi /2",
-    "answer": "pi"
+    "question": "Một bảng tính worksheet bao gồm:",
+    "answer": "256 cột và 65536 dòng"
   },
   {
-    "question": "Tính tích phân (x^3 +4y)dx - (2x +y^3) dy , AB AB là nửa đường tròn y = Căn 1 -x^2 , A( - 1;0), B(1;0)",
-    "answer": "-3pi"
+    "question": "Các địa chỉ sau đây là địa chỉ gì: $A1, B$5, C6, $L9, $DS7",
+    "answer": "Địa chỉ hỗn hợp"
   },
   {
-    "question": "Tính tích phân Căn x^2 + y^2 dxdy, Với D giới hạn bởi các đường tròn x^2 +y^2 = a^2, x^2 +y^2 = 4a^2 , a>0",
-    "answer": "14pi a^3 /3"
+    "question": "Biểu thức =AVERAGE(4,6,7,8) trả lại kết quả là bao nhiêu?",
+    "answer": "6.25"
   },
   {
-    "question": "Tính tích phân JJd Căn 4 - x^2 y^2 dxdy, với D giới hạn bởi đường tròn x^2 + y^2 = 2 và y>=0",
-    "answer": "8/3(pi/2 - 2/3)"
+    "question": "Để chuyển chữ \"HANOI\" thành \"hanoi\" ta sử dụng hàm nào dưới đây?",
+    "answer": "=Lower(\"HANOI\")"
   },
   {
-    "question": "Tính tích phân :",
-    "answer": "(e-1)^2"
+    "question": "Để thực hiện thay đổi kiểu định dạng cho chữ số, chọn:",
+    "answer": "Home/Format/ Format Cells…/ Number"
   },
   {
-    "question": "Tính tích phân (x +y) dxdy, với D: 0<=x <=y, x^2 + y^2 <=1",
-    "answer": "1/3"
+    "question": "Khi vào Home/Format/Format Cells, thẻ Border có tác dụng gì?",
+    "answer": "Tạo khung viền cho bảng tính cần chọn"
   },
   {
-    "question": "Tính tích phân Căn 1 - x^2 - y^2 dxdy, với D giới hạn bởi đường tròn x^2 + y^2 =1",
-    "answer": "2pi / 3"
+    "question": "Khi vào File/Print/Page Setup, chúng ta chọn thẻ Margins để làm gì?",
+    "answer": "Căn chỉnh lề cần in"
   },
   {
-    "question": "Tính tích phân đường (1-x^2)ydx +x(1 - y^2)dy L là đường tròng x^2 +y^2 =1",
-    "answer": "-pi/3"
+    "question": "Để chỉ in một vùng nào đó được chọn trong bảng tính Excel chúng ta cần thao tác?",
+    "answer": "Bôi đen vùng cần in, sau đó vào File/Print, chọn Print Selection"
   },
   {
-    "question": "Tính tích phân đường (1-x^2)ydx +x(1 + y^2)dy L là đường tròng x^2 +y^2 =1",
-    "answer": "pi/ 2"
+    "question": "Khi muốn lặp lại tiêu đề cột ở mỗi trang in, chúng ta cần thực hiện?",
+    "answer": "Vào File/Print/Page Setup, chọn thẻ Sheet, tích vào mục Row and column headings"
   },
   {
-    "question": "Tính tích phân đường ab(xy-1)dx +x^2ydy Trong đó AB là đoạn đường thẳng y = -2x+2 từ điểm A(1,0) đến điểm B(0,2)",
-    "answer": "1"
+    "question": "Để hủy bỏ thao tác vừa thực hiện ta nhấn tổ hợp bàn phím",
+    "answer": "Ctrl + Z"
   },
   {
-    "question": "Tính tích phân ex^2 +y^2 dxdy, với D là hình tròn x^2 +y^2 <=1",
-    "answer": "2 pi"
+    "question": "Để lưu tập tin với một tên khác ta chọn lệnh nào sau đây",
+    "answer": "File -> Chọn Save as -> Gõ tên tập tin vào phần File Name"
   },
   {
-    "question": "Tính tích phân I=Se^3x+1/e^x+1dx Kết quả nào sau đây là đúng?",
-    "answer": "I= 1/2e^2x-e^x+x+C"
+    "question": "Muốn mở một tập tin đã tồn tại trên đĩa, đầu tiên ta phải",
+    "answer": "Chọn File -> Open"
   },
   {
-    "question": "Tính tích phân S OA^ 4xydx-x^2dy,OA^ là cung parabol y=2x^2, O(0;0),A(1;2)",
-    "answer": "1"
+    "question": "Chọn câu sai trong các câu sau Trong khi thiết kế giáo án điện tử bằng PowerPoint,",
+    "answer": "không thể tạo chỉ số trên (ví dụ số 2 trong X2 ) như trong MS-Word"
   },
   {
-    "question": "Tính tích phân ydx +xdy , OA là cung parabol y = x^2, O(0;0), A(1;1)",
-    "answer": "1"
+    "question": "Để lưu mới một tập tin đang mở mà không mất đi tập tin cũ, ta có thể",
+    "answer": "chọn File -> Save As"
   },
   {
-    "question": "Tính tích phân: ∫ ((y−2y ^2 )dx+(y−2x ^2)dy),với C là đường tròn x^2 + y^2=1, theo chiều dương.",
-    "answer": "-pi"
+    "question": "Để lưu lại tập tin GADT.PPT đang mở, ta có thể",
+    "answer": "Chọn File -> Save"
   },
   {
-    "question": "Tính tích phân: ∫ ∫ (x^2 +y^2) dxdy,với D giới hạn bởi đường tròn x^2 +y^2 = 2x",
-    "answer": "3pi/2"
+    "question": "Chọn phát biểu sai",
+    "answer": "Sau khi đã tạo hiệu ứng động cho một đối tượng nào đó ta không thể thay đổi kiểu hiệu ứng cho đối tượng đó"
   },
   {
-    "question": "Tính tích phân: I=1S0(2x+1)ln(x+1)dx",
-    "answer": "2ln-1/2"
+    "question": "Sau khi đã chọn một đoạn văn bản, cách nào sau đây không phải để làm mất đi đoạn văn bản đó?",
+    "answer": "Nhấn tổ hợp phím Alt+X;"
   },
   {
-    "question": "Tính tích phân: I=1S0 4x-9/4x^2+4x+1",
-    "answer": "Ln3-11/3"
+    "question": "Vào Transition ->tích vào after-> gõ vào 00 05 giây, bấm Apply to all slide sẽ thực hiện được lệnh trình chiếu",
+    "answer": "Mỗi Slide được trình chiếu 00 05 giây bắt đầu từ Slide hiện hành được trình chiếu"
   },
   {
-    "question": "Tính tích phân: I9S1x^3 Căn1-xdx",
-    "answer": "-662/7"
+    "question": "Khi đang làm việc với PowerPoint, muốn thiết lập hiệu ứng cho văn bản, hình ảnh,… ta thực hiện:",
+    "answer": "Animation, rồi chọn Add  Animation"
   },
   {
-    "question": "Trong các giá trị sau, giá trị nào không nghiệm đúng đẳng thức căn a^2 = -a",
-    "answer": "a = 2"
+    "question": "Khi thực hiện thao tác Insert -> Movies and Sounds người sử dụng",
+    "answer": "Có thể chèn âm thanh hoặc phim vào giáo án"
   },
   {
-    "question": "Trong các giá trị sau, giá trị nào không nghiệm đúng đẳng thức căn a^2 = a",
-    "answer": "a = - 4"
+    "question": "Muốn tô nền cho 1 textbox trong slide hiện hành, sau khi đã chọn Textbox đó ta thực hiện",
+    "answer": "Chọn Format ->Chọn Background và chọn màu cần tô"
   },
   {
-    "question": "Trong các tập sau, tập nào hữu hạn?",
-    "answer": "Tập mọi số nguyên dương bé thua 1.000.000.000"
+    "question": "Để thay đổi mẫu bố cục trình bày hòm thư thực hiện lần lượt các bước nào?",
+    "answer": "Chọn Setting -> chọn Themes -> Chọn mẫu muốn thay đổi -> chọn nút Save"
   },
   {
-    "question": "Với giá trị nào của a thì hàm số liên tục tại",
-    "answer": "5/2"
+    "question": "Trong trình duyệt Google Chrome để thay đổi thư mục lưu trữ các tài nguyên tải về ta thực hiện",
+    "answer": "Chọn Setting -> Chọn Download -> Chọn Change => Chọn thư mục để cho phép lưu trữ"
   },
   {
-    "question": "Với giá trị nào của a thì hàm số f(x) = {1 - cos x/2 / 1- cos x/3 khi x khác 0 {a khi x = 0 Liên tục tại x =0?",
-    "answer": "9/4"
+    "question": "Điều nào sau đây được coi là lợi thế của thư điện tử so với thư tín thông thường gửi qua đường bưu điện",
+    "answer": "Tốc độ chuyển thư đến người nhận nhanh"
   },
   {
-    "question": "Xét chuỗi số ... 2n+1/n(n+1) Hỏi kết luận nào sau đây sai?",
-    "answer": "Chuối số phân kỳ"
+    "question": "Dịch vụ thư điện tử E-mail được sử dụng với mục đích?",
+    "answer": "Là các thông báo được gửi hoặc nhận về từ các người sử dụng khác trên mạng bằng phương tiện điện tử"
   },
   {
-    "question": "Xét đồ thị : (C): y = f(x) được vẽ ở hình sau. Câu nào sau đây đúng?",
-    "answer": "(C) là đồ thị của hàm số: y =1/x+4x^2"
+    "question": "Trong giao diện của gmail.com sau khi đã đăng nhập thành công, để xem những thư đã được gửi từ tài khoản đang đăng nhập thì chọn vào lựa chọn nào?",
+    "answer": "Sent Mail"
   },
   {
-    "question": "Xét hàm f có công thức hàm như sau: Khi f liên tục tại điểm thì đạt giá trị nào?",
-    "answer": "Căn 2 - 1"
+    "question": "Địa chỉ nào trong các địa chỉ sau không phải là địa chỉ một trang web?",
+    "answer": "www.yahoo@.com"
   },
   {
-    "question": "Xét hàm f có công thức hàm như sau: Trong các giá trị ghi dưới đây, anpha phải thỏa mãn giá trị nào để hàm f liên tục tại xo = pi /2 ?",
-    "answer": "4"
+    "question": "Muốn kẽ đường viền màu xanh cho một ô TextBox trong giáo án điện tử, sau khi chọn Format->TextBox, chọn thẻ Color and Lines và",
+    "answer": "Chọn màu xanh trong ô Color ngay dưới chữ Line"
   },
   {
-    "question": "Xét hàm f có công thức hàm như sau: f(x) = {sinx / m|x| nếu x khác 0 ,x đo bằng rad {1/m nếu x = 0 , m khác 0 Và các mệnh đề: (I): f liên tục trong khoảng (-oo;0) (II): f liên tục trên nửa đoạn (-oo;0] (III): f liên tục trên nửa đoạn [0;+oo) Anh/chị hãy cho biết mệnh đề nào sau đây là đúng:",
-    "answer": "(I) hoặc (III)"
+    "question": "Để đưa họ tên của mình vào cuối mỗi slide làm tiêu đề chân trang, người thiết kế phải",
+    "answer": "Chọn Insert -> chọn Header and Footer-> Chọn thẻ Slide, nhập họ tên vào hộp thoại FOOTER và nhấn Apply to All"
+  },
+  {
+    "question": "Chương trình dùng để truy nhập vào địa chỉ một một trang web nào đó để lấy thông tin được gọi là?",
+    "answer": "Browser (trình duyệt)"
+  },
+  {
+    "question": "Bạn đang ở cửa sổ My Computer, theo hình minh hoạ, phát biểu nào dưới đây là sai?",
+    "answer": "nhấn nút số 3 để mở My Documents"
+  },
+  {
+    "question": "Biểu thức =AND(5>4, 6<9, 2<1) cho giá trị là bao nhiêu?",
+    "answer": "False"
+  },
+  {
+    "question": "Biểu thức =Left(\"HaNoi\") cho kết quả là bao nhiêu?",
+    "answer": "Kết quả là chữ \"H\""
+  },
+  {
+    "question": "Biểu thức =Sum(4,6,-2,9,s) trả lại kết quả là bao nhiêu?",
+    "answer": "#Name?"
+  },
+  {
+    "question": "Biểu thức =TODAY() sau cho kết quả là bao nhiêu?",
+    "answer": "Ngày tháng hiện tại trong hệ thống máy tính"
+  },
+  {
+    "question": "Biểu thức sau cho kết quả là bao nhiêu nếu DTB = 9? =If(DTB>=5, \"TB\",If(DTB>=6.5, \"Kha\",If(DTB>= 8, \"Gioi\", \"Yeu\")))",
+    "answer": "TB"
+  },
+  {
+    "question": "Biểu thức sau cho kết quả là bao nhiêu? =Len(“Hanoi”)",
+    "answer": "5"
+  },
+  {
+    "question": "Biểu tượng Caculator dùng để làm gì?",
+    "answer": "Tất cả đều đúng"
+  },
+  {
+    "question": "Các thành phần chính trong một bảng tính worksheet gồm?",
+    "answer": "dòng, cột, vùng, trang tính"
+  },
+  {
+    "question": "Cách tổ chức thư mục và tệp tin trong hệ điều hành Windows không cho phép làm gì?",
+    "answer": "Tạo một tệp tin có chứa thư mục con"
+  },
+  {
+    "question": "Chọn câu sai trong các câu sau Trong khi thiết kế giáo án điện tử bằng PowerPoint,",
+    "answer": "không thể căn chỉnh thẳng hàng các hộp text box bằng nút lệnh"
+  },
+  {
+    "question": "Chọn đáp án đúng nhất cho phát biểu dưới đây: “Dịch vụ cho phép truyền các thông tin đa phương tiện thông qua các mối liên kết siêu văn bản là dịch vụ ……”",
+    "answer": "WWW"
+  },
+  {
+    "question": "Chọn đáp án thích hợp điền vào chỗ trống để được phát biểu đúng: Tiền thân của mạng Internet là ……….",
+    "answer": "Mạng Arpanet"
+  },
+  {
+    "question": "Chức năng làm tươi (refresh) của trình duyệt giúp chúng ta:",
+    "answer": "Lấy về thông tin mới được cập nhật của trang web chúng ta đang xem từ hệ thống trang máy chủ"
+  },
+  {
+    "question": "Có thể hồi phục (restore) các tệp tin bị xoá sau khi nhấn phím Delete bằng cách nào?",
+    "answer": "mở Recycle Bin"
+  },
+  {
+    "question": "Cookie được định nghĩa là gì?",
+    "answer": "Là các tệp tin văn bản nhỏ lưu trữ thông tin về quá trình truy xuất Internet của người dùng hoặc các thông tin cá nhân mà người dùng đã từng khai báo"
+  },
+  {
+    "question": "Công thức = ROUND(136485.22,-3) sẽ cho kết quả là gì?",
+    "answer": "136000"
+  },
+  {
+    "question": "Đã chọn một số đối tượng trên slide hiện hành, nhấn tổ hợp phím nào sau đây sẽ làm mất đi các đối tượng đó?",
+    "answer": "Ctrl + X"
+  },
+  {
+    "question": "Để bảo vệ một sheet bằng password, ta phải vào :",
+    "answer": "Home/Format /Protection chọn Protect Sheet"
+  },
+  {
+    "question": "Để các slide đều có tên của mình khi trình chiếu ta vào chọn? (sau đó gõ vào Footer)",
+    "answer": "Chọn Insert -> Chọn Header and Footer"
+  },
+  {
+    "question": "Để chạy một ứng dụng trong Windows, bạn làm thế nào?",
+    "answer": "Nhấp đúp chuột trái vào biểu tượng"
+  },
+  {
+    "question": "Để chọn font chữ mặc định là \".VnTime\" khi soạn thảo văn bản,bạn thực hiện thao tác nào sau đây?",
+    "answer": "Vào Home/Font, chọn Font là \".VnTime\", nhấp chuột vào nút Default/Yes"
+  },
+  {
+    "question": "Để dữ liệu ngày tháng năm được hiển thị dưới dạng Nov-23-2016, trong thẻ Number, hộp Type, nhập vào chuỗi ký tự gì?",
+    "answer": "mmm-dd-yyyy"
+  },
+  {
+    "question": "Để đặt chế độ mỗi khi khởi động trình duyệt cho phép tạo một trang rỗng mới thì lựa chọn được dùng là gì khi cài đặt?",
+    "answer": "Open the New Tab page"
+  },
+  {
+    "question": "Để định dạng dòng chữ “Giáo án điện tử” thành “Giáo án điện tử” (kiểu chữ đậm, nghiêng, gạch dưới), toàn bộ các thao tác phải thực hiện là",
+    "answer": "Chọn dòng chữ đó, nhấn Ctrl + U, Ctrl + I và Ctrl + B"
+  },
+  {
+    "question": "Để thay đổi màu của đường gạch dưới các từ, bạn thực hiện thao tác nào sau đây?",
+    "answer": "Home/Font/Underline/Underline Color"
+  },
+  {
+    "question": "Để thiết lập các thông số trang in ta thực hiện",
+    "answer": "Chọn File ->Print"
+  },
+  {
+    "question": "Để thiết lập mật khẩu bảo vệ cho văn bản, bạn cần thực hiện thao tác nào sau đây:",
+    "answer": "File>Info>Protect Document"
+  },
+  {
+    "question": "Để thoát ra khỏi Excel, phương án nào sau đây là lựa chọn sai:",
+    "answer": "Nhấn phím Delete"
+  },
+  {
+    "question": "Để thực hiện các lựa chọn cho tìm kiếm nâng cao trên trang google thì thực hiện lần lượt",
+    "answer": "Mở trang google -> chọn Setting -> Chọn Tìm kiếm nâng cao"
+  },
+  {
+    "question": "Để thực hiện công việc ghi lưu nội dung của bảng tính vào máy tính, bạn hãy cho biết tổ hợp phím tắt nào dưới đây đáp ứng được điều này?",
+    "answer": "Ctrl + S"
+  },
+  {
+    "question": "Địa chỉ //adayroi.com là địa chỉ thuộc thể loại gì?",
+    "answer": "Trang thương mại điện tử, cho phép mua bán trực tuyến"
+  },
+  {
+    "question": "Địa chỉ A10 được gọi là:",
+    "answer": "Địa chỉ tương đối"
+  },
+  {
+    "question": "Một cửa hàng văn phòng phẩm, có bán các loại hàng hoá như: vở, bút bi, thước, phấn, …; ta có thể sử dụng hàm gì để giúp cửa hàng tính được tổng số tiền bán được của từng loại hàng hóa?",
+    "answer": "SUMIF"
+  },
+  {
+    "question": "Một thiết bị video không tương thích gây ra màn hình của bạn ngừng hoạt động. Làm thế nào bạn có thể khắc phục vấn đề ?",
+    "answer": "Khởi động lại máy tính trong chế độ An toàn (Safe Mode)"
+  },
+  {
+    "question": "Mở một văn bản đã soạn thảo bằng MS Word, muốn in nội dung của văn bản ra máy in, ta thực hiện:",
+    "answer": "Edit Individual documents…"
+  },
+  {
+    "question": "Mở chương trình Microsoft PowerPoint, làm xong giáo án, lưu trữ vào My Doccuments của máy ta chọn lệnh nào sau đây",
+    "answer": "Chọn File->Chọn Save-> Chọn Up one level->My Documents->Tại File name Gõ s báo danh->Chọn Save"
+  },
+  {
+    "question": "Mục Header của MS-Word được sử dụng để thực hiện chức năng gì?",
+    "answer": "Thực hiện cả ba điều trên"
+  },
+  {
+    "question": "Muốn ẩn thanh công cụ trên màn hình PowerPoint, người sử dụng phải",
+    "answer": "nhấn Ctrl+ F1"
+  },
+  {
+    "question": "Muốn tạo một thư mục trên Desktop của windows, ta click phải chuột và chọn...",
+    "answer": "New , Folder"
+  },
+  {
+    "question": "Muốn xác định khoảng cách và vị trí ký tự, ta vào:",
+    "answer": "Page Layout/Spacing"
+  },
+  {
+    "question": "Muốn xóa slide hiện thời khỏi giáo án điện tử, người thiết kế phải",
+    "answer": "Chọn Edit-> Delete Slide"
+  },
+  {
+    "question": "Phát biểu nào dưới đây là sai:",
+    "answer": "MS-Windows là phần cứng"
+  },
+  {
+    "question": "Phát biểu nào sau đây đúng?",
+    "answer": "Không thể áp dụng chữ hoa đầu đoạn cho các đoạn được định dạng kiểu liệt kê"
+  },
+  {
+    "question": "Phát biểu nào trong các phát biểu dưới đây là sai",
+    "answer": "Thư điện tử luôn có độ tin cậy, an toàn tuyệt đối."
+  },
+  {
+    "question": "Sau khi bạn kích đúp vào một tập tin trong Windows, nó mở chương trình phần mềm sai. Nguyên nhân có khả năng nhất của vấn đề là gì ?",
+    "answer": "Liên kết sai"
+  },
+  {
+    "question": "Sau khi đã chèn một bảng biểu vào slide, muốn chia một ô nào đó thành 2 ô ta",
+    "answer": "các cách nêu trên đều đúng"
+  },
+  {
+    "question": "Trang web có địa chỉ có dạngwww.on.fn.cg thì fn đại diện cho thành phần nào của địa chỉ",
+    "answer": "Lĩnh vực hoạt động"
+  },
+  {
+    "question": "Trang web có địa chỉwww.hanoi.edu.vn là trang web của tố chức nào?",
+    "answer": "Giáo dục"
+  },
+  {
+    "question": "Trên thẻ Home của thanh công cụ Riboon trong MS Excel 2013, biểu tượng (Increase Decimal) có ý nghĩa gì đối với vùng dữ liệu được lựa chọn?",
+    "answer": "Tăng số lẻ thập phân và làm tròn số"
+  },
+  {
+    "question": "Trong bảng tính Excel, để chèn thêm một cột vào trang tính, ta thực hiện:",
+    "answer": "Home/ Insert / Insert Sheet Columns"
+  },
+  {
+    "question": "Trong bảng tính Excel, giao của một hàng và một cột được gọi là?",
+    "answer": "Ô"
+  },
+  {
+    "question": "Trong bảng tính Excel, hàm nào sau đây cho phép tính tổng các giá trị kiểu số thỏa mãn một điều kiện cho trước?",
+    "answer": "SUMIF"
+  },
+  {
+    "question": "Trong bảng tính Excel, khối ô là tập hợp nhiều ô kế cận tạo thành hình chữ nhật, Địa chỉ khối ô được thể hiện như câu nào sau đây là đúng?",
+    "answer": "B1:H15"
+  },
+  {
+    "question": "Trong bảng tính Excel, muốn xóa một hàng hoặc nhiều hàng ra khỏi trang tính, ta đánh dấu khối chọn hàng này và thực hiện thao tác nào sau đây?",
+    "answer": "Home/ Delete/ Delete Sheet Rows"
+  },
+  {
+    "question": "Trong các ứng dụng sau đâu được coi là ứng dụng nhắn tin tức thời trên mạng hiện nay?",
+    "answer": "Facebook Messenger"
+  },
+  {
+    "question": "Trong chế độ tạo bảng (Table) của phần mềm Word 2013, muốn điều chỉnh độ rộng các cột phù hợp với nội dung văn bản trong bảng, ta thực hiện thao tác nào dưới đây?",
+    "answer": "Layout / AutoFit/ AutoFit Contents"
+  },
+  {
+    "question": "Trong chế độ tạo bảng (Table) của phần mềm Word 2013, muốn tách một bảng thành 2, ta thực hiện thao tác nào dưới đây?",
+    "answer": "Layout / Split Table"
+  },
+  {
+    "question": "Trong chế độ tạo bảng (Table) của phần mềm Word, muốn gộp nhiều ô đã chọn thành một ô, ta thực hiện thao tác nào dưới đây?",
+    "answer": "Layout / Merge Cells"
+  },
+  {
+    "question": "Trong Excel, giả sử ô D4 có công thức sau: =HLOOKUP(A4, A10:D12, 5, TRUE) kết quả sai ở thành phần nào?",
+    "answer": "Thành phần 3"
+  },
+  {
+    "question": "Trong giao diện của gmail.com sau khi đã đăng nhập thành công, biểu tượng dùng để gửi thư mới là gì?",
+    "answer": "Commpose"
+  },
+  {
+    "question": "Trong hệ điều hành Windows, trong hộp thoại \"Display properties\", thẻ nào trong các thẻ sau dùng để thay đổi chế độ màn hình chờ (chế độ bảo vệ màn hình)?",
+    "answer": "Screen Saver"
+  },
+  {
+    "question": "Trong hộp thoại Border and Shading, muốn thay đổi cách tính lề (Margin) cho đường viền ta thực hiện thao tác nào?",
+    "answer": "Page Border/Options/Measure from"
+  },
+  {
+    "question": "Trong khi làm việc với Excel, để nhập vào công thức tính toán cho một ô, trước hết ta phải gõ:",
+    "answer": "Dấu ="
+  },
+  {
+    "question": "Trong MS Excel 2013, để di chuyển con trỏ đến ô cuối cùng của dòng dữ liệu ta sử dụng cách nào sau đây?",
+    "answer": "Nhấn End và mũi tên sang phải"
+  },
+  {
+    "question": "Trong MS Excel 2013, để xóa dữ liệu trong các ô đang chọn thì ta dùng cách nào?",
+    "answer": "Nhấn phải chuột và chọn lệnh Clear contents"
+  },
+  {
+    "question": "Trong MS Word, cách nào dưới đây không dùng để tạo khoảng cách giữa các dòng là 1.5 lines?",
+    "answer": "Vào Format/Paragraph, chọn Line Spacing là 1.5"
+  },
+  {
+    "question": "Trong Word, để sao chép một đoạn văn bản vào Clipboard, ta đánh dấu đoạn văn, sau đó:",
+    "answer": "Bấm tổ hợp phím Ctrl - C"
+  },
+  {
+    "question": "Công thức =LEN(\"Microsoft Excel 2010\") sẽ trả về kết quả là bao nhiêu?",
+    "answer": "20"
+  },
+  {
+    "question": "Tổ hợp phím nào dưới đây cho phép gạch dưới các từ được chọn?",
+    "answer": "Ctrl +U"
+  },
+  {
+    "question": "FTP là giao thức truyền và nhận thông tin dạng gì:",
+    "answer": "Bất cứ thông tin gì lưu trữ trong các file"
+  },
+  {
+    "question": "Các kiểu dữ liệu thông dụng của Excel là gì?",
+    "answer": "Kiểu chuỗi, kiểu số, kiểu lôgic, kiểu ngày tháng, kiểu công thức"
+  },
+  {
+    "question": "Phần mềm Windows, Linux và OS2 có đặc điểm gì chung?",
+    "answer": "Tất cả đều là hệ điều hành"
+  },
+  {
+    "question": "Đang thiết kế giáo án điện tử, trước khi thoát khỏi PowerPoint nếu người sử dụng chưa lưu lại tập tin thì máy sẽ hiện một thông báo. Để lưu lại tập tin này ta sẽ kích chuột trái vào nút nào trong bảng thông báo này?",
+    "answer": "Nút Yes"
+  },
+  {
+    "question": "Hoạt động làm việc nào làm tăng nguy cơ chấn thương tay và bàn tay?",
+    "answer": "Sử dụng liên tục các chất kích thích hóa học"
+  },
+  {
+    "question": "Khi đang làm việc với PowerPoint, muốn thay đổi thiết kế của Slide, ta thực hiện",
+    "answer": "Format – Slide Design…"
   }
 ]
