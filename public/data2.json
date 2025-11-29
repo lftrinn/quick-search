@@ -1,0 +1,410 @@
+[
+  {
+    "question": "Anh/chị hãy chỉ ra tập xác định của hàm: y = f(x) = Căn log2 (3x +4)",
+    "answer": "[- 1 ; +oo)"
+  },
+  {
+    "question": "Các hàm số định bởi công thức nào sau đây là hàm lẻ?",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số y = f(x) - Căn x^2 -1",
+    "answer": "y' = x / Căn x^2 - 1 (x < -1, x >1)"
+  },
+  {
+    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số Y= f(x) = X^2 - 4 / X^2 + 4",
+    "answer": "Y' = 16x / (X^2 +4) ^2"
+  },
+  {
+    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số: y = f(x) = (2x - 3) (x^2 +3x - 2)",
+    "answer": "y ' = 6x^2 + 6x -13"
+  },
+  {
+    "question": "Câu nào sau đây chỉ đúng đạo hàm của hàm số: y = f(x) = cos ( căn 1+ x^2)",
+    "answer": "-xsin ( Căn 1+ x^2) / Căn 1+ x^2"
+  },
+  {
+    "question": "Câu nào sau đây chỉ ra đạo hàm của hàm số Y = f(x) = x+1 / x -1 trên R \\ {1}?",
+    "answer": "y' = -2 / (x -1)^2"
+  },
+  {
+    "question": "Cho a,b,v thuộc R . Trong các mệnh đề sau, mệnh đề nào sai?",
+    "answer": "Nếu a > b thì ac > bc"
+  },
+  {
+    "question": "Cho A={a.b.c}, B={1,2,3}, C=[b,c,a}, D={3,2,1}.Trong các mệnh đề sau, mệnh đề nào sai?",
+    "answer": "A=B"
+  },
+  {
+    "question": "Cho các giới hạn có giá trị: Anh/chị hãy chỉ ra các cặp giới hạn có giá trị bằng nhau:",
+    "answer": "(I) và (III)"
+  },
+  {
+    "question": "Cho các giới hạn sau: Giới hạn nào sẽ không hữu hạn?",
+    "answer": "Chỉ (III)"
+  },
+  {
+    "question": "Cho F = {1,4,7,10} và G = {1,4,7}. Hỏi các mệnh đề sau mệnh đề nào sai?",
+    "answer": "Tập {1,4,7} là tập con thật sự của G"
+  },
+  {
+    "question": "Cho hàm số f(x) = xln x khi x>0; 0 khi x = 0; xe^x khi x <0 là điểm",
+    "answer": "Liên tục"
+  },
+  {
+    "question": "Cho hàm số: f(x) = 3x+5/x^2+8x+12. Tìm các hệ số a,b để f(x)=a/x+2+b/x+6",
+    "answer": "{ a=-1/4 { b=13/4"
+  },
+  {
+    "question": "Cho hàm số: g:R \\{1} ->R \\ {2} x->y =g(x) = 2x+1/ x-1. Hàm số ngược (đảo) cho bởi công thức nào sau đây?",
+    "answer": "y=x+1 / x-2"
+  },
+  {
+    "question": "Đạo hàm cấp hai của hàm số F(x,y) = x^y + x căn y là?",
+    "answer": "f'' = 2y; f''xy = 2x + 1/ 2 căn y, f '' yy = -x/ 4 căn y"
+  },
+  {
+    "question": "Đạo hàm của hàm số f(x) = 3 Căn sin^2 x tại điểm x=0 là:",
+    "answer": "Không tồn tại"
+  },
+  {
+    "question": "Đạo hàm của hàm số f(X) =3 căn tg^4x tại điểm x=0 bằng:",
+    "answer": "0"
+  },
+  {
+    "question": "Giá trị lớn nhất của hàm số f(x) = x + 2 cos x trên [0, pi] bằng:",
+    "answer": "Căn 3 + pi/6"
+  },
+  {
+    "question": "Giá trị nhỏ nhất của hàm sồ f(x) = x - 2sin x trên [0,pi] là:",
+    "answer": "Pi/3 - Căn 3"
+  },
+  {
+    "question": "Giải phương trình biến số phân ly (x^2+1)y'=xy",
+    "answer": "Cy=C Căn1+x^2"
+  },
+  {
+    "question": "Giải phương trình biến số phân ly x(1+y^2)dx+y(1+x^2)dy=0",
+    "answer": "1/1+x^2+1/1+y^2=K"
+  },
+  {
+    "question": "Giải phương trình đẳng cấp y^2=2x^2Ln|Cx|",
+    "answer": "y^2=2x^2Ln|Cx|"
+  },
+  {
+    "question": "Giải phương trình thuần nhất (x^2+1)y`+xy=0",
+    "answer": "y=C/Căn x^2+1"
+  },
+  {
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng y’’+ 4y’- 5y = 2ex",
+    "answer": "y= (C1e^x +C2e^-5x)+1/3xe^x"
+  },
+  {
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng y’’+ 9 y= 6e3x",
+    "answer": "y=C1cos3x+C2sin3x+1/3e^3x"
+  },
+  {
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’- 2y’+ 2y=0",
+    "answer": "y = ex (C1 cosx+ C2 sinx)"
+  },
+  {
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’- 2y’+ 2y=x2",
+    "answer": "y=e^x(C1cosx+C2sinx)+1/2(x+1)^2"
+  },
+  {
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’-y’-2y=0",
+    "answer": "y= C1 e-x + C2 e2x"
+  },
+  {
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất y’’+ 3y’=0",
+    "answer": "y = C1 + C2 e-3x"
+  },
+  {
+    "question": "Giải phương trình vi phântuyến tính cấp 1 y’+2xy=x",
+    "answer": "Ke^x^2+1/2"
+  },
+  {
+    "question": "Giới hạn bằng:",
+    "answer": "-1/6"
+  },
+  {
+    "question": "Giới hạn lim n->oo [sin Căn n+1) - sin căn n bằng",
+    "answer": "0"
+  },
+  {
+    "question": "Hàm số (e^x - e^-x) / 2 đạt cực tiểu tại điểm",
+    "answer": "không có cực tiểu"
+  },
+  {
+    "question": "Hàm số định bởi công thức nào sau đây là hàm chẵn?",
+    "answer": "g(x) = 3 căn (1-x) + 3 căn (1+x)^2"
+  },
+  {
+    "question": "Hàm số định bởi công thức nào sau đây là hàm chẵn?",
+    "answer": "|x| + 2000"
+  },
+  {
+    "question": "Hàm số nào sau đây không có đạo hàm tại x=0 ?",
+    "answer": "y=|x|"
+  },
+  {
+    "question": "Hàm số nào sau đây không có đạo hàm tại x=1?",
+    "answer": "y = |x - 1|"
+  },
+  {
+    "question": "Hàm số xác định bởi phương án nào sau đây có tập xác định là R?",
+    "answer": "f(x) = arctgx"
+  },
+  {
+    "question": "Hàm số y = (e^x +e^-x)/2 đạt cực tiểu tại điểm:",
+    "answer": "0"
+  },
+  {
+    "question": "Hàm số: f(x) = ln (4 - x^2) xác định tại giá trị nào của x , ở sau đây?",
+    "answer": "-2 < x < 2"
+  },
+  {
+    "question": "Khai triển Maclaurin đến bậc hai của hàm số f(x) = e^-x khi x là VCB bằng",
+    "answer": "1 -x + x^2 + o(x^2)"
+  },
+  {
+    "question": "Khảo sát sự liên tục của hàm số sau và của các đạo hàm riêng cấp 1 của nó F(x,y) = x^2 + y^2 sin 1/ x^2 +y^2, nếu (x,y) khác(0,0); 0 , nếu (x,y) khác(0,0)",
+    "answer": "Hàm số liên tục trên R^2 và các đạo hàm riêng liên tục tại mọi (x,y) khác (0,0)"
+  },
+  {
+    "question": "Khi viết: Cho x → +∞ lim Căn x + căn x + căn x / Căn x+ 1 =l thì giá trị của l là:",
+    "answer": "1"
+  },
+  {
+    "question": "Khi viết: Cho x → 0 Lim Căn 1+ 2arcsinx - 1 / sin3x = L thì giá trị của l là:",
+    "answer": "1/3"
+  },
+  {
+    "question": "Khi viết: Cho x→a lim sin x - sin @ / x- a = l thì giá trị của l là:",
+    "answer": "cos a"
+  },
+  {
+    "question": "Khi x->0 , VCB nào dưới đây không cùng bậc với các VCB còn lại ?",
+    "answer": "Ln(cosx)"
+  },
+  {
+    "question": "Một nguyên hàm của hàm số y =1/1+ cosx là:",
+    "answer": "tg x/2"
+  },
+  {
+    "question": "Một nguyên hàm của hàm số y=1/sin^2x+2cos^2x là:",
+    "answer": "1/Căn2arctg(tgx/căn2)+C"
+  },
+  {
+    "question": "Một nguyên hàm của hàm số y=1/1+sinx là:",
+    "answer": "-tg(pi/4-x/2)"
+  },
+  {
+    "question": "Tập xác định của hàm số y=arcsin (x/x+1) là",
+    "answer": "[-1/2, +oo)"
+  },
+  {
+    "question": "Tập xác định của hàm số y=arctg(ln x) là",
+    "answer": "(0;+oo)"
+  },
+  {
+    "question": "Tìm cực trị của hàm số z = f(x,y) = x^2 +xy + y^2 + x - y + 1",
+    "answer": "Hàm số đạt cực tiểu tại điểm (-1,1) zmax= 0"
+  },
+  {
+    "question": "Tìm cực trị của hàm số z = f(x,y) = 1/2xy + (47 - x - y ) (x/3 + y/4)",
+    "answer": "Hàm số đạt cực đại tại (21,20) zmax = 282"
+  },
+  {
+    "question": "Tìm cực trị của hàm số Z = f(x,y) = 2x^2 + y^2 + 2xy + 2x+ 2y",
+    "answer": "Hàm số đạt cực tiểu tại (0,-1) zmin = -1"
+  },
+  {
+    "question": "Tìm cực trị của hàm số z = f(x,y) = 4(x - y ) - x^2 - y^2",
+    "answer": "Hàm số đạt cực đại tại tại điểm (2,-2) zmax = 8"
+  },
+  {
+    "question": "Tìm cực trị của hàm số z = f(x,y) = x^4 + y^4 - 4xy + 1",
+    "answer": "Hàm số đạt cực tiểu tại hai điểm (1,1), (-1,-1) zmax = -1"
+  },
+  {
+    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau Un(x)=(-1)^nx^n/3 căn n",
+    "answer": "-1 < x ≤ 1"
+  },
+  {
+    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau Un(x)=x^n/n(n-1),N>=",
+    "answer": "-1 ≤ x ≤ 1"
+  },
+  {
+    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau un(x)=(-1)^n+1 x^n/n",
+    "answer": "-1 < x ≤ 1"
+  },
+  {
+    "question": "Tìm miền hội tụ của chuỗi lũy thừa có số hạng tổng quát sau un(x)=(x-4)^n/Căn n",
+    "answer": "3 ≤ x < 5"
+  },
+  {
+    "question": "Tìm miền xác định của hàm số f(x,y) = ln x + ln sin y?",
+    "answer": "{(x,y) thuộc R^2 , x>0, 2kpi <y < (2k+1)pi , k thuộc Z}"
+  },
+  {
+    "question": "Tìm miền xác định của hàm số f(x,y) =1/ Căn x + y + 1 / Căn x - y",
+    "answer": "x>0 x>y > - x"
+  },
+  {
+    "question": "Tìm miền xác định của hàm số f(x,y) =Căn y - x Ln(y +x)",
+    "answer": "y>0 y>=x>-y"
+  },
+  {
+    "question": "Tìm miền xác định của hàm số: f(x,y) = 1/ căn x + y + 1/ căn x - y",
+    "answer": "X > 0 X >Y >-X"
+  },
+  {
+    "question": "Tìm miền xác định của hàm số: F(x,y) = Căn x ln y?",
+    "answer": "{(x,y) thuộc R^2, x >=0, y >=1} U {(x,y) thuộc R^2 , x<=0, 0 <y<=1}"
+  },
+  {
+    "question": "Tính giới hạn sau: lim n->oo (1/n^2 +3/n^2 + 5/n^2+...+2n-1/n^2)",
+    "answer": "1"
+  },
+  {
+    "question": "Tính tích phân I = Se^xdx/2+e^xDx. Kết quả nào sau đây là đúng?",
+    "answer": "I=Ln(2+e^x)+C"
+  },
+  {
+    "question": "Tính tích phân I=Sx+1/ Căn Kết quả nào sau đây là đúng?",
+    "answer": "I=2/3x Căn x +2 Cẵn+C"
+  },
+  {
+    "question": "Tính tích phân Căn x^2 + y^2 dxdy,với D: x <=x^2 + y^2 <=2x, y>=0",
+    "answer": "14/9"
+  },
+  {
+    "question": "Tính tích phân",
+    "answer": "14/3"
+  },
+  {
+    "question": "Tính tích phân I=Sdx/e^x+e^-xdx. Kết quả nào sau đây là đúng?",
+    "answer": "I=arctg(e^x)+C"
+  },
+  {
+    "question": "Tính tích phân I=Sdx/sin^2(2x+pi/4) Kết quả nào sau đây là đúng?",
+    "answer": "I=-1/2cot g(2x+pi/4)+C"
+  },
+  {
+    "question": "Tính tích phân (sin x + cos y) dxdy , với D: 0 <=x <=pi/2, 0 <=y<=Pi /2",
+    "answer": "pi"
+  },
+  {
+    "question": "Tính tích phân (x^3 +4y)dx - (2x +y^3) dy , AB AB là nửa đường tròn y = Căn 1 -x^2 , A( - 1;0), B(1;0)",
+    "answer": "-3pi"
+  },
+  {
+    "question": "Tính tích phân Căn x^2 + y^2 dxdy, Với D giới hạn bởi các đường tròn x^2 +y^2 = a^2, x^2 +y^2 = 4a^2 , a>0",
+    "answer": "14pi a^3 /3"
+  },
+  {
+    "question": "Tính tích phân JJd Căn 4 - x^2 y^2 dxdy, với D giới hạn bởi đường tròn x^2 + y^2 = 2 và y>=0",
+    "answer": "8/3(pi/2 - 2/3)"
+  },
+  {
+    "question": "Tính tích phân :",
+    "answer": "(e-1)^2"
+  },
+  {
+    "question": "Tính tích phân (x +y) dxdy, với D: 0<=x <=y, x^2 + y^2 <=1",
+    "answer": "1/3"
+  },
+  {
+    "question": "Tính tích phân Căn 1 - x^2 - y^2 dxdy, với D giới hạn bởi đường tròn x^2 + y^2 =1",
+    "answer": "2pi / 3"
+  },
+  {
+    "question": "Tính tích phân đường (1-x^2)ydx +x(1 - y^2)dy L là đường tròng x^2 +y^2 =1",
+    "answer": "-pi/3"
+  },
+  {
+    "question": "Tính tích phân đường (1-x^2)ydx +x(1 + y^2)dy L là đường tròng x^2 +y^2 =1",
+    "answer": "pi/ 2"
+  },
+  {
+    "question": "Tính tích phân đường ab(xy-1)dx +x^2ydy Trong đó AB là đoạn đường thẳng y = -2x+2 từ điểm A(1,0) đến điểm B(0,2)",
+    "answer": "1"
+  },
+  {
+    "question": "Tính tích phân ex^2 +y^2 dxdy, với D là hình tròn x^2 +y^2 <=1",
+    "answer": "2 pi"
+  },
+  {
+    "question": "Tính tích phân I=Se^3x+1/e^x+1dx Kết quả nào sau đây là đúng?",
+    "answer": "I= 1/2e^2x-e^x+x+C"
+  },
+  {
+    "question": "Tính tích phân S OA^ 4xydx-x^2dy,OA^ là cung parabol y=2x^2, O(0;0),A(1;2)",
+    "answer": "1"
+  },
+  {
+    "question": "Tính tích phân ydx +xdy , OA là cung parabol y = x^2, O(0;0), A(1;1)",
+    "answer": "1"
+  },
+  {
+    "question": "Tính tích phân: ∫ ((y−2y ^2 )dx+(y−2x ^2)dy),với C là đường tròn x^2 + y^2=1, theo chiều dương.",
+    "answer": "-pi"
+  },
+  {
+    "question": "Tính tích phân: ∫ ∫ (x^2 +y^2) dxdy,với D giới hạn bởi đường tròn x^2 +y^2 = 2x",
+    "answer": "3pi/2"
+  },
+  {
+    "question": "Tính tích phân: I=1S0(2x+1)ln(x+1)dx",
+    "answer": "2ln-1/2"
+  },
+  {
+    "question": "Tính tích phân: I=1S0 4x-9/4x^2+4x+1",
+    "answer": "Ln3-11/3"
+  },
+  {
+    "question": "Tính tích phân: I9S1x^3 Căn1-xdx",
+    "answer": "-662/7"
+  },
+  {
+    "question": "Trong các giá trị sau, giá trị nào không nghiệm đúng đẳng thức căn a^2 = -a",
+    "answer": "a = 2"
+  },
+  {
+    "question": "Trong các giá trị sau, giá trị nào không nghiệm đúng đẳng thức căn a^2 = a",
+    "answer": "a = - 4"
+  },
+  {
+    "question": "Trong các tập sau, tập nào hữu hạn?",
+    "answer": "Tập mọi số nguyên dương bé thua 1.000.000.000"
+  },
+  {
+    "question": "Với giá trị nào của a thì hàm số liên tục tại",
+    "answer": "5/2"
+  },
+  {
+    "question": "Với giá trị nào của a thì hàm số f(x) = {1 - cos x/2 / 1- cos x/3 khi x khác 0 {a khi x = 0 Liên tục tại x =0?",
+    "answer": "9/4"
+  },
+  {
+    "question": "Xét chuỗi số ... 2n+1/n(n+1) Hỏi kết luận nào sau đây sai?",
+    "answer": "Chuối số phân kỳ"
+  },
+  {
+    "question": "Xét đồ thị : (C): y = f(x) được vẽ ở hình sau. Câu nào sau đây đúng?",
+    "answer": "(C) là đồ thị của hàm số: y =1/x+4x^2"
+  },
+  {
+    "question": "Xét hàm f có công thức hàm như sau: Khi f liên tục tại điểm thì đạt giá trị nào?",
+    "answer": "Căn 2 - 1"
+  },
+  {
+    "question": "Xét hàm f có công thức hàm như sau: Trong các giá trị ghi dưới đây, anpha phải thỏa mãn giá trị nào để hàm f liên tục tại xo = pi /2 ?",
+    "answer": "4"
+  },
+  {
+    "question": "Xét hàm f có công thức hàm như sau: f(x) = {sinx / m|x| nếu x khác 0 ,x đo bằng rad {1/m nếu x = 0 , m khác 0 Và các mệnh đề: (I): f liên tục trong khoảng (-oo;0) (II): f liên tục trên nửa đoạn (-oo;0] (III): f liên tục trên nửa đoạn [0;+oo) Anh/chị hãy cho biết mệnh đề nào sau đây là đúng:",
+    "answer": "(I) hoặc (III)"
+  }
+]

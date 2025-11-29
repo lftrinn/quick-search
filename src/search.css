@@ -155,8 +155,17 @@ select:focus {
   .search-bar {
     flex-wrap: wrap;
   }
-
-  select {
+  #dataSelect{
+    width: 100%;
+  }
+  select:not(#dataSelect) {
     width: calc(50% - 5px);
   }
+}
+.highlight {
+  background-color: #ffd700; /* Màu vàng */
+  color: #000;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 0 2px;
 }

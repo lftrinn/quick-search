@@ -7,6 +7,10 @@ document.querySelector('#app').innerHTML = `
     <div id="results" class="results"></div>
 
     <div class="search-bar">
+      <select id="dataSelect" class="source-select">
+        <option value="data.json">Mạng và truyền thông</option>
+        <option value="data2.json">Giải tích</option>
+      </select>
       <input
         type="text"
         id="searchInput"

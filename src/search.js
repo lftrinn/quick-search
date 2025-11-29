@@ -77,12 +77,16 @@ function renderResults(items, keyword) {
   resultsCount.textContent = `Tìm thấy ${items.length} kết quả`;
 
   results.innerHTML = items
-    .map((item, index) => `
+    .map((item, index) => {
+      const highlightedQuestion = highlightText(item.question, keyword);
+      const highlightedAnswer = highlightText(item.answer, keyword);
+
+      return `
       <div class="result-item" data-id="${index}">
-        <div class="question">${escapeHtml(item.question)}</div>
-        <div class="answer">${escapeHtml(item.answer)}</div>
+        <div class="question">${highlightedQuestion}</div>
+        <div class="answer">${highlightedAnswer}</div>
       </div>
-    `)
+    `})
     .join('');
 
   document.querySelectorAll('.result-item').forEach(item => {
@@ -129,29 +133,92 @@ function handleSearch() {
   renderResults(filteredData, keyword);
 }
 
-async function loadData() {
+async function loadData(url) {
+  const results = document.getElementById('results');
   try {
-    const response = await fetch('/data.json');
+    results.innerHTML = '<div class="loading">Đang tải dữ liệu...</div>';
+    
+    data = [];
+    normalizedData = [];
+
+    const response = await fetch(url);
+    if (!response.ok) throw new Error('Network response was not ok');
+    
     data = await response.json();
     precomputeNormalizedData();
+
+    handleSearch(); 
   } catch (error) {
     console.error('Lỗi khi tải dữ liệu:', error);
-    const results = document.getElementById('results');
-    results.innerHTML = '<div class="no-results">Không thể tải dữ liệu</div>';
+    results.innerHTML = `<div class="no-results">Lỗi: Không thể tải ${url}</div>`;
   }
+}
+
+// Map ký tự không dấu sang các biến thể có dấu
+const ACCENT_MAP = {
+  'a': 'aàảãáạăằẳẵắặâầẩẫấậAÀẢÃÁẠĂẰẲẴẮẶÂẦẨẪẤẬ',
+  'd': 'dđDĐ',
+  'e': 'eèẻẽéẹêềểễếệEÈẺẼÉẸÊỀỂỄẾỆ',
+  'i': 'iìỉĩíịIÌỈĨÍỊ',
+  'o': 'oòỏõóọôồổỗốộơờởỡớợOÒỎÕÓỌÔỒỔỖỐỘƠỜỞỠỚỢ',
+  'u': 'uùủũúụưừửữứựUÙỦŨÚỤƯỪỬỮỨỰ',
+  'y': 'yỳỷỹýỵYỲỶỸÝỴ'
+};
+
+// Hàm tạo Regex chấp nhận cả có dấu và không dấu
+function getHighlightRegex(keyword) {
+  if (!keyword) return null;
+  
+  const normalized = keyword.toLowerCase().trim();
+  // Chuyển từng ký tự của từ khóa thành nhóm Regex
+  // Ví dụ: "da" -> "[dđDĐ][aàả...]"
+  let pattern = '';
+  for (const char of normalized) {
+    if (ACCENT_MAP[char]) {
+      pattern += `[${ACCENT_MAP[char]}]`;
+    } else {
+      // Escape các ký tự đặc biệt của Regex (như ., ?, *)
+      pattern += char.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+  }
+  
+  return new RegExp(`(${pattern})`, 'gi');
+}
+
+function highlightText(text, keyword) {
+  if (!text) return '';
+  if (!keyword || keyword.length < 2) return escapeHtml(text);
+
+  const regex = getHighlightRegex(keyword);
+  if (!regex) return escapeHtml(text);
+
+  const parts = text.split(regex);
+
+  return parts.map(part => {
+    if (part.match(regex)) {
+      return `<span class="highlight">${escapeHtml(part)}</span>`;
+    }
+    return escapeHtml(part);
+  }).join('');
 }
 
 export function initSearch() {
   const searchInput = document.getElementById('searchInput');
   const searchType = document.getElementById('searchType');
-  const searchField = document.getElementById('searchField'); // CẬP NHẬT
-  const results = document.getElementById('results');
+  const searchField = document.getElementById('searchField');
+  const dataSelect = document.getElementById('dataSelect');
 
-  loadData().then(() => {
-    results.innerHTML = '<div class="no-results">Nhập ít nhất 2 ký tự để tìm kiếm</div>';
-  });
+  loadData(dataSelect.value);
 
   searchInput.addEventListener('input', handleSearch);
   searchType.addEventListener('change', handleSearch);
-  searchField.addEventListener('change', handleSearch); // CẬP NHẬT: Lắng nghe sự kiện change
+  
+  if (searchField) {
+    searchField.addEventListener('change', handleSearch);
+  }
+
+  dataSelect.addEventListener('change', function() {
+    const selectedFile = this.value; 
+    loadData(selectedFile);
+  });
 }
