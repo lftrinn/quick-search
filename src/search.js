@@ -62,6 +62,10 @@ function renderResults(items, keyword) {
   const searchInput = document.getElementById('searchInput');
   const results = document.getElementById('results');
   const resultsCount = document.getElementById('resultsCount');
+  const dataSelect = document.getElementById('dataSelect');
+
+  // Kiểm tra xem có phải data3 không
+  const isData3 = dataSelect.value === 'data3.json';
 
   if (items.length === 0) {
     if (searchInput.value.length >= 2) {
@@ -79,24 +83,39 @@ function renderResults(items, keyword) {
   results.innerHTML = items
     .map((item, index) => {
       const highlightedQuestion = highlightText(item.question, keyword);
-      const highlightedAnswer = highlightText(item.answer, keyword);
+      let answerContent = '';
+
+      if (isData3) {
+        // Data 3: Dùng thẻ IMG
+        answerContent = `<img src="${item.answer}" class="answer-image" loading="lazy" alt="Đáp án">`;
+      } else {
+        // Data khác: Highlight text
+        answerContent = highlightText(item.answer, keyword);
+      }
+
+      // Logic thêm class: Nếu là Data 3 thì thêm class 'click-to-show'
+      const extraClass = isData3 ? 'click-to-show' : '';
 
       return `
-      <div class="result-item" data-id="${index}">
+      <div class="result-item ${extraClass}" data-id="${index}">
         <div class="question">${highlightedQuestion}</div>
-        <div class="answer">${highlightedAnswer}</div>
+        <div class="answer">${answerContent}</div>
+        ${isData3 ? '<div class="hint-text" style="font-size:11px; color:#888; margin-top:4px;">(Bấm để xem đáp án)</div>' : ''}
       </div>
     `})
     .join('');
 
+  // Xử lý sự kiện Click (Logic giữ nguyên, chỉ giải thích lại)
   document.querySelectorAll('.result-item').forEach(item => {
     item.addEventListener('click', function() {
       const itemId = this.getAttribute('data-id');
 
+      // Nếu click vào cái đang mở -> Đóng lại
       if (activeItemId === itemId) {
         this.classList.remove('active');
         activeItemId = null;
       } else {
+        // Đóng tất cả cái khác -> Mở cái mới
         document.querySelectorAll('.result-item').forEach(el => {
           el.classList.remove('active');
         });
@@ -208,6 +227,16 @@ export function initSearch() {
   const searchField = document.getElementById('searchField');
   const dataSelect = document.getElementById('dataSelect');
 
+  const updateSearchFieldState = (fileName) => {
+    if (fileName === 'data3.json') {
+      searchField.value = 'question';
+      searchField.disabled = true;
+    } else {
+      searchField.disabled = false;
+    }
+  };
+
+  updateSearchFieldState(dataSelect.value);
   loadData(dataSelect.value);
 
   searchInput.addEventListener('input', handleSearch);
@@ -219,6 +248,9 @@ export function initSearch() {
 
   dataSelect.addEventListener('change', function() {
     const selectedFile = this.value; 
+    
+    updateSearchFieldState(selectedFile);
+    
     loadData(selectedFile);
   });
 }

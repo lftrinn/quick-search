@@ -10,6 +10,7 @@ document.querySelector('#app').innerHTML = `
       <select id="dataSelect" class="source-select">
         <option value="data.json">Pháp luật đại cương</option>
         <option value="data2.json">Tin học đại cương</option>
+        <option value="data3.json">Triết học</option>
       </select>
       <input
         type="text"

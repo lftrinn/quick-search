@@ -37,6 +37,7 @@ body {
   flex-direction: column;
   overflow: hidden;
 }
+
 .container:has(#searchInput:focus) {
   height: 60vh;
 }
@@ -91,7 +92,7 @@ select {
   cursor: pointer;
   height: 42px;
   min-width: 180px;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, background-color 0.3s;
 }
 
 select:focus {
@@ -99,6 +100,13 @@ select:focus {
   border-color: #4CAF50;
 }
 
+/* Style cho select khi bị disabled (cho trường hợp Data 3) */
+select:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+  border-color: #ddd;
+}
 
 .result-item {
   border: 1px solid #e0e0e0;
@@ -144,6 +152,23 @@ select:focus {
   font-size: 14px;
 }
 
+/* --- Style mới cho ảnh đáp án --- */
+.answer-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+/* Hiệu ứng khi active item chứa ảnh */
+.result-item.active .answer-image {
+  border-color: #4CAF50;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .no-results {
   text-align: center;
   padding: 40px 20px;
@@ -162,10 +187,26 @@ select:focus {
     width: calc(50% - 5px);
   }
 }
+
 .highlight {
   background-color: #ffd700; /* Màu vàng */
   color: #000;
   font-weight: bold;
   border-radius: 2px;
   padding: 0 2px;
+}
+.result-item.click-to-show .answer {
+  display: none;
+}
+
+/* Khi được Active (được click): Hiện answer ra */
+.result-item.click-to-show.active .answer {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Hiệu ứng hiện dần cho mượt */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
 }
