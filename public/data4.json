@@ -1,0 +1,346 @@
+[
+  {
+    "question": "Nếu các lớp đối tượng có chung một số đặc điểm và được xem như có quan hệ \"là\" (is a) với lớp đối tượng khác thì các lớp này có đặc trưng gì trong các đặc trưng cơ bản của lập trình hướng đối tượng?",
+    "answer": "Tính kế thừa"
+  },
+  {
+    "question": "Trong các ngôn ngữ lập trình: C++, Assembly, Pascal, SmallTalk thì các ngôn ngữ nào là thuần hướng đối tượng giống Java?",
+    "answer": "Ngôn ngữ SmallTalk"
+  },
+  {
+    "question": "Thành phần nào là thành phần (dưới dạng các biến - variables) trong đối tượng để mô tả thông tin dữ liệu hay trạng thái (states) của đối tượng?",
+    "answer": "Thuộc tính"
+  },
+  {
+    "question": "Cách viết lệnh nào là đúng khi gọi thực thi một phương thức có tham số của đối tượng?",
+    "answer": "Đối_tượng.phương_thức(các_tham_số)"
+  },
+  {
+    "question": "Java được phát triển bắt đầu từ?",
+    "answer": "Sun Microsystem"
+  },
+  {
+    "question": "Cấu trúc một chương trình java gồm các phần nào?",
+    "answer": "Khai báo thư viện, lớp chương trình chính, các lớp khác"
+  },
+  {
+    "question": "Một chương trình nguồn java được ghi vào tệp có phần mở rộng của tên tệp là?",
+    "answer": ".java"
+  },
+  {
+    "question": "Cho lớp đối tượng CAR (ô tô) với các thành phần: Tên xe, số chỗ ngồi, khởi động, tốc độ tối đa. Hãy chỉ ra đâu là phương thức của lớp CAR?",
+    "answer": "Khởi động"
+  },
+  {
+    "question": "Tính chất (đặc trưng) nào trong lập trình hướng đối tượng nhằm che đi những chi tiết phức tạp bên trong của đối tượng?",
+    "answer": "Tính đóng gói"
+  },
+  {
+    "question": "Ngôn ngữ nào sau đây không phải ngôn ngữ lập trình hướng đối tượng?",
+    "answer": "Pascal"
+  },
+  {
+    "question": "Giai đoạn nào trong các bước phân tích và phát triển một hệ thống phần mềm hướng đối tượng thực hiện: các kết quả của quá trình phân tích được mở rộng thành một giải pháp kỹ thuật.",
+    "answer": "Thiết kế (Design)"
+  },
+  {
+    "question": "Kết quả khi thực hiện đoạn mã sau là gì?\npublic class HCN {\n    int x, y;\n    public HCN(int xx, int yy) {\n        x = xx; y = yy;\n    }\n    int dientich() { return x * y; }\n    public static void main(String arg[]) {\n        HCN x = new HCN(4, 5);\n        System.out.print(\"Ket qua:\" + x.dientich());\n    }\n}",
+    "answer": "Ket qua: 20"
+  },
+  {
+    "question": "Từ vùng nhớ dành cho các thuộc tính của đối tượng được cấp phát ở đâu?",
+    "answer": "Trên heap"
+  },
+  {
+    "question": "Cho class được khai báo như sau:\npublic class Test {\n    public static void test() {\n        print();\n    }\n    public static void print() {\n        System.out.println(\"Test\");\n    }\n    public void print() {\n        System.out.println(\"Another Test\");\n    }\n}\nCho biết kết quả khi biên dịch class này:",
+    "answer": "Có lỗi vì có hai phương thức print giống nhau."
+  },
+  {
+    "question": "Từ khóa nào trong khai báo phương thức của lớp cho phép chương trình thực hiện đa luồng (multi threads)?",
+    "answer": "synchronized"
+  },
+  {
+    "question": "Từ khóa nào được sử dụng để báo cho chương trình dịch java biết đây là một lớp hằng, không thể kế thừa?",
+    "answer": "final"
+  },
+  {
+    "question": "Cho đoạn mã sau:\nclass Test {\n    public static void main(String args[]) {\n        double d = 12.3;\n        Decrementer dec = new Decrementer();\n        dec.decrement(d);\n        System.out.println(d);\n    }\n}\nclass Decrementer {\n    public void decrement(double decMe) {\n        decMe = decMe - 1.0;\n    }\n}\nGiá trị in ra của câu lệnh ở dòng thứ 6 là:",
+    "answer": "12.3"
+  },
+  {
+    "question": "Từ khóa nào được sử dụng trong khai báo lớp nếu ta muốn gói khác có thể sử dụng được lớp này?",
+    "answer": "public"
+  },
+  {
+    "question": "Cho lớp NV như sau:\npublic class NV {\n    float hsl;\n    float tinhluong() { return hsl * 1500000; }\n    void nhap() {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Nhap HSL:\");\n        hsl = sc.nextFloat();\n    }\n}\nĐâu là đoạn mã để xây dựng lớp DSNV với các yêu cầu sau:\n- thuộc tính: danh sách nhân viên (sử dụng ArrayList)\n- phương thức: tính tổng lương các nhân viên, nhập danh sách nhân viên từ bàn phím",
+    "answer": "class DSNV {\n    ArrayList<NV> lstNV;\n    void nhapDSNV() {\n        int n, i;\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Nhap so NV:\");\n        n = sc.nextInt();\n        lstNV = new ArrayList(n);\n        for (i = 0; i < n; i++) {\n            NV x = new NV();\n            x.nhap();\n            lstNV.add(x);\n        }\n    }\n    void tinhTongLuong() {\n        float s = 0;\n        for (NV x : lstNV)\n            s = s + x.tinhluong();\n    }\n}"
+  },
+  {
+    "question": "Cho biết kết quả khi thực thi đoạn code sau biết giá trị của x là 2:\nswitch (x) {\n    case 1:\n        System.out.println(1);\n    case 2:\n    case 3:\n        System.out.println(3);\n    case 4:\n        System.out.println(4);\n}",
+    "answer": "Các giá trị 3 và 4 được xuất ra."
+  },
+  {
+    "question": "Giả thiết có 3 lớp A, B và C với mô hình thừa kế: Lớp B thừa kế từ lớp A, Lớp C thừa kế từ lớp B. Trong thân các phương thức lớp C ta có thể truy cập trực tiếp đến các thành phần nào của lớp A?",
+    "answer": "Các thành phần protected và public"
+  },
+  {
+    "question": "Chọn phát biểu sai về final và static trong lớp:",
+    "answer": "Không thể định nghĩa một thuộc tính vừa là final và static."
+  },
+  {
+    "question": "Cho biết ý nghĩa của đoạn mã sau:\nclass NGUOI {\n    private String Mnv;\n    protected String Hoten;\n    protected float Hsl;\n    float tinhLuong() { return Hsl * 1500000; }\n}\nclass NHANVIEN extends NGUOI {\n    private String Chucvu;\n    private String Donvi;\n    private float Pc;\n    float tinhPC() { return Pc * 1500000; }\n}",
+    "answer": "Xây dựng lớp NHANVIEN kế thừa từ lớp NGUOI, lớp NHANVIEN bổ sung thêm các thành phần sau:\n- thuộc tính: Chức vụ, Đơn vị, Phụ cấp\n- phương thức: tính phụ cấp (= PC * 1500000)"
+  },
+  {
+    "question": "Giả thiết lớp B thừa kế từ lớp A. Thứ tự thực hiện việc hủy bỏ (gom rác) đối tượng được thực hiện như thế nào?",
+    "answer": "Thực hiện trên lớp B trước rồi đến lớp A"
+  },
+  {
+    "question": "Cho biết lớp B gồm các thành phần gì trong đoạn mã sau:\nclass A {\n    int x, y;\n    public A() { x = y = 5; }\n    public int sumA() { return x + y; }\n}\nclass B extends A {\n    int z;\n    public B() { z = 7; }\n    public int sumB() { return x + y + z; }\n}",
+    "answer": "- Thuộc tính: x, y, z\n- Phương thức: sumA(), sumB()"
+  },
+  {
+    "question": "Một class muốn thực thi được trong một thread riêng thì phải implements interface nào?",
+    "answer": "Runnable"
+  },
+  {
+    "question": "Lớp trừu tượng thường có ít nhất bao nhiêu phương thức trừu tượng?",
+    "answer": "1 phương thức trừu tượng."
+  },
+  {
+    "question": "Chọn phát biểu sai về lớp trừu tượng:",
+    "answer": "Ta không thể xây dựng lớp thừa kế từ một lớp trừu tượng."
+  },
+  {
+    "question": "Chúng ta có thể sử dụng tham chiếu kiểu giao diện để xử lý đối tượng hay không?",
+    "answer": "Có thể."
+  },
+  {
+    "question": "Một giao diện có thể là giao diện cho bao nhiêu lớp đối tượng có cùng mục đích tương tác?",
+    "answer": "Nhiều lớp"
+  },
+  {
+    "question": "Các phương thức nào sau đây không thể dừng sự thực thi của một thread?",
+    "answer": "notify();"
+  },
+  {
+    "question": "Khi có nhiều component được gắn các bộ lắng nghe của cùng một loại sự kiện thì component nào sẽ nhận được sự kiện đầu tiên?",
+    "answer": "Không thể xác định component nào sẽ nhận trước."
+  },
+  {
+    "question": "Đâu là đoạn mã để tạo giao diện có TextField hiển thị \"Sample Text\", Checkbox \"Bold\" được chọn và Checkbox \"Italic\" không được chọn?",
+    "answer": "checkBold = new Checkbox(\"Bold\");\ncheckBold.setState(true);\n\ncheckItalic = new Checkbox(\"Italic\");\ncheckItalic.setState(false);\n\ntxtText = new TextField(\"Sample Text\", 16);\n\nadd(txtText);\nadd(checkBold);\nadd(checkItalic);"
+  },
+  {
+    "question": "Chọn phương thức dùng để xác định vị trí và kích thước của các component?",
+    "answer": "setBounds()"
+  },
+  {
+    "question": "Cho đối tượng Button (tinhtoan), câu lệnh sau đây thực hiện yêu cầu xử lý gì?\ntinhtoan.setEnable(false);",
+    "answer": "Đặt chế độ không cho phép bấm chuột (click) vào nút bấm tinhtoan để thực hiện một thao tác nào đó"
+  },
+  {
+    "question": "Chọn phát biểu đúng về event listener, event adapter và WindowAdapter:",
+    "answer": "Tất cả các phát biểu đều đúng."
+  },
+  {
+    "question": "Khai báo nào sau đây là khai báo của phương thức trừu tượng (abstract)?",
+    "answer": "public abstract void add();"
+  },
+  {
+    "question": "Các phương thức nào sau đây là phương thức của lớp Graphics?",
+    "answer": "drawLine(int, int, int, int);"
+  },
+  {
+    "question": "Đâu là đoạn chương trình để vẽ được đồ thị dạng biểu đồ cột với các giá trị 120 (đỏ), 60 (xanh dương), 100 (xám), 80 (hồng)?",
+    "answer": "public class DoThi extends Applet {\n    public void paint(Graphics g) {\n        g.drawLine(5, 5, 5, 200);\n        g.drawLine(5, 200, 200, 200);\n\n        g.setColor(Color.red);\n        g.fillRect(25, 80, 40, 120);\n        g.drawString(\"120\", 25, 75);\n\n        g.setColor(Color.blue);\n        g.fillRect(105, 140, 40, 60);\n        g.drawString(\"60\", 105, 135);\n\n        g.setColor(Color.gray);\n        g.fillRect(185, 100, 40, 100);\n        g.drawString(\"100\", 185, 95);\n\n        g.setColor(Color.pink);\n        g.fillRect(265, 120, 40, 80);\n        g.drawString(\"80\", 265, 115);\n    }\n}"
+  },
+  {
+    "question": "Cho biết kết quả khi thực thi class sau:\nimport java.awt.*;\npublic class FrameTest extends Frame {\n    public FrameTest() {\n        add(new Button(\"First\"));\n        add(new Button(\"Second\"));\n        add(new Button(\"Third\"));\n        pack();\n        setVisible(true);\n    }\n    public static void main(String args[]) {\n        new FrameTest();\n    }\n}\nLựa chọn phát biểu đúng nhất:",
+    "answer": "Chỉ có \"Third\" button được hiển thị."
+  },
+  {
+    "question": "Chọn các component có phát sinh action event:",
+    "answer": "Button"
+  },
+  {
+    "question": "Tên phương thức dùng để start một thread?",
+    "answer": "start();"
+  },
+  {
+    "question": "Cho một component comp và một container cont có kiểu trình bày là BorderLayout. Cho biết cách để gắn comp vào vị trí đầu của cont?",
+    "answer": "cont.add(comp, BorderLayout.NORTH)"
+  },
+  {
+    "question": "Cho một component comp và một container cont có kiểu trình bày là FlowLayout. Cho biết cách để gắn comp vào cont?",
+    "answer": "cont.add(comp)"
+  },
+  {
+    "question": "Để thêm lần lượt 03 mục cho List theo thứ tự hiển thị: Black, Yellow, Green thì đoạn mã là gì?",
+    "answer": "colorList = new List(3, false);\ncolorList.add(\"Black\");\ncolorList.add(\"Yellow\");\ncolorList.add(\"Green\");"
+  },
+  {
+    "question": "Chọn kiểu trình bày để đặt các component trên khung chứa dưới dạng bảng.",
+    "answer": "GridLayout"
+  },
+  {
+    "question": "Đâu là đoạn mã để tạo các Checkbox dạng nhóm radio (CheckboxGroup) gồm Red, Green, Blue và không có item nào được chọn mặc định?",
+    "answer": "CheckboxGroup g = new CheckboxGroup();\nCheckbox radio1 = new Checkbox(\"Red\", g, false);\nCheckbox radio2 = new Checkbox(\"Green\", g, false);\nCheckbox radio3 = new Checkbox(\"Blue\", g, false);"
+  },
+  {
+    "question": "Dòng lệnh nào sau đây tạo ra một TextField có thể hiển thị tối đa 10 ký tự, giá trị khởi đầu là \"hello\"?",
+    "answer": "TextField tf1 = new TextField(\"hello\", 10);"
+  },
+  {
+    "question": "Đâu là đoạn mã để tạo hình tròn màu xanh (BLUE) được tô đầy?",
+    "answer": "class MyFrame extends Frame {\n    public MyFrame(String title) {\n        super(title);\n    }\n    public void paint(Graphics g) {\n        g.setColor(Color.BLUE);\n        g.fillOval(40, 40, 80, 80);\n    }\n}"
+  },
+  {
+    "question": "Dòng lệnh sau đây có nghĩa là gì?\nFrame frame = new Frame(\"Example on Frame\");\nframe.setSize(500, 500);",
+    "answer": "Tạo Frame với tiêu đề \"Example on Frame\" và kích thước là 500x500"
+  },
+  {
+    "question": "Trong java, khi ta khai báo và gọi hàm tạo không đối đối tượng lớp dẫn xuất, hàm tạo của lớp cơ sở có được tự động gọi hay không?",
+    "answer": "Chỉ hàm tạo không đối được tự động gọi."
+  },
+  {
+    "question": "Cho ví dụ sau:\nclass First {\n    public First(String s) {\n        System.out.println(s);\n    }\n}\npublic class Second extends First {\n    public static void main(String args[]) {\n        new Second();\n    }\n}\nCho biết kết quả biên dịch và thực thi của lớp Second?",
+    "answer": "Lỗi khi biên dịch vì lớp First không có constuctor không tham số."
+  },
+  {
+    "question": "Cho biết kết quả hiển thị sau khi thực hiện chương trình sau:\npublic class Test01 {\n    private int x, y;\n    Test01() { x = y = 5; }\n    Test01(int k) { x = y = k; }\n    private void hien() {\n        System.out.printf(\"x = %d, y = %d\", x, y);\n    }\n    public static void main(String[] arg) {\n        Test01 ts = new Test01(10);\n        ts.hien();\n    }\n}",
+    "answer": "x = 10, y = 10"
+  },
+  {
+    "question": "Đâu là đoạn mã xây dựng lớp GiaoVien kế thừa từ lớp NhanSu, có thêm thuộc tính luongThang và các phương thức nhapGV(), xuatGV()?",
+    "answer": "class GiaoVien extends NhanSu {\n    float luongThang;\n    void nhapGV() {\n        super.nhapNS();\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Nhap Luong:\");\n        luongThang = sc.nextFloat();\n    }\n    void xuatGV() {\n        super.xuatNS();\n        System.out.printf(\"%7.1f\", luongThang);\n    }\n}"
+  },
+  {
+    "question": "Một lớp nếu ta muốn đảm bảo rằng không ai được tạo đối tượng thuộc lớp đó thì nên xây dựng lớp đó là?",
+    "answer": "Lớp trừu tượng."
+  },
+  {
+    "question": "Chọn câu phát biểu đúng về lớp final và lớp trừu tượng:",
+    "answer": "Một lớp final không thể chứa các phương thức trừu tượng."
+  },
+  {
+    "question": "Từ khóa nào được dùng để khai báo lớp A là lớp trừu tượng trong java?",
+    "answer": "abstract"
+  },
+  {
+    "question": "Chọn phương thức dùng để xác định cách trình bày của một khung chứa:",
+    "answer": "setLayout()"
+  },
+  {
+    "question": "Cho lớp HangHoa được xây dựng như sau:\npublic class HangHoa {\n    private String tenHH;\n    private int soLuong;\n    private float donGia;\n    public String getTenHH() { return tenHH; }\n    public void setTenHH(String name) { this.tenHH = name; }\n    public int getSoLuong() { return soLuong; }\n    public void setSoLuong(int sl) { this.soLuong = sl; }\n    public float getDonGia() { return donGia; }\n    public void setDonGia(float dg) { this.donGia = dg; }\n}\nĐâu là đoạn mã để tạo đối tượng HangHoa với giá trị lấy từ các điều khiển trên giao diện (txtTenHH, txtSoLuong, txtDonGia)?",
+    "answer": "private HangHoa getHangHoa() {\n    HangHoa hh = new HangHoa();\n    hh.setTenHH(txtTenHH.getText());\n    hh.setSoLuong(Integer.parseInt(txtSoLuong.getText()));\n    hh.setDonGia(Float.parseFloat(txtDonGia.getText()));\n    return hh;\n}"
+  },
+  {
+    "question": "Phương thức nào được dùng để lấy về một URL của Applet file?",
+    "answer": "getCodeBase();"
+  },
+  {
+    "question": "Loại socket nào trong java sử dụng giao tiếp không kết nối, phương thức UDP (User Datagram Protocol).",
+    "answer": "datagram socket"
+  },
+  {
+    "question": "Phương thức nào được dùng để lấy về một URL của HTML file?",
+    "answer": "getDocumentBase();"
+  },
+  {
+    "question": "Khai báo nào là đúng trong các khai báo đối tượng ServerSocket sau:",
+    "answer": "ServerSocket server = new ServerSocket(int, int, InetAddress);"
+  },
+  {
+    "question": "Đâu là đoạn mã xây dựng lớp HocSinh kế thừa từ lớp NhanSu, có thêm thuộc tính diemTB và các phương thức nhapHS(), xuatHS()?",
+    "answer": "class HocSinh extends NhanSu {\n    float diemTB;\n    void nhapHS() {\n        super.nhapNS();\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Nhap DTB:\");\n        diemTB = sc.nextFloat();\n    }\n    void xuatHS() {\n        super.xuatNS();\n        System.out.printf(\"%7.1f\", diemTB);\n    }\n}"
+  },
+  {
+    "question": "Từ khóa nào được dùng để khai báo kế thừa trong java?",
+    "answer": "extends"
+  },
+  {
+    "question": "Trong sơ đồ kế thừa có lớp NhanSu là lớp cha của hai lớp HocSinh và GiaoVien, đâu là lớp được gọi là Lớp Cơ sở?",
+    "answer": "Lớp NhanSu"
+  },
+  {
+    "question": "Cho biết kết quả hiển thị sau khi thực hiện chương trình sau:\npublic class Test01 {\n    private int x, y;\n    Test01() { x = y = 5; }\n    Test01(int k) { x = y = k; }\n    public void hien() {\n        System.out.printf(\"x = %d, y = %d\", x, y);\n    }\n    public static void main(String[] arg) {\n        Test02 ts = new Test02();\n        ts.hien();\n    }\n}\nclass Test02 extends Test01 {\n}",
+    "answer": "x = 5, y = 5"
+  },
+  {
+    "question": "Chọn phát biểu đúng về các từ khóa final, implements, extends, abstract:",
+    "answer": "Từ khóa extends xác định lớp ta đang định nghĩa kế thừa từ lớp nào."
+  },
+  {
+    "question": "Giả thiết lớp A là lớp trừu tượng. Trong lớp A ta khai báo 2 phương thức sau:\n- Phương thức 1: public abstract void nhap();\n- Phương thức 2: private abstract void hien();\nKhai báo phương thức nào là khai báo hợp lệ?",
+    "answer": "Khai báo phương thức 1."
+  },
+  {
+    "question": "Khi một phương thức được khai báo là abstract thì lớp chứa nó cũng phải là một lớp abstract, đúng hay sai?",
+    "answer": "Đúng"
+  },
+  {
+    "question": "Chọn phát biểu đúng về MouseListener, MouseClickListener, MouseMotionListener:",
+    "answer": "MouseListener interface định nghĩa các phương thức để xử lý sự kiện nhấn chuột."
+  },
+  {
+    "question": "Phương thức nào sau đây không có trong ứng dụng applet?",
+    "answer": "Hàm main()"
+  },
+  {
+    "question": "Khi người sử dụng kéo chuột (di chuyển chuột trong khi vẫn ấn nút trái) trên một java applet Java tự động gọi phương thức nào?",
+    "answer": "mouseDrag();"
+  },
+  {
+    "question": "Applet có được phép gọi thực thi một tệp exe trên hệ thống client?",
+    "answer": "Không"
+  },
+  {
+    "question": "Đoạn mã để xây dựng lớp GIAOVIEN kế thừa từ lớp NHANSU, bổ sung thuộc tính luongThang, có các constructor không đối/có đối và phương thức hienthi()?",
+    "answer": "public class GIAOVIEN extends NHANSU {\n    private float luongThang;\n    public GIAOVIEN() {\n        super();\n        luongThang = 0;\n    }\n    public GIAOVIEN(String ht, int ns, String qq, float lt) {\n        super(ht, ns, qq);\n        luongThang = lt;\n    }\n    public void hienthi() {\n        super.hienthi();\n        System.out.print(\"\\n Luong:\" + luongThang);\n    }\n}"
+  },
+  {
+    "question": "Chọn phát biểu đúng về lớp Object và lớp Class:",
+    "answer": "Mọi lớp đều kế thừa trực tiếp hoặc gián tiếp từ lớp Object."
+  },
+  {
+    "question": "Các phương thức được khai báo dùng các tiền tố nào thì không được khai báo là trừu tượng (abstract)?",
+    "answer": "static"
+  },
+  {
+    "question": "Chọn cách sửa ít nhất để đoạn mã sau biên dịch đúng:\nfinal class Aaa {\n    int xxx;\n    void yyy() { xxx = 1; }\n}\nclass Bbb extends Aaa {\n    final Aaa finalRef = new Aaa();\n    final void yyy() {\n        System.out.println(\"In method yyy()\");\n        finalRef.xxx = 12345;\n    }\n}",
+    "answer": "Xóa từ final ở dòng 1"
+  },
+  {
+    "question": "Trong một ứng dụng applet ta có thể làm việc với dữ liệu multiMedia hay không?",
+    "answer": "Có"
+  },
+  {
+    "question": "Applet có được phép ghi lên hệ thống file của client?",
+    "answer": "Không"
+  },
+  {
+    "question": "Nếu tại lớp cơ sở có phương thức được nạp chồng, trong lớp dẫn xuất ta có thể ghi đè cho phương thức này?",
+    "answer": "Không thể ghi đè."
+  },
+  {
+    "question": "Từ khóa nào xác định các thuộc tính hay phương thức được truy nhập trong phạm vi lớp cha, lớp con và các lớp ngoài lớp cha đều truy nhập được?",
+    "answer": "public"
+  },
+  {
+    "question": "Cho biết kết quả hiển thị sau khi thực hiện chương trình sau:\npublic class Test01 {\n    private int x, y;\n    Test01() { x = y = 5; }\n    Test01(int k) { x = y = k; }\n    public void hien() {\n        System.out.printf(\"x = %d, y = %d\", x, y);\n    }\n    public static void main(String[] arg) {\n        Test02 ts = new Test02();\n        ts.hien();\n    }\n}\nclass Test02 extends Test01 {\n    private int z;\n    Test02(int k) {\n        super(k);\n        z = k;\n    }\n}",
+    "answer": "x = 10, y = 10"
+  },
+  {
+    "question": "Một lớp khi hiện thực 1 giao diện (sử dụng từ khóa implements) cần phải hiện thực những phương thức nào của giao diện đó?",
+    "answer": "Tất cả các phương thức."
+  },
+  {
+    "question": "Khi truyền tham số cho applet, nếu không chỉ rõ tham số Name của đối tượng thì đối tượng sẽ có tên mặc định là gì?",
+    "answer": "Applet"
+  },
+  {
+    "question": "Quá trình nào có thể thực hiện nhiều lần trong vòng đời của applet?",
+    "answer": "start()"
+  }
+]
