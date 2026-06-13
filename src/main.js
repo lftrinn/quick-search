@@ -12,6 +12,7 @@ document.querySelector('#app').innerHTML = `
         <option value="data.json">Pháp luật đại cương</option>
         <option value="data2.json">Tin học đại cương</option>
         <option value="data3.json">Triết học</option>
+        <option value="data5.json">Chủ nghĩa xã hội khoa học</option>
       </select>
       <input
         type="text"
