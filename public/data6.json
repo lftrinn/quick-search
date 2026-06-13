@@ -1,0 +1,722 @@
+[
+  {
+    "question": "Thành phần nào không phải đối tượng trong SQL Server?",
+    "answer": "Replication"
+  },
+  {
+    "question": "Phiên bản Enterprise của SQL Server chứa đầy đủ các đặc trưng của SQL Server và có thể chạy tốt trên hệ thống lên đến?",
+    "answer": "32 CPUs và 64 GB RAM"
+  },
+  {
+    "question": "Hệ quản trị cơ sở dữ liệu SQL Server 2008 không hỗ trợ tính năng nào sau đây?",
+    "answer": "Kết nối dữ liệu với các dịch vụ điện toán đám mây"
+  },
+  {
+    "question": "Thành phần nào sau đây của SQL Server cho phép người dùng quản lý các đối tượng cơ sở dữ liệu bằng đồ họa?",
+    "answer": "SQL Server Management Studio"
+  },
+  {
+    "question": "Tập tin có phần mở rộng là .ndf được dùng để làm gì?",
+    "answer": "Chỉ dùng khi cơ sở dữ liệu được phân chia chứa trên nhiều đĩa"
+  },
+  {
+    "question": "Thành phần nào sau đây thuộc phía Server trong mô hình Client – Server?",
+    "answer": "Database"
+  },
+  {
+    "question": "Một cơ sở dữ liệu chứa ít nhất là?",
+    "answer": "1 file mdf"
+  },
+  {
+    "question": "Phiên bản Personal của SQL Server có thể cài đặt?",
+    "answer": "Trên hầu hết các phiên bản của windows, kể cả Windows 98."
+  },
+  {
+    "question": "Dịch vụ chuyển đổi dữ liệu DTS của SQL Server thực hiện chức năng gì?",
+    "answer": "Chuyển dữ liệu giữa các Server"
+  },
+  {
+    "question": "Cấu hình nào sau đây được Windows cung cấp sẵn, dùng làm kết nối trung gian giữa ứng dụng và các hệ quản trị CSDL?",
+    "answer": "ODBC"
+  },
+  {
+    "question": "Trong cơ sở dữ liệu hệ thống, tập tin nào sau đây lưu trữ các thông tin login account?",
+    "answer": "Master"
+  },
+  {
+    "question": "Phần mềm nào sau đây không phải là một Web Browser?",
+    "answer": "File Zilla"
+  },
+  {
+    "question": "Có thể đặt mấy cột trong bảng làm khóa chính?",
+    "answer": "Trên nhiều cột"
+  },
+  {
+    "question": "Cơ sở dữ liệu hệ thống Msdb dùng để?",
+    "answer": "Hoạch định các báo động và công việc cần làm (schedule alerts and jobs)"
+  },
+  {
+    "question": "Kiểu dữ liệu nào sau đây KHÔNG có trong SQL Server ?",
+    "answer": "Bool"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu) và tblCTHOADON (sMaHD, sMaSP, iSLM), tblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\nĐâu là thủ tục để cho biết tên các sản phẩm đã được mua hàng trong một ngày nào đó",
+    "answer": "CREATE PROC spTenSP(datetime @d)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM as A, tblCTHOADON as B, tblHOADON as C\nWhere dNgayLap = @d and A.sMaSP = B.sMaSP and B.sMaHD = C.sMaHD\nEND"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đâu là thủ tục để cho tên sản phẩm theo một xuất sứ nào đó với xuất sứ là tham số truyền vào",
+    "answer": "CREATE PROC spTenSP(nvarchar @xs)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM\nWhere sXuatSu = @xs\nEND"
+  },
+  {
+    "question": "Phát biểu nào sau đây mô tả thuộc tính atomicity của 1 transaction?",
+    "answer": "Mọi chỉnh sửa trong 1 transaction hoặc được thi hành hết hoặc không có 1 chỉnh sửa nào được thực hiện"
+  },
+  {
+    "question": "Khảo sát thủ tục sau:\nCreate procedure prcTemp @tmp int output\nAs\nSelect @tmp=ytd_sales from titles\nReturn\nHãy xác định lệnh SQL được dùng để hiển thị giá trị của biến đầu ra khi thủ tục này được gọi:",
+    "answer": "Declare @temp int\nExec prcTemp @tmp=@temp output\nPrint @temp"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu) và tblCTHOADON (sMaHD, sMaSP, iSLM), tblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\nĐâu là thủ tục để cho danh sách tên sản phẩm đã được bán trong một tháng của một năm nào đó?",
+    "answer": "CREATE PROC spTenSP(int @m, int @y)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM as A, tblCTHOADON as B, tblHOADON as C\nWhere month(dNgayLap) = @m and year(dNgayLap) = @y and A.sMaSP = B.sMaSP and B.sMaHD = C.sMaHD\nEND"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đâu là câu truy vấn để tính tổng số lượng sản phẩm của từng nước theo xuất sứ",
+    "answer": "Select sXuatSu, sum(iSoluong)\nFrom tblSANPHAM\nGroup by sXuatSu"
+  },
+  {
+    "question": "Cấu trúc nào sau đây dùng để thực hiện công việc sau:\nTăng 25% lương của nhân viên sinh trước năm 1980\nTăng 10% lương của nhân viên sinh từ năm 1980 đến 1990\nKhông tăng lương của nhân viên sinh sau năm 1990",
+    "answer": "IF…ELSIF…ELSE"
+  },
+  {
+    "question": "Cho đoạn mã sau.\nDECLARE\n@V_BONUS INT,\nBEGIN\nSELECT @V_SALARY = luong\nFROM nhanvien\nWHERE manv = 1\nset @V_BONUS = @V_SALARY * 0.1;\nEND\nselect @V_BONUS\nNguyên nhân đoạn mã gây ra lỗi:",
+    "answer": "Chưa khai báo biến @V_SALARY"
+  },
+  {
+    "question": "Declare\n@a int = 5,\n@b int = null,\n@c int = 10\nBegin\nif @a > @b AND @a < @c set @a=@c*@a\nselect @a\nEnd\nGiá trị của a sẽ là?",
+    "answer": "5"
+  },
+  {
+    "question": "Trigger khác so với thủ tục lưu ở nội dung gì?",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Cho bảng tblCTHOADON (sMaHD, sMaSP, iSL, fDG, fThanhTien). Đoạn Trigger cho phép khi cập nhật giá trị tại cột Số lượng thì thành tiền tương ứng của mặt hàng đó được tính toán lại tương ứng",
+    "answer": "CREATE TRIGGER suaCTHD\nON tblCTHOADON\nInstead of update\nAs\nIf update(iSL)\nBegin\nDeclare int @sl, float @dg, nvarchar(9) @soHD, nvarchar(9) @maSP\nSelect @sl = iSL, @dg = fDG, @soHD = sMaHD, @maSP = sMaSP\nFrom insterted\nUpdate tblCTHOADON\nSet fThanhTien = @sl * @dg\nWhere sMaHD = @soHD and sMaSP = @maSP\nEnd"
+  },
+  {
+    "question": "Có mấy loại trigger?",
+    "answer": "3"
+  },
+  {
+    "question": "Cho các bảng\nPHONGBAN (MAPB, TENDV, MaTP, NgayBD, SoNV), NHANVIEN (MANV, HOTen, NS, GT, HSL, DC, MAPB, NgayVL), DUAN (MADA, TENDA, DIADIEM, NgBD, MAPB)\nViết trigger khi thay đổi mã cho một phòng thì các nhân viên và dự án thuộc phòng ban đó cũng phải thay đổi theo",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"CREATE TRIGGER UpdateMaPhong\nON PHONGBAN\nFOR UPDATE\nAS\nBEGIN\nIF UPDATE( MaPhong )\nBEGIN\nDECLARE @MaPhgCu nvarchar(9), @MaPhgMoi nvarchar(9)\nSELECT @MaPhgCu = MaPB FROM DELETED\nSELECT @MaPhgMoi = MaPB FROM INSERTED\nIf ( EXISTS (select MaPB from NHANVIEN Where MaPB= @MaPhgCu) )\nUPDATE NHANVIEN SET MaPB = @MaPhgMoi\nWHERE MaPB = @MaPhgCu\nIf ( EXISTS (select MaPB from DUAN Where MaPB = @MaPhgCu) )\nUPDATE DUAN set MaPB = @MaPhgMoi\nWHERE MaPB = @MaPhgCu\nEND\nEND\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Cho hai bảng\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV, TongTien)\ntblCTHOADON (sMaHD, sMaSP, iSL, fDG)\nĐoạn trigger sau làm nhiệm vụ gì?\nCREATE TRIGGER themCTHD\nON tblCTHOADON\nInstead of Insert\nAs\nBegin\nDeclare int @sl, float @dg, nvarchar @soHD\nSelect @sl = iSL, @dg = fDG, @soHD = sMaHD\nFrom insterted\nUpdate tblHOADON\nSet TongTien = TongTien + @sl * @dg\nWhere sMaHD = @soHD\nEnd",
+    "answer": "Mỗi khi thêm một dòng mới vào bảng tblCTHOADON thì tổng tiền của HOADON với mã hóa đơn tương ứng được tăng theo tuỳ theo số lượng và đơn giá được nhập vào"
+  },
+  {
+    "question": "Câu lệnh DROP TABLE thực hiện được khi thỏa mãn điều kiện gì?",
+    "answer": "Bảng không có khóa ngoại bị tham chiếu đến"
+  },
+  {
+    "question": "Khi thực hiện câu lệnh tạo bảng, chức năng của UNIQUE là?",
+    "answer": "Không cho phép nhập trùng giá trị"
+  },
+  {
+    "question": "Cho bảng tblNHANVIEN(sMaNV, sHoTen, sGioiTinh, sQueQuan).\nĐâu là câu lệnh thêm cột fHeSL với ràng buộc:\n- fHeSL có giá trị mặc định là 2.34\n- fHeSL có giá trị tối đa là 8",
+    "answer": "ALTER TABLE tblNHANVIEN\nADD fHeSL float Default(2.34) Check(fHeSL<=8)"
+  },
+  {
+    "question": "Câu lệnh CHECK nào sau đây là đúng để giới hạn thuộc tính iTuoi nhận giá trị từ 18 đến 60?",
+    "answer": "CHECK (iTuoi BETWEEN 18 AND 60)"
+  },
+  {
+    "question": "Trong bảng có cột `fGia` kiểu FLOAT, muốn ràng buộc giá trị phải > 0 và < 1000, cú pháp nào đúng?",
+    "answer": "CONSTRAINT CK_GIA CHECK (fGia > 0 AND fGia < 1000)"
+  },
+  {
+    "question": "Câu lệnh\nSELECT AVG(fLuong)\nFROM tblNV\ntrả về gì?",
+    "answer": "Lương trung bình"
+  },
+  {
+    "question": "Câu lệnh\nSELECT *\nFROM tblNV\nORDER BY fLuong DESC\nsẽ thực hiện gì?",
+    "answer": "Sắp xếp danh sách theo lương giảm dần"
+  },
+  {
+    "question": "Khi dùng lệnh SELECT có điều kiện WHERE fLuong BETWEEN 3000 AND 6000 thì các dòng mà giá trị tại cột fLuong bằng 6000 có được chọn không?",
+    "answer": "Có"
+  },
+  {
+    "question": "Lệnh nào dùng để xóa dữ liệu trong bảng dựa theo điều kiện đã xác định?",
+    "answer": "DELETE"
+  },
+  {
+    "question": "Câu lệnh nào sau đây trả về trung bình lương của các phòng mà có nhiều hơn 5 người?",
+    "answer": "SELECT sPhong, AVG(fLuong)\nFROM tblNV\nGROUP BY sPhong\nHAVING COUNT(*) > 5"
+  },
+  {
+    "question": "Câu lệnh sau thực hiện công việc gì?\nDENY SELECT, INSERT, UPDATE\nON TacGia\nTO db_user1, db_user2",
+    "answer": "Từ chối quyền được phép chọn – chèn và sửa trên bảng TacGia với tài khoản db_user1 và db_user2"
+  },
+  {
+    "question": "Sự khác biệt cơ bản giữa dettach và xóa CSDL?",
+    "answer": "CSDL vẫn còn trong máy nhưng tạm thời bị tách khỏi Instance"
+  },
+  {
+    "question": "Để xoá tài khoản đăng nhập “Test” đã có trong hệ thống thì sử dụng câu lệnh là gì?",
+    "answer": "DROP LOGIN Test"
+  },
+  {
+    "question": "Câu lệnh CREATE LOGIN <tên đăng nhập> FROM WINDOWS [ WITH [ DEFAULT_DATABASE = <Tên CSDL> ] được dùng để làm gì?",
+    "answer": "Tạo login với quyền đăng nhập Window"
+  },
+  {
+    "question": "Có mấy kiểu xác thực trong SQL Server",
+    "answer": "3"
+  },
+  {
+    "question": "Mô hình phục hồi thực hiện: “Là mô hình phục hồi toàn bộ hoạt động giao dịch của dữ liệu (Insert, Update, Delete, hoạt động bởi lệnh bcp, bulk insert).”",
+    "answer": "Full Recovery model"
+  },
+  {
+    "question": "Cho CSDL Quản lý nhân sự gồm các bảng:\nNHANVIEN(MaNV, HoTen, HSL, PC, GioiTinh, MaPB)\nPHONGBAN(MaPB, TenPB, DiaDiem)\nĐể tài khoản db_user1 được quyền lựa chọn - cập nhật trên thuộc tính HoTen, Hệ số lương của bảng NHANVIEN và trên thuộc tính tên phòng ban của bảng PHONGBAN thì câu lệnh phân quyền đầy đủ là gì?",
+    "answer": "REVOKE SELECT, UPDATE\nON NHANVIEN( HoTen, HSL )\nFROM db_user1\nREVOKE SELECT, UPDATE\nON PHONGBAN( TenPB )\nFROM db_user1"
+  },
+  {
+    "question": "Cho bảng tblNHANVIEN(maNV, HoTen, QueQuan, HSL).\nCâu lệnh để phân quyền được phép xem (lấy) dữ liệu trên bảng tblNHANVIEN cho tài khoản “nguoidung1” là gì?",
+    "answer": "GRANT SELECT\nON tblNHANVIEN\nTO nguoidung1"
+  },
+  {
+    "question": "Các đặc điểm sau là của phương pháp sao lưu nào?\n- Chỉ sao lưu những thay đổi trên dữ liệu kể từ lần full backup gần nhất\n- Sử dụng ít tài nguyên hơn\n- Không ảnh hưởng đến hiệu suất của hệ thống\n- Sẽ vô nghĩa nếu không có bản sao lưu full backup",
+    "answer": "Differential"
+  },
+  {
+    "question": "Câu lệnh để hủy bỏ tất cả các quyền trên CSDL đối với tài khoản db_user1",
+    "answer": "REVOKE ALL\nFROM db_user1"
+  },
+  {
+    "question": "Thủ tục sp_addlinkedserver dùng để thực hiện gì?",
+    "answer": "Thêm một Linked Server (Cho phép liên kết đến Server khác)"
+  },
+  {
+    "question": "Phương pháp phân mảnh thực hiện: Chia tách quan hệ ban đầu R thành các quan hệ Ri có số cột nhỏ hơn, (tập con của R) nhưng mỗi Ri đều phải chứa khóa chính của R",
+    "answer": "Phân mảnh dọc"
+  },
+  {
+    "question": "Cho máy thật có địa chỉ là 192.168.10.25. Để máy ảo kết nối phân tán được đến máy chủ thì địa chỉ máy áo phải là địa chỉ nào sau đây?",
+    "answer": "192.168.10.40"
+  },
+  {
+    "question": "Cho CSDL “QLNV” với bảng tblPhongBan phân mảnh dọc theo nguyên tắc sau:\n- Server1 gồm các thông tin: MaPhong, TenPhong\n- Server2 gồm các thông tin: MaPhong, DiaDiem, DienThoai\nCâu lệnh để có được bảng đầy đủ các thông tin: MaPhong, TenPhong, DiaDiem, DienThoai từ Server 2 là gì?",
+    "answer": "Select a.MaPhong, TenPhong, DiaDiem, DienThoai\nFrom Server1.QLNV.dbo.tblPhongban a, tblPhongBan b\nWhere a.MaPhong = b.MaPhong"
+  },
+  {
+    "question": "Phương pháp phân tán nào mà dữ liệu để tại một Server và các máy khách (Client) liên kết đến để khai thác?",
+    "answer": "Tập trung dữ liệu"
+  },
+  {
+    "question": "Cho CSDL quản lý sản phẩm với bảng tblNHANVIEN gồm các cột (sMaNV, sHoten, sGioitinh, fHSL, sQuequan).\nCho biết kết quả của câu lệnh truy vấn sau:\nSELECT sHoten\nFROM tblNHANVIEN\nWHERE sGioitinh = N'Nam'",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Cột sHoten gồm: Trần Văn Hùng, Đào Văn Hải, Trần Trọng Hải, Phạm Văn Nghĩa\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Hỗ trợ kiến trúc Client/Server (Supports Client/Server model) là gì?",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Thuộc tính nào sau đây không dùng để cấu hình cơ sở dữ liệu SQL Server?",
+    "answer": "Auto Read"
+  },
+  {
+    "question": "Mỗi cơ sở dữ liệu trong SQL Server gồm mấy tập tin?",
+    "answer": "3"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu) và tblCTHOADON (sMaHD, sMaSP, iSLM), tblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\nĐoạn thủ tục sau thực hiện yêu cầu xử lý gì?\nCREATE PROC spTenSP(datetime @d)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM as A, tblCTHOADON as B, tblHOADON as C\nWhere dNgayLap = @d and A.sMaSP = B.sMaSP and B.sMaHD = C.sMaHD\nEND",
+    "answer": "Cho danh sách tên các sản phẩm đã được khách hàng mua hàng trong một ngày nào đó, với ngày là tham số truyền vào"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đoạn thủ tục sau thực hiện yêu cầu xử lý gì?\nCREATE PROC spTenSP(float @a, nvarchar @xs)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM\nWhere fDonGia > @a and sXuatSu = @xs\nEND",
+    "answer": "Cho danh sách tên sản phẩm có đơn giá lớn hơn một số @a và xuất sứ từ một nước @xs nào đó, với số @a và xuất sứ @xs là tham số truyền vào"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu) và tblCTHOADON (sMaHD, sMaSP, iSLM).\nĐoạn thủ tục sau thực hiện yêu cầu xử lý gì?\nCREATE PROC spTenSP(nvarchar @mhd)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM as A, tblCTHOADON as B\nWhere sMaHD = @mhd and A.sMaSP = B.sMaSP\nEND",
+    "answer": "Cho biết tên sản phẩm đã được mua hàng của một hóa đơn nào đó với mã hóa đơn là tham số truyền vào"
+  },
+  {
+    "question": "Xác định ý nghĩa thủ tục sau:\nCREATE PROC get_playername @sport_id varchar(10)\nAS\nSELECT player_lname, player_fname\nFROM sports WHERE sport_id = @sport_id",
+    "answer": "Thủ tục có 1 tham số vào là sport_id và sẽ hiển thị tên vận động viên (player) mà có Id bằng với tham số đầu vào"
+  },
+  {
+    "question": "Độ lớn của một cột kiểu CHAR?",
+    "answer": "1 byte"
+  },
+  {
+    "question": "Kết quả của câu truy vấn sau là gì?\nSELECT (25%5) , (8%2.5)",
+    "answer": "0 và 0.5"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đâu là câu truy vấn để cho danh sách tên các sản phẩm có đơn giá trên 50000 và có xuất sứ ở Pháp",
+    "answer": "Select sTenSP\nFrom tblSANPHAM\nWhere fDonGia > 50000 and sXuatSu = N’Pháp’"
+  },
+  {
+    "question": "Câu lệnh nào không được phép dùng trong khối lệnh T-SQL?",
+    "answer": "Create"
+  },
+  {
+    "question": "Cho CSDL quản lý sản phẩm với hai bảng tblCTHOADON (sMaHD, sMaSP, iSLM) và tblSANPHAM(sMaSP, sTenSP, iSLBan, fDongia, sXuatSu).\nĐâu là câu lệnh truy vấn để tính tổng số tiền hàng đã bán của từng sản phẩm theo tên Sản phẩm.",
+    "answer": "Select sTenSP, sum(iSLM *fDonGia)\nFrom tblCTHOADON, tblSANPHAM\nWhere tblCTHOADON.sMaSP=tblSANPHAM.sMaSP\nGroup by sTenSP"
+  },
+  {
+    "question": "Để tạo trigger phải xấc định những nội dung gì",
+    "answer": "Tất cả các nội dung được liệt kê"
+  },
+  {
+    "question": "Cho hai bảng\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV, TongTien)\ntblCTHOADON (sMaHD, sMaSP, iSL, fDG)\nĐoạn Trigger nào để thực hiện yêu cầu: Mỗi khi thêm một dòng mới vào bảng tblCTHOADON thì tổng tiền của tblHOADON với mã tương ứng được tăng theo tuỳ theo số lượng và đơn giá được nhập vào",
+    "answer": "CREATE TRIGGER themCTHD\nON tblCTHOADON\nInstead of Insert\nAs\nBegin\nDeclare int @sl, float @dg, nvarchar(9) @soHD\nSelect @sl = iSL, @dg = fDG, @soHD = sMaHD\nFrom insterted\nUpdate tblHOADON\nSet TongTien = TongTien + @sl * @dg\nWhere sMaHD = @soHD\nEnd"
+  },
+  {
+    "question": "Khi thực hiện thao tác nào với bảng thì trigger được gọi?",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Thứ tự kiêm tra ràng buộc toàn vẹn dữ liệu là gì?",
+    "answer": "Trigger instead of -> Constraint -> Trigger For/After"
+  },
+  {
+    "question": "Đặc điểm của trigger là gì?",
+    "answer": "Trigger có thể thực hiện nhiều công việc và được thực hiện tự động thông qua sự kiện"
+  },
+  {
+    "question": "Câu lệnh nào tạo bảng có cột mã sinh viên là khóa chính và tên sinh viên không được để trống?",
+    "answer": "CREATE TABLE SV\n(\nMaSV INT PRIMARY KEY,\nTenSV VARCHAR(50) NOT NULL\n)"
+  },
+  {
+    "question": "Đâu là câu lệnh tạo bảng mới đúng?",
+    "answer": "CREATE TABLE TenBang"
+  },
+  {
+    "question": "Lệnh SQL nào dùng để tạo cơ sở dữ liệu mới?",
+    "answer": "CREATE DATABASE"
+  },
+  {
+    "question": "Khi thực hiện tạo bảng, ràng buộc CHECK dùng để?",
+    "answer": "Kiểm tra điều kiện dữ liệu của một thuộc tính"
+  },
+  {
+    "question": "Kết quả của câu lệnh sau là gì?\nSELECT TOP 5 *\nFROM tblNhanVien",
+    "answer": "Lấy giá trị của 5 dòng đầu tiên trên bảng tblNhanVien"
+  },
+  {
+    "question": "Câu lệnh nào đúng để đếm số nhân viên có lương > 5000 của mỗi phòng ban trong bảng tblNV",
+    "answer": "SELECT sPhong, COUNT(*)\nFROM tblNV\nWHERE fLuong > 5000\nGROUP BY sPhong"
+  },
+  {
+    "question": "Câu lệnh\nSELECT DISTINCT sPhongBan FROM tblNV\nsẽ thực hiện yêu cầu gì?",
+    "answer": "Lấy danh sách thông tin các phòng ban và đảm bảo không có hai dòng trùng nhau"
+  },
+  {
+    "question": "Cú pháp nào để thực hiện cập nhật dữ liệu trong bảng?",
+    "answer": "UPDATE bảng\nSET cột = giá_trị\nWHERE điều_kiện"
+  },
+  {
+    "question": "Câu lệnh để cấp phát tất cả các quyền cho tất cả các tài khoản được viết như thế nào?",
+    "answer": "GRANT all\nTO public"
+  },
+  {
+    "question": "Câu lệnh để thực hiện “Hủy bỏ quyền xem và cập nhất dữ liệu trên cột ‘Luong’ của bảng nhân viên đối với tài khoản có tên là ‘db_user1’ ” được viết như thế nào?",
+    "answer": "REVOKE SELECT, UPDATE\nON NHANVIEN( Luong )\nFROM db_user1"
+  },
+  {
+    "question": "Lý do cần thiết phải thực hiện sao lưu dữ liệu?",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Để cấp quyền cho người dùng “Test” được quyền xem dữ liệu của Bảng “tblNhanVien” thì câu lệnh được sử dụng là gì?",
+    "answer": "GRANT"
+  },
+  {
+    "question": "Cho bảng tblNHANVIEN(maNV, HoTen, QueQuan, HSL).\nCâu lệnh để phân quyền được phép xem (lấy) và chỉnh sửa dữ liệu trên cột (HoTen, QueQuan) của bảng tblNHANVIEN cho tài khoản “nguoidung1” là gì?",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"GRANT SELECT, UPDATE\nON tblNHANVIEN\nTO nguoidung1\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Có mấy kỹ thuật sao lưu?",
+    "answer": "3"
+  },
+  {
+    "question": "Gợi ý nào được đề xuất khi thực hiện sao lưu dữ liệu?",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Thực hiện sao lưu Full một lần vào lúc bắt đầu ngày (chuẩn bị làm việc với CSDL)\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Giả sử, CSDL được lập lịch Full Database Backup vào ngày chủ nhật, Differential Database Backup vào ngày thứ ba và thứ năm, còn Log Database Backup cứ mỗi tiếng một lần vào các ngày từ thứ 2 đến thứ 6 trong tuần.\nTrong trường hợp ngày thứ sáu có sự cố với CSDL data file bị hỏng, để phục hồi dữ liệu và CSDL hoạt động bình thường, thứ tự các bước phục hồi thực hiện như thế nào?",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"+ Khôi phục Transaction log backup ngày thứ năm.\n+ Phục hồi Differential Database của ngày thứ năm.\n+ Khôi phục Full Database của ngày chủ nhật.\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Cho CSDL “QuanLyKH” cài đặt trên máy “Server2” có chứa bảng “KhachHang”. Tại máy “Server1” muốn lấy các thông tin trong bảng “KhachHang” thì câu lệnh thực hiện là:",
+    "answer": "SELECT *\nFROM Server2.QuanlyKH.dbo.KhachHang"
+  },
+  {
+    "question": "Để liên kết đến server khác có những cách nào?",
+    "answer": "Tất cả các phương pháp đều đúng"
+  },
+  {
+    "question": "Phương pháp phân mảnh thực hiện: Chia quan hệ ban đầu R thành các mảnh (đoạn), mỗi mảnh chứa một số bộ giá trị của R thỏa mãn một tính chất nào đấy (điều kiện phân mảnh).",
+    "answer": "Phân mảnh ngang"
+  },
+  {
+    "question": "Có mấy phương pháp phân tán CSDL?",
+    "answer": "4"
+  },
+  {
+    "question": "Cho CSDL “QLGV” với bảng tblNV phân mảnh dọc theo nguyên tắc sau:\n-Server1 gồm các thông tin: MaNV, HoTen, GioiTinh\n-Server2 gồm các thông tin: MaNV, DiaChi, DienThoai, Email\nĐoạn code thiếu để chèn thêm một nhân viên mới vào bảng (thủ tục được viết trên Server2)\nCreate Proc spInsertNhanVien (@ma varchar(10), @HTnVarchar(20), @GT as nvarchar(3), @DC as nvarchar(20), @DT as nvarchar(20), @Email as nvarchar(20))@diachi nvarchar(30), @dienthoai varchar(11))\nas\nBegin\nInsert Into tblNV Values(@ma, @DC, @DT, @Email)\n…..\nprint N'Thêm thành công'\nEnd",
+    "answer": "Insert Into Server1.QLGV.dbo.tblNV Values(@ma,@HT, @GT)"
+  },
+  {
+    "question": "Phiên bản cài đặt nào sau đầy đủ cho các doanh nghiệp vừa và nhỏ thực hiện tính năng thương mại điện tử?",
+    "answer": "Standard Edition"
+  },
+  {
+    "question": "Người dùng duyệt Web bằng phần mềm gì?",
+    "answer": "Web Browser"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đoạn thủ tục sau thực hiện yêu cầu xử lý gì?\nCREATE PROC spTenSP(nvarchar @xs)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM\nWhere sXuatSu = @xs\nEND",
+    "answer": "Cho danh sách tên sản phẩm theo một xuất sứ nào đó với xuất sứ là tham số truyền vào"
+  },
+  {
+    "question": "Trong table NHANVIEN, giá trị LUONG của nhân viên tên A (TenNV = 'A') trong T-SQL sau bằng mấy?\nBEGIN\nUPDATE NHANVIEN SET luong = 6000 WHERE TenNV = 'A'\nSAVE tran save_A\nUPDATE NHANVIEN SET luong = 7500 WHERE TenNV = 'A'\nSAVE tran save_A\nUPDATE NHANVIEN SET luong = 3000 WHERE TenNV = 'A'\nSAVE Tran save_A1\nROLLBACK tran save_A\nEND\nCOMMIT",
+    "answer": "6000"
+  },
+  {
+    "question": "Cho CSDL quản lý sản phẩm với hai bảng tblCTHOADON (sMaHD, sMaSP, iSLM) và tblSANPHAM(sMaSP, sTenSP, iSLBan, fDongia, sXuatSu).\nĐâu là câu lệnh truy vấn để tính tổng số tiền hàng đã bán của từng hóa đơn",
+    "answer": "Select sMaHD, sum(iSLM*fDonGia)\nFrom tblCTHOADON, tblSANPHAM\nWhere tblCTHOADON.sMaSP=tblSANPHAM.sMaSP\nGroup by sMaHD"
+  },
+  {
+    "question": "Câu lệnh nào được phép dùng trong khối lệnh T-SQL?",
+    "answer": "DELETE"
+  },
+  {
+    "question": "Đoạn mã tạo trigger để cho phép chỉ nhập giá trị Nam hoặc Nữ khi thêm vào bảng NHANVIEN là?",
+    "answer": "CREATE TRIGGER NV_GT\nON NHANVIEN\nINSTEAD OF INSERT\nAs\nBEGIN\ndeclare @Gt as nvarchar(3)\nselect @gt = GT from INSERTED\nif ( @gt not in ('Nam', N'Nữ') )\nRaiserror('Ban nhap sai Gioi tinh',16,10)\nEND"
+  },
+  {
+    "question": "Khi xảy ra một sự kiện thao tác dữ liệu trong CSDL được lưu tạm vào bảng nào?",
+    "answer": "Deleted và Inserted"
+  },
+  {
+    "question": "Sự khác nhau cơ bản trong 2 trường hợp sau:\n1. Sửa trigger bằng lệnh Alter trigger\n2. Xóa trigger bằng lệnh drop trigger sau đó tạo lại bằng lệnh create trigger",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Cho bảng PHANCONG(MADA, MANV, SoGio)\nĐoạn mã tạo trigger cho phép nhập số giờ của nhân viên chỉ là từ 5 đến 10 khi thêm phân công nhân viên thực hiện dự án",
+    "answer": "CREATE TRIGGER TG_PC\nON PHANCONG\nINSTEAD OF insert\nAS\nBEGIN\ndeclare @tg as float\nSELECT @tg = SoGio from INSERTED\nif (@tg<5 or @tg>10)\nRaiserror('Thoi gian chi nhap tu 5 den 10', 16,1)\nEND"
+  },
+  {
+    "question": "Cho CSDL Quản lý nhân sự gồm các bảng:\nNHANVIEN(MaNV, HoTen, HSL, PC, GioiTinh, MaPB)\nPHONGBAN(MaPB, TenPB, DiaDiem)\nTài khoản “db_user1” được thực hiện câu lệnh nào sau khi đoạn mã sau được thực hiện:\nREVOKE SELECT, UPDATE\nON NHANVIEN( HoTen, HSL )\nFROM db_user1\nREVOKE SELECT, UPDATE\nON PHONGBAN( TenPB )\nFROM db_user1",
+    "answer": "Select HoTen, HSL, TenPB\nFrom NHANVIEN, PHONGBAN\nWhere NHANVIEN.MaPB = PHONGBAN.MaPB\nUpdate NHANVIEN\nSet HSL = HSL + 1\nWhere GioiTinh = N’Nữ”"
+  },
+  {
+    "question": "Câu lệnh sau thực hiện gì?\nGRANT CREATE TABLE, CREATE VIEW\nTO db_user",
+    "answer": "Cấp quyền được phép tạo bảng và tạo view đối với tài khoản db_user"
+  },
+  {
+    "question": "Cảnh báo lỗi “…… .mdf cannot be overwritten. It is being used by database ‘…’” xảy ra khi thực hiện thao tác gì?",
+    "answer": "Khôi phục CSDL"
+  },
+  {
+    "question": "Cú pháp để truy xuất đến một bảng của CSDL khác năm khác Server là:",
+    "answer": "[ServerName][.DatabaseName][.owner][.tableName]"
+  },
+  {
+    "question": "Cho CSDL “QuanLyBH” được cài đặt tại ServerAo và ServerThat như sau:\n*Tại ServerAo có chứa bảng tblNV(MaNV, HoTen, NgaySinh, TrinhDo, ChuyenNganh, Nam)\n*Tại ServerThat có bảng tblNV(MaNV, HoTen, NgaySinh, TrinhDo, ChuyenNganh, Nam)\nTại ServerThat câu lệnh truy vấn để cho danh sách tất cả thông tin gồm (MaNV, HoTen, TrinhDo) được viết như thế nào?",
+    "answer": "Select MaNV, HoTen, TrinhDo\nFrom tblNV\nUnion\nSelect MaNV, HoTen, TrinhDo\nFrom ServerAo.QuanLyBH.dbo.tblNV"
+  },
+  {
+    "question": "Cho CSDL “QLNV” với bảng tblPhongBan phân mảnh dọc theo nguyên tắc sau:\n-Server1 gồm các thông tin: MaPhong, TenPhong\n-Server2 gồm các thông tin: MaPhong, DiaDiem, DienThoai\nĐoạn code để chèn thêm một phòng ban mới vào bảng (thủ tục được viết trên Server2)",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Create Proc spInsertPhongban (@ma varchar(10), @ten nVarchar(20), @diachi nvarchar(30), @dienthoai varchar(11))\nas\nBegin\nInsert Into Server1.QLNV.dbo.tblPhongBan Values(@ma, @diachi, @đienthoai)\nInsert Into tblPhongBan Values(@ma,@ten)\nprint N'Thêm thành công'\nEnd\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu) và tblCTHOADON (sMaHD, sMaSP, iSLM).\nĐâu là thủ tục để cho danh sách tên các sản phẩm đã được mua hàng theo mã hóa đơn nào đó?",
+    "answer": "CREATE PROC spTenSP(nvarchar(9) @mhd)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM as A, tblCTHOADON as B\nWhere sMaHD = @mhd and A.sMaSP = B.sMaSP\nEND"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đâu là thủ tục để cho tên các sản phẩm có đơn giá trong một khoảng @a và @b nào đó?",
+    "answer": "CREATE PROC spTenSP(float @a, float @b)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM\nWhere fDonGia between @a and @b\nEND"
+  },
+  {
+    "question": "Cho T-SQL block sau:\nDECLARE @X INT = 100\nWHILE (@x<= 108 )\nIF @x = 102\nbreak\nELSE\nBEGIN\nInsert into NHANVIEN(manv) values (@X)\nSET @X=@X+1\nEND\nBao nhiêu dòng được thêm vào bảng Nhanvien khi thực thi block?",
+    "answer": "2"
+  },
+  {
+    "question": "Bạn là nhà quản trị CSDL SQL. Bạn đang phát triển 1 ứng dụng DB cho phòng kế toán công ty của bạn. Ứng dụng này chứa nhiều modules được tích hợp nhau. Các user thuờng gặp phải deadlock bất kỳ lúc nào một người nào đó thực hiện 1 hàm mà nó cần tích hợp từ nhiều module. Làm thế nào đê giảm thiểu các deadlock này?",
+    "answer": "Bạn cần phải bảo đảm là tất cả các transaction chỉnh sửa dữ liệu các bảng phải theo cùng 1 thứ tự"
+  },
+  {
+    "question": "Cho đoạn lệnh:\ndeclare @IX int =100\nwhile (@IX <=110)\nbegin print @IX\nif @IX=105 break\nset @IX = @IX +1\nEND\nMấy dòng dữ liệu được in ra",
+    "answer": "6"
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu). Đâu là câu truy vấn để tính tổng số tiền của tất cả các sản phẩm đang có",
+    "answer": "Select sum(iSoluong*fDonGia)\nFrom tblSANPHAM"
+  },
+  {
+    "question": "Hàm nào trong SQL Server trả về ngày hiện tại của hệ thống?",
+    "answer": "Getdate()"
+  },
+  {
+    "question": "Cho đoạn mã tạo trigger:\nCREATE TRIGGER NV_GT\nON NHANVIEN\nINSTEAD OF INSERT\nAs\nBEGIN\ndeclare @Gt as nvarchar(3)\nselect @gt = GT from INSERTED\nif ( @gt not in ('Nam', N'Nữ') )\nRaiserror('Ban nhap sai Gioi tinh',16,10)\nEND\nCho biết ý nghĩa của đoạn mã",
+    "answer": "Tạo trigger kiểm tra giới tính nhập vào cho bảng NHANVIEN chỉ nhập từ Nam hoặc Nữ, nếu nhập sai đươc ra thông báo “Bạn nhập sai Giới tính”"
+  },
+  {
+    "question": "Cho các bảng\nLOP( malop, TenLop, NienKhoa, SiSo)\nSINHVIEN ( MaSV, Hoten, NS, GT, maLop)\nViết trigger khi sưar một lớp nào đó thì các sinh viên thuộc lớp đó cũng sửa theo.",
+    "answer": "CREATE TRIGGER UpdateMaLop\nON LOP\nFOR UPDATE\nAS\nBEGIN\nIF UPDATE( MaLop)\nBEGIN\nDECLARE @MaLopCu nvarchar(9), @MaLopMoi nvarchar(9)\nSELECT @MaLopCu = MaLop FROM DELETED\nSELECT @MaLopMoi = MaLop FROM INSERTED\nIf ( EXISTS (select MaLop from SINHVIEN Where MaLop= @MaLopCu) )\nUPDATE SINHVIEN SET MaLop = @MaLopMoi\nWHERE MaLop = @MaLopCu\nEND\nEND"
+  },
+  {
+    "question": "Khi nào cần dùng đến ràng buộc `FOREIGN KEY` trong thực hiện câu lệnh CREATE TABLE?",
+    "answer": "Khi muốn đảm bảo liên kết giữa hai bảng, cho phép giá trị của một thuộc tính tham chiếu liên kết đến một thuộc tính của bảng khác"
+  },
+  {
+    "question": "Cho bảng tblVatTu(sMaVT, sTenVT, iNamSX, sNoiSX). Đâu là câu lệnh tạo bảng với các ràng buộc:\n- sMaVT là khóa\n- sNoiSX chỉ nhận giá trị “Trong nước” hoặc “Nhập khẩu”",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"CREATE TABLE tblVatTu\n(\nsMaVT varchar(9) PRIMARY KEY,\nsTenVT nvarchar(20),\niNamSX int,\nsNoiSX nvarchar(15) Check (sNoiSX = N’Trong nước” or sNoiSX = N’Nhập khẩu’)\n)\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Từ khóa nào giúp sửa kiểu dữ liệu của cột đã có?",
+    "answer": "ALTER COLUMN"
+  },
+  {
+    "question": "Câu lệnh nào đúng để trả lại tên nhân viên có lương cao nhất trong bảng tblNV",
+    "answer": "SELECT sTen\nFROM tblNV\nWHERE fLuong = (SELECT MAX(fLuong) FROM tblNV)"
+  },
+  {
+    "question": "Sự khác nhau giữa DELETE và DROP khi thực hiện trên bảng là gì?",
+    "answer": "DELETE xóa các dòng dữ liệu, DROP xóa bảng khỏi Cơ sở dữ liệu"
+  },
+  {
+    "question": "Để cập nhật lương tăng lên 10% cho nhân viên phòng Kế Toán, sử dụng điều kiện nào?",
+    "answer": "UPDATE tblNhanVien\nSET fLuong=fLuong*1.1\nWHERE sPhongBan = N'Kế Toán'"
+  },
+  {
+    "question": "Câu lệnh SQL nào dùng để thêm một dòng dữ liệu mới vào bảng đã có?",
+    "answer": "INSERT INTO"
+  },
+  {
+    "question": "Các lệnh nào sau đây bạn sẽ dùng để tạo thủ tục (procedure) mà nhận vào 1 ký tự và hiển thị các tiêu đề bắt đầu với ký tự đó:",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Create procedure prcDispName @cValue char(1) as Declare @temp char(2) Select @temp=@cValue+ ’%’ Select * from titles Where title like @temp\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Làm cách nào để trả về nhiều giá trị từ 1 procedure?",
+    "answer": "Sử dụng các parameters OUT parameters."
+  },
+  {
+    "question": "Jack cần chèn 1 điểm dừng (save point) có tên là ’Returnback’ vào transaction của anh t Nên dùng lệnh nào sau đây:",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"SAVE TRANSACTION Returnback\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Cho bảng tblSANPHAM(sMaSP, sTenSP, iSoluong, fDongia, sXuatSu) và tblCTHOADON (sMaHD, sMaSP, iSLM), tblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\nĐâu là thủ tục để cho danh sách tên sản phẩm KHÔNG được bán trong một năm nào đó?",
+    "answer": "CREATE PROC spTenSP(int @y)\nAs\nBEGIN\nSelect sTenSP\nFrom tblSANPHAM\nWhere sMaSP not in (Select sMaSP from tblCTHOADON as A, tblHOADON as B\nWhere year(dNgayLap) = @y and A.sMaHD = B.sMaHD)\nEND"
+  },
+  {
+    "question": "Cho đoạn lệnh:\nDECLARE\n@V1 int\nBEGIN\nSELECT COUNT(*) FROM nhanvien\nEND\nBEGIN\nset @V1= @@ROWCount\nEND\nGiá trị @V1 sẽ nhận là?",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"1\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Một câu lệnh IF… …ELSIF có thể có mấy mệnh đề ELSE?\n0 64 1",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"1\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Các hàm nào không thể sử dụng với kiểu dữ liệu xâu?",
+    "answer": "SUM() và AVG()"
+  },
+  {
+    "question": "Các trường hợp nào bắt buộc phải sử dụng trigger?",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Cho hai bảng\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV, TongTien)\ntblCTHOADON (sMaHD, sMaSP, iSLM)\nĐể cho phép mỗi khi xoá một dòng mới trong bảng tblCTHOADON thì tổng tiền của HOADON được cập nhật theo thì viết trigger với lựa chọn biến cố nào",
+    "answer": "Delete"
+  },
+  {
+    "question": "Cho CSDL quản lý sản phẩm với bảng tblSANPHAM gồm các cột (sMaSP, sTenSP, iSoLuong, fDonGia, sXuatSu).\nCho biết kết quả của câu lệnh truy vấn sau:\nSelect sTenSP\nFrom tblSANPHAM\nWhere fDonGia between 50,000 and 70,000",
+    "answer": "Cột sTenSP gồm: Chà là xắt miếng, Bột làm bánh"
+  },
+  {
+    "question": "Lệnh nào sau đây cho phép tạo thuộc tính sTenSV vừa đảm bảo giá trị không trùng lặp và không được rỗng?",
+    "answer": "sTenSV NVARCHAR(50) NOT NULL UNIQUE"
+  },
+  {
+    "question": "Câu lệnh nào đúng để xóa bảng (đảm bảo bảng đã không còn bị tham chiếu)?",
+    "answer": "DROP TABLE TenBang"
+  },
+  {
+    "question": "Câu lệnh `ALTER TABLE` dùng để làm gì?",
+    "answer": "Sửa cấu trúc bảng"
+  },
+  {
+    "question": "Câu lệnh\nSELECT sHoTen, fLuong\nFROM tblNV\nWHERE sTen LIKE N'%Anh'\nsẽ thực hiện chọn kết quả gì ra để hiển thị?",
+    "answer": "Danh sách các nhân viên mà có giá trị tại cột Họ Tên kết thúc bằng từ 'Anh'"
+  },
+  {
+    "question": "Lệnh SELECT thường được sử dụng để làm gì",
+    "answer": "Truy vấn dữ liệu"
+  },
+  {
+    "question": "Để truy vấn dữ liệu mà tên nhân viên bắt đầu bằng 'Nguyễn', dùng biểu thức điều kiện nào cho mệnh đề WHERE?",
+    "answer": "LIKE N'Nguyễn%'"
+  },
+  {
+    "question": "Xem xét thủ tục sau:\nCREATE PROCEDURE INS_NV (@V_ID int, @V_NAME VARCHAR(20) = 'NGUYEN', @V_ADD VARCHAR(20))\nAS\nBEGIN\nINSERT INTO Nhanvien (Manv, TenNV, Diachi)\nVALUES (@v_id, @v_name, @v_ADD)\nEND\nĐể thực hiện đoạn thủ tục trên thì dùng lệnh?",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Không lựa chọn nào đúng\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Lệnh sửa đổi 1 thủ tục có tên là prcPrintStoreList như sau:\nALTER PROCEDURE prcPrintStoreList @state char(15)\nAS\nBEGIN\nIF EXISTS(SELECT * FROM Stores WHERE state=@state)\nBEGIN\nPRINT 'List of Stores'\nSELECT stor_id,stor_name, stor_address,city\nFROM Stores WHERE state = state\nReturn 0\nEND\nELSE\nBEGIN\nPRINT 'No Records Found for given state'\nRETURN 1\nEND\nEND\nHãy xác định kết quả sửa đổi này",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Lỗi biên dịch ( Compile-time error )\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Cho T-SQL block sau, dòng nào gây ra lỗi?\n1. DECLARE\n2. @V_DEPTNO INT\n3. BEGIN\n4. SET @V_DEPTNO = 20\n5. SELECT ENAME, SALARY\nFROM EMP WHERE DEPTNO = @V_DEPTNO\n6. END",
+    "answer": "Không có dòng nào gây lỗi."
+  },
+  {
+    "question": "Ý nghĩa của đoạn mã sau là gì?\nCREATE TRIGGER TG_PC\nON PHANCONG\nINSTEAD OF insert\nAS\nBEGIN\ndeclare @tg as float\nSELECT @tg = SoGio from INSERTED\nif (@tg<5 and @tg>10)\nRaiserror('Thoi gian chi nhap tu 5 den 10', 16,1)\nEND",
+    "answer": "Đoạn mã tạo trigger cho phép nhập số giờ của nhân viên chỉ là từ 5 đến 10 khi thêm phân công nhân viên thực hiện dự án"
+  },
+  {
+    "question": "Cho CSDL gồm các bảng:\ntblSANPHAM(sMaSP, sTenSP, iSoluong, fDongiaban, sNhaSX, TSLuongBan)\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\ntblCTHOADON (sMaHD, sMaSP, iSLM)\nĐoạn mã xây dựng Trigger để khi cập nhật mã Sản phẩm trong bảng SẢN PHẨM thì các mã của sản phẩm đó tương ứng mà khách đã mua được cập nhật theo cho phù hợp?",
+    "answer": "Create trigger capnhat_MaSP\nON tblSanPham\nAfter Update\nBegin\nDeclare @maSPM nvarchar(10), @maSPC nvarchar(10)\nSelect @maSPM From inserted\nSelect @maSPC From deleted\nUpdate tblCTHOADON\nSet sMaSP = @maSPM\nWhere sMaSP = @maSPC\nEnd"
+  },
+  {
+    "question": "Cho đoạn mã tạo trigger:\nCREATE TRIGGER NV_GT\nON NHANVIEN\nINSTEAD OF INSERT\nAs\nBEGIN\ndeclare @Gt as nvarchar(3)\nselect @gt = GT from INSERTED\nif ( @gt not in ('Nam', N'Nữ') )\nRaiserror('Ban nhap sai Gioi tinh',16,10)\nEND\nCho biết ý nghĩa của dòng code “select @gt = GT from INSERTED”",
+    "answer": "Lấy giá trị đang được nhập tạm thời của thuộc tính Giới tính trong bảng INSERTED khi thêm với bảng NHÂN VIÊN"
+  },
+  {
+    "question": "Cho CSDL quản lý sản phẩm với bảng tblNHANVIEN gồm các cột (sMaNV, sHoten, sGioitinh, fHSL, sQuequan).\nCho biết kết quả của câu lệnh truy vấn sau:\nSelect sHoten\nFrom tblNHANVIEN\nWhere sGioitinh = N'Nữ'",
+    "answer": "Cột sHoten gồm: Nguyễn Thị Hà, Phạm Thị Lan"
+  },
+  {
+    "question": "Lệnh nào dùng để thêm dữ liệu mới vào bảng đã có?",
+    "answer": "INSERT INTO"
+  },
+  {
+    "question": "Muốn cập nhật đồng thời nhiều cột trong một lệnh UPDATE, cú pháp đúng là?",
+    "answer": "UPDATE bảng\nSET cột1 = giá_trị1, cột2 = giá_trị2"
+  },
+  {
+    "question": "Từ khóa WHERE trong lệnh SELECT dùng để làm gì?",
+    "answer": "Xác định điều kiện để chọn lọc dữ liệu từ bảng"
+  },
+  {
+    "question": "Câu lệnh\nSELECT *\nFROM tblNhanVien\nWHERE fLuong BETWEEN 3000 AND 5000\ncó ý nghĩa gì?",
+    "answer": "Chọn ra danh sách các nhân viên có Lương trong khoảng từ 3000 đến 5000"
+  },
+  {
+    "question": "Cho bảng tblDiem(sMaSV, sMaMon, fDiem). Đâu là câu lệnh taọ bảng với các ràng buộc:\n- sMaSV, sMaMon là khóa\n- Điểm chỉ nhận giá trị từ 0 đến 10",
+    "answer": "CREATE TABLE tblDiem\n(\nsMaSV varchar(9),\nsMaMon varchar(9),\nfDiem float Check (fDiem between 0 and 10),\nPRIMARY KEY (sMaSV, sMaMon)\n)"
+  },
+  {
+    "question": "Câu lệnh nào xóa cột `sDiaChi` khỏi bảng `tblNhanVien`?",
+    "answer": "ALTER TABLE tblNhanVien\nDROP COLUMN sDiaChi"
+  },
+  {
+    "question": "Câu lệnh nào đúng để thay đổi độ dài cột sHoTen từ 50 lên 100 ký tự trong bảng tblSinhVien?",
+    "answer": "ALTER TABLE tblSinhVien\nALTER COLUMN sHoTen VARCHAR(100)"
+  },
+  {
+    "question": "Câu lệnh để thực hiện Cấp phát cho tài khoản ‘db_user1’ được quyền xem và cập nhật dữ liệu trên cột ‘hoten, diachi, và Luong của bảng nhân viên’ được viết như thế nào?",
+    "answer": "GRANT SELECT, UPDATE\nON NHANVIEN( hoten, diachi, luong)\nTO db_user1"
+  },
+  {
+    "question": "Để thu hồi quyền được sửa của tài khoản người dùng Test với bảng tblNhanVien trên thuộc tính “QueQuan” và “HoTen” đã được cấp trước đó thì câu lệnh là gì?",
+    "answer": "REVOKE UPDATE\nON tblNHANVIEN(HoTen, QueQuan)\nTO test"
+  },
+  {
+    "question": "Câu lệnh sau đây thực hiện gì\nCREATE LOGIN test\nWITH PASSWORD = ‘12345’ MUST_CHANGE",
+    "answer": "Cho phép tạo một tài khoản login mới với tên là “test” và mật khẩu là “12345”. Yêu cầu lần đầu sau khi đăng nhập của tài khoản phải đổi mật khẩu. Tài khoản đăng nhập với quyền xác thực SQL Server"
+  },
+  {
+    "question": "Cho CSDL “QLNV” với bảng tblNhanVien(MaNV, TenNV, GioiTinh, DiaChi) phân mảnh ngang theo nguyên tắc sau:\n-Server1 gồm các nhân viên Nữ\n-Server2 gồm các nhân viên Nam\nCâu lệnh để có được bảng đầy đủ danh sách các nhân viên (cả nam và nữ) từ Server 2 là gì?",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"Select MaNV, TenNV, GioiTinh, DiaChi\nfrom\ntblNhanvien\nUnion\nSelect MaNV, TenNV, GioiTinh, DiaChi\nFrom Server2.QLNV.dbo.tblNhanvien\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Thay vì thực hiện truy vấn câu lệnh:\nSELECT *\nFROM Server2.QuanlyKH.dbo.KhachHang\nĐể thực hiện trong suốt dữ liệu với tên là “QLKH” thì câu lệnh đúng là gì?",
+    "answer": "Create synonym QLKH for  Server2.QuanlyKH.dbo.KhachHang\nSelect * from QLKH"
+  },
+  {
+    "question": "Câu nào sau đây là cú pháp đúng khi dùng hàm tổng hợp kèm GROUP BY?",
+    "answer": "SELECT SUM(fLuong)\nFROM tblNV\nGROUP BY sPhong"
+  },
+  {
+    "question": "Cho CSDL “QLNV” với bảng tblNhanVien(MaNV, TenNV, GioiTinh, DiaChi) phân mảnh ngang theo nguyên tắc sau:\n-Server1 gồm các nhân viên Nữ\n-Server2 gồm các nhân viên Nam\nĐoạn code để chèn thêm một nhân viên mới vào bảng (thủ tục được viết trên Server2)",
+    "answer": "Create Proc spInsertNhanvien (@ma varchar(10), @ten nVarchar(20), @gioitinh nvarchar(3), @diachi varchar(30))\nas\nBegin\nIf @gioitinh = ‘Nam’\nInsert Into tblNhanvien Values(@ma,@ten,@gioitinh,@diachi)\nElse\nInsert Into Server1.QLNNV.dbo.tblNhanvien\nValues(@ma,@ten,@gioitinh,@diachi)\nprint N'Thêm thành công'\nEnd"
+  },
+  {
+    "question": "Cho CSDL quản lý bán sản phẩm gồm các bảng:\ntblNHANVIEN(sMaNV, sHoten, sGioitinh, fHSL, sQuequan)\ntblSANPHAM(sMaSP, sTenSP, iSoluong, fDongiaban, sNhaSX)\ntblKHACHHANG(sSdtKH, sTenKH)\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\ntblCTHOADON (sMaHD, sMaSP, iSLM)\nĐâu là thủ tục để cho danh sách tên các Nhân viên đã tham gia bán hàng trong một ngày nào đó",
+    "answer": "CREATE PROC spTenNV(datetime @d)\nAs\nBEGIN\nSelect sHoten\nFrom tblNHANVIEN\nWhere sMaNV in (Select sMaNV from tblHOADON\nWhere dNgayLap = @d)\nEND"
+  },
+  {
+    "question": "Cho CSDL quản lý bán sản phẩm gồm các bảng:\ntblNHANVIEN(sMaNV, sHoten, sGioitinh, fHSL, sQuequan)\ntblSANPHAM(sMaSP, sTenSP, iSoluong, fDongiaban, sNhaSX)\ntblKHACHHANG(sSdtKH, sTenKH)\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV)\ntblCTHOADON (sMaHD, sMaSP, iSLM)\nĐâu là thủ tục để cho danh sách tên các Nhân viên đã KHÔNG tham gia bán hàng trong một ngày nào đó",
+    "answer": "CREATE PROC spTenNV(datetime @d)\nAs\nBEGIN\nSelect sHoten\nFrom tblNHANVIEN\nWhere sMaNV not in (Select sMaNV from tblHOADON\nWhere dNgayLap = @d)\nEND"
+  },
+  {
+    "question": "Allen muốn xoá thủ tục dbo.fx_order_cost. Lệnh nào được dùng để xoá thủ tục này?",
+    "answer": "DROP"
+  },
+  {
+    "question": "Paul thực hiện lệnh SQL sau:\nSELECT Customers.name, Customers.ord_id, Orders.ord_date\nFROM Customers INNER JOIN Orders\nWHERE Customers.cust_id = Orders.cust_id\nMỗi bảng trong lệnh trên đều chứa 10000 hàng, do đó phải mất nhiều thời gian để thực hiện. Để cải thiện việc thực thi truy vấn này, nên dùng đối tượng nào sau đây:",
+    "answer": "⚠️ CHƯA XÁC ĐỊNH ĐÁP ÁN ĐÚNG. Đáp án sau đã được xác định là SAI, vui lòng không chọn: (1) \"View\" — ĐÁP ÁN SAI."
+  },
+  {
+    "question": "Các phương pháp phân mảnh gồm:",
+    "answer": "Tất cả các phương án đều đúng"
+  },
+  {
+    "question": "Cú pháp để truy xuất đến một bảng của CSDL khác trong cùng Server là:",
+    "answer": "[database][.owner][.tableName]"
+  },
+  {
+    "question": "Một hệ thống lưu trữ Big Data tốt cần có đặc điểm nào sau đây?",
+    "answer": "Có khả năng mở rộng ngang (horizontal scalability)"
+  },
+  {
+    "question": "Yêu cầu của Big Data về độ trễ xử lý là gì?",
+    "answer": "Độ trễ càng thấp càng hiệu quả"
+  },
+  {
+    "question": "Mục đích của câu lệnh ALTER TRIGGER là gì?",
+    "answer": "Sửa một trigger đã có"
+  },
+  {
+    "question": "Cho hai bảng\ntblHOADON(dNgaylap, sMaHD, sSdtKH, sMaNV, TongTien)\ntblCTHOADON (sMaHD, sMaSP, iSL, fDG)\nĐể cho phép mỗi khi thêm một dòng mới vào bảng tblCTHOADON thì tổng tiền của HOADON được cập nhật theo thì viết trigger với lựa chọn biến cố nào?",
+    "answer": "Insert"
+  },
+  {
+    "question": "Để cấp quyền cho người dùng “Test” được quyền xem dữ liệu của Bảng “tblNhanVien” thì câu lệnh là gì?",
+    "answer": "GRANT Select\nON tblNhanVien\nTO Test"
+  },
+  {
+    "question": "Hệ sinh thái Hadoop là?",
+    "answer": "Công nghệ xử lý Big Data"
+  },
+  {
+    "question": "Tính giá trị (Value) trong Big Data nói về?",
+    "answer": "Giá trị thông tin tiềm ẩn có thể khai thác"
+  },
+  {
+    "question": "Biến @a nhận giá trị nào khi khối lệnh sau được thực thi?\nDECLARE @a int\nBEGIN\nselect @a= @a + 1\nEND\nselect @a 1 0 Tất cả đều sai",
+    "answer": "NULL"
+  },
+  {
+    "question": "Từ khóa `PRIMARY KEY` dùng để làm gì khi thực hiện câu lệnh tạo bảng?",
+    "answer": "Tạo khóa chính"
+  },
+  {
+    "question": "Để khai thác đến một bảng của CSDL khác trong cùng Server cần phải xác định thông tin gì?",
+    "answer": "Tất cả các thông tin"
+  },
+  {
+    "question": "Kết quả của POWER(6, 2) là bao nhiêu?",
+    "answer": "36"
+  },
+  {
+    "question": "Cho bảng tblNHANVIEN(sMaNV, sHoten, sGioitinh, fHSL, sQuequan). Đâu là câu truy vấn để cho danh sách tên và hệ số lương của các nhân có hệ số lương trên 3.33",
+    "answer": "Select sHoten, fHSL\nFrom tblNHANVIEN\nWhere fHSL>3.33"
+  }
+]
